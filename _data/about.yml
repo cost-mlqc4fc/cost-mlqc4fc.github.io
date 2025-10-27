@@ -1,0 +1,32 @@
+heading: Our main goal is to protect environment
+intro: >
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+  has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+  took a galley of type and scrambled it to make a type specimen book. It has
+tabs:
+  - id: tab-1
+    label: About
+    title: Lorem Ipsum 1
+    body: >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+      Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+      unknown printer took a galley of type and scrambled it to make a type specimen book.
+      It has
+  - id: tab-2
+    label: Mission
+    title: Lorem Ipsum 2
+    body: >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+      Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+      unknown printer took a galley of type and scrambled it to make a type specimen book.
+      It has
+  - id: tab-3
+    label: Vision
+    title: Lorem Ipsum 3
+    body: >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+      Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+      unknown printer took a galley of type and scrambled it to make a type specimen book.
+      It has
+button_text: Read More
+button_href: "#"

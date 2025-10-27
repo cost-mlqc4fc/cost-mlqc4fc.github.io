@@ -1,0 +1,59 @@
+<!-- About Start -->
+<div class="container-fluid about py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-xl-5">
+                <div class="h-100">
+                    <img src="{{ include.image_src | default: 'img/about-1.jpg' }}" class="img-fluid w-100 h-100" alt="{{ include.image_alt | default: 'Image' }}">
+                </div>
+            </div>
+            <div class="col-xl-7">
+                <h5 class="text-uppercase text-primary">{{ include.section_title | default: 'About Us' }}</h5>
+                {% assign about_data = site.data.about %}
+                <h1 class="mb-4">{{ include.heading | default: about_data.heading }}</h1>
+                <p class="fs-5 mb-4">{{ include.intro | default: about_data.intro }}</p>
+                <div class="tab-class bg-secondary p-4">
+                    <ul class="nav d-flex mb-2">
+                        {% assign about_tabs = include.tabs | default: about_data.tabs %}
+                        {% for tab in about_tabs %}
+                        <li class="nav-item mb-3">
+                            {% assign nav_classes = 'd-flex py-2 text-center bg-white' %}
+                            {% if forloop.first %}
+                                {% assign nav_classes = nav_classes | append: ' active' %}
+                            {% endif %}
+                            {% if forloop.index0 == 1 %}
+                                {% assign nav_classes = nav_classes | append: ' mx-3' %}
+                            {% endif %}
+                            <a class="{{ nav_classes }}" data-bs-toggle="pill" href="#{{ tab.id }}">
+                                <span class="text-dark" style="width: 150px;">{{ tab.label }}</span>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="tab-content">
+                        {% assign button_href = include.button_href | default: about_data.button_href %}
+                        {% assign button_text = include.button_text | default: about_data.button_text %}
+                        {% for tab in about_tabs %}
+                        <div id="{{ tab.id }}" class="tab-pane fade show p-0{% if forloop.first %} active{% endif %}">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="text-start my-auto">
+                                            <h5 class="text-uppercase mb-3">{{ tab.title }}</h5>
+                                            <p class="mb-4">{{ tab.body }}</p>
+                                            <div class="d-flex align-items-center justify-content-start">
+                                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ button_href }}">{{ button_text }}</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
