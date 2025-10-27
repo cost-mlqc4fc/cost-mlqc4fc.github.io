@@ -19,16 +19,16 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-light bg-light navbar-expand-xl">
+        <nav class="navbar navbar-expand-xl navbar-primary">
             <a href="index.html" class="navbar-brand ms-3 d-flex align-items-center">
                 <img src="img/logo-mlqc4fc.jpg" alt="MLQC4FC logo" class="navbar-logo me-2">
-                <span class="navbar-title text-primary display-6 mb-0">MLQC4FC</span>
+                <span class="navbar-title display-6 mb-0">MLQC4FC</span>
             </a>
             <button class="navbar-toggler py-2 px-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars text-primary"></span>
                 </button>
             {% assign active_nav = include.active | default: page.nav_item %}
-            <div class="collapse navbar-collapse bg-light" id="navbarCollapse">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto">
                     <a href="index.html" class="nav-item nav-link{% if active_nav == 'home' %} active{% endif %}">Home</a>
                     <a href="about.html" class="nav-item nav-link{% if active_nav == 'about' %} active{% endif %}">About</a>
@@ -37,7 +37,7 @@
                     <a href="events.html" class="nav-item nav-link{% if active_nav == 'events' %} active{% endif %}">Events</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle{% if active_nav == 'pages' %} active{% endif %}" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                        <div class="dropdown-menu m-0">
                         <a href="blog.html" class="dropdown-item">Blog</a>
                         <a href="gallery.html" class="dropdown-item">Gallery</a>
                         <a href="volunteer.html" class="dropdown-item">Volunteers</a>
