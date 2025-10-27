@@ -125,7 +125,7 @@
         };
 
         var storedTheme = getStoredTheme();
-        var initialTheme = storedTheme ? storedTheme : (prefersDark && prefersDark.matches ? 'dark' : 'light');
+        var initialTheme = storedTheme ? storedTheme : 'dark';
         applyTheme(initialTheme, false);
 
         themeToggle.addEventListener('click', function () {

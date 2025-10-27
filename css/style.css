@@ -248,7 +248,9 @@ p {
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.08em;
-    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
     transition: all 0.3s ease;
     color: rgba(15, 31, 72, 0.68);
     position: relative;
@@ -329,7 +331,7 @@ p {
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 2.9rem;
 }
 
 .navbar .dropdown-toggle::after {
