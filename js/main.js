@@ -90,7 +90,9 @@
         var storageKey = 'ml-theme';
         var docBody = document.body;
         var icon = themeToggle.querySelector('i');
-        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+        var prefersDark = typeof window.matchMedia === 'function'
+            ? window.matchMedia('(prefers-color-scheme: dark)')
+            : null;
 
         var getStoredTheme = function () {
             try {
@@ -123,7 +125,7 @@
         };
 
         var storedTheme = getStoredTheme();
-        var initialTheme = storedTheme ? storedTheme : (prefersDark.matches ? 'dark' : 'light');
+        var initialTheme = storedTheme ? storedTheme : (prefersDark && prefersDark.matches ? 'dark' : 'light');
         applyTheme(initialTheme, false);
 
         themeToggle.addEventListener('click', function () {
@@ -136,9 +138,9 @@
             applyTheme(event.matches ? 'dark' : 'light', false);
         };
 
-        if (prefersDark.addEventListener) {
+        if (prefersDark && prefersDark.addEventListener) {
             prefersDark.addEventListener('change', handleSystemChange);
-        } else if (prefersDark.addListener) {
+        } else if (prefersDark && prefersDark.addListener) {
             prefersDark.addListener(handleSystemChange);
         }
     };
