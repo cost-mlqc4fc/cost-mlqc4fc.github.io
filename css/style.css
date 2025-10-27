@@ -80,6 +80,28 @@
 .btn-hover-color:hover {
     color: var(--bs-secondary) !important;
 }
+
+.navbar-logo {
+    height: 72px;
+    width: auto;
+}
+
+@media (max-width: 575.98px) {
+    .navbar-logo {
+        height: 60px;
+    }
+}
+
+.footer-logo {
+    height: 96px;
+    width: auto;
+}
+
+@media (max-width: 991.98px) {
+    .footer-logo {
+        height: 72px;
+    }
+}
 /*** Topbar Start ***/
 .fixed-top .container {
     transition: 0.5s;
