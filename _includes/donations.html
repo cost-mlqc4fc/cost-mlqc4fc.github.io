@@ -1,0 +1,38 @@
+<!-- Donation Start -->
+<div class="container-fluid donation py-5">
+    <div class="container py-5">
+        {% assign donation_data = site.data.donations %}
+        <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+            <h5 class="text-uppercase text-primary">{{ include.section_title | default: donation_data.section_title }}</h5>
+            <h1 class="mb-0">{{ include.heading | default: donation_data.heading }}</h1>
+        </div>
+        {% assign donation_items = include.items | default: donation_data.items %}
+        <div class="row g-4">
+            {% for item in donation_items %}
+            <div class="col-lg-4">
+                <div class="donation-item">
+                    <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt | default: 'Image' }}">
+                    <div class="donation-content d-flex flex-column">
+                        <h5 class="text-uppercase text-primary mb-4">{{ item.tag }}</h5>
+                        <a href="{{ item.href | default: '#' }}" class="btn-hover-color display-6 text-white">{% if item.hero %}{{ item.hero }}{% else %}{{ item.title }}{% endif %}</a>
+                        <h4 class="text-white mb-4">{{ item.title }}</h4>
+                        <p class="text-white mb-4">{{ item.body }}</p>
+                        <div class="donation-btn d-flex align-items-center justify-content-start">
+                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ item.href | default: '#' }}">{{ item.cta | default: donation_data.footer_cta.text }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% assign footer_cta = include.footer_cta | default: donation_data.footer_cta %}
+            {% if footer_cta.text %}
+            <div class="col-12">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ footer_cta.href | default: '#' }}">{{ footer_cta.text }}</a>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+<!-- Donation End -->

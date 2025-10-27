@@ -1,0 +1,42 @@
+section_title: Recent Causes
+heading: The environment needs our protection
+description: >
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+items:
+  - image: img/causes-4.jpg
+    alt: Image
+    goal: $3600
+    raised: $4000
+    progress: 65
+    title: First environments activity of
+    body: Help today because tomorrow you may be the one who needs more helping!
+    donate_href: "#"
+    read_href: "#"
+  - image: img/causes-2.jpg
+    alt: Image
+    goal: $3600
+    raised: $4000
+    progress: 75
+    title: Build school for poor children.
+    body: Help today because tomorrow you may be the one who needs more helping!
+    donate_href: "#"
+    read_href: "#"
+  - image: img/causes-3.jpg
+    alt: Image
+    goal: $3600
+    raised: $4000
+    progress: 85
+    title: Building clean-water system for rural poor.
+    body: Help today because tomorrow you may be the one who needs more helping!
+    donate_href: "#"
+    read_href: "#"
+  - image: img/causes-1.jpg
+    alt: Image
+    goal: $3600
+    raised: $4000
+    progress: 95
+    title: First environments activity of this summer.
+    body: Help today because tomorrow you may be the one who needs more helping!
+    donate_href: "#"
+    read_href: "#"

@@ -1,0 +1,45 @@
+<!-- Causes Start -->
+<div class="container-fluid causes py-5">
+    <div class="container py-5">
+        {% assign causes_data = site.data.causes %}
+        <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+            <h5 class="text-uppercase text-primary">{{ include.section_title | default: causes_data.section_title }}</h5>
+            <h1 class="mb-4">{{ include.heading | default: causes_data.heading }}</h1>
+            {% assign description = include.description | default: causes_data.description %}
+            {% if description %}
+            <p class="mb-0">{{ description }}</p>
+            {% endif %}
+        </div>
+        {% assign causes_items = include.items | default: causes_data.items %}
+        <div class="row g-4">
+            {% assign column_class = include.column_class | default: 'col-lg-6 col-xl-3' %}
+            {% for item in causes_items %}
+            <div class="{{ column_class }}">
+                <div class="causes-item">
+                    <div class="causes-img">
+                        <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt | default: 'Cause' }}">
+                        <div class="causes-link pb-2 px-3">
+                            <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: {{ item.goal }}</small>
+                            <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: {{ item.raised }}</small>
+                        </div>
+                        <div class="causes-dination p-2">
+                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="{{ item.donate_href | default: '#' }}">Donate Now</a>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="{{ item.progress }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ item.progress }}%;">
+                            <span>{{ item.progress }}%</span>
+                        </div>
+                    </div>
+                    <div class="causes-content p-4">
+                        <h4 class="mb-3">{{ item.title }}</h4>
+                        <p class="mb-4">{{ item.body }}</p>
+                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="{{ item.read_href | default: '#' }}">Read More</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- Causes End -->
