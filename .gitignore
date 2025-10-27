@@ -416,3 +416,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Bundler (Jekyll)
+.bundle/
+vendor/bundle/
+
+# Jekyll build output
+_site/
