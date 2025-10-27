@@ -1,0 +1,38 @@
+section_title: Upcoming Events
+heading: Help today because tomorrow you may be the one who needs more helping!
+items:
+  - image: img/events-1.jpg
+    alt: Image
+    location: Grand Mahal, Dubai 2100.
+    date: 10 Feb, 2023
+    title: How To Build A Cleaning Plan
+    description: >
+      Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip sed eiusmod tempor.
+    href: "#"
+  - image: img/events-2.jpg
+    alt: Image
+    location: Grand Mahal, Dubai 2100.
+    date: 10 Feb, 2023
+    title: How To Build A Cleaning Plan
+    description: >
+      Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip sed eiusmod tempor.
+    href: "#"
+  - image: img/events-3.jpg
+    alt: Image
+    location: Grand Mahal, Dubai 2100.
+    date: 10 Feb, 2023
+    title: How To Build A Cleaning Plan
+    description: >
+      Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip sed eiusmod tempor.
+    href: "#"
+  - image: img/events-4.jpg
+    alt: Image
+    location: Grand Mahal, Dubai 2100.
+    date: 10 Feb, 2023
+    title: How To Build A Cleaning Plan
+    description: >
+      Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip sed eiusmod tempor.
+    href: "#"
+cta:
+  text: Read More
+  href: "#"

@@ -1,0 +1,33 @@
+<!-- Events Start -->
+<div class="container-fluid event py-5">
+    <div class="container py-5">
+        {% assign events = site.data.events %}
+        {% assign section_title = include.section_title | default: events.section_title %}
+        {% assign heading = include.heading | default: events.heading %}
+        <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+            <h5 class="text-uppercase text-primary">{{ section_title }}</h5>
+            <h1 class="mb-0">{{ heading }}</h1>
+        </div>
+        {% assign items = include.items | default: events.items %}
+        {% assign cta = include.cta | default: events.cta %}
+        <div class="{{ include.carousel_class | default: 'event-carousel owl-carousel' }}">
+            {% for item in items %}
+            <div class="event-item">
+                <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt | default: 'Image' }}">
+                <div class="event-content p-4">
+                    <div class="d-flex justify-content-between mb-4">
+                        <span class="text-body"><i class="fas fa-map-marker-alt me-2"></i>{{ item.location }}</span>
+                        <span class="text-body"><i class="fas fa-calendar-alt me-2"></i>{{ item.date }}</span>
+                    </div>
+                    <h4 class="mb-4">{{ item.title }}</h4>
+                    <p class="mb-4">{{ item.description }}</p>
+                    {% if cta.text %}
+                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ item.href | default: cta.href | default: '#' }}">{{ cta.text }}</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- Events End -->
