@@ -67,6 +67,10 @@ p {
     z-index: 99;
 }
 
+.about {
+    scroll-margin-top: 40px;
+}
+
 
 /*** Button Start ***/
 
@@ -74,6 +78,42 @@ p {
     font-weight: 600;
     transition: .35s ease;
     border-radius: 999px;
+}
+
+.btn-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+}
+
+.btn-cta::after {
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.85em;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.btn-cta:hover::after,
+.btn-cta:focus-visible::after {
+    transform: translateX(4px);
+}
+
+.btn-cta.no-arrow::after {
+    content: none;
+}
+
+.icon-x-twitter {
+    display: inline-flex;
+    width: 1em;
+    height: 1em;
+}
+
+.icon-x-twitter svg {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .btn-square {
@@ -477,6 +517,19 @@ p {
 
 
 /*** About Start ***/
+
+.about .tab-class {
+    background: var(--ml-surface-alt-bg);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 18px;
+    transition: border-width 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about .tab-class:hover {
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
 
 .about .tab-class .nav .nav-item a.active,
 .about .tab-class .nav .nav-item a.active span {

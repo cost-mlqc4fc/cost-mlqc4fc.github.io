@@ -2,14 +2,22 @@
 <div class="container-fluid about py-5" id="about-section">
     <div class="container py-5">
         <div class="row g-5">
+            {% assign mode = include.mode | default: 'compact' %}
+            {% assign about_data = site.data.about %}
             <div class="col-xl-5">
                 <div class="h-100">
-                    <img src="{{ include.image_src | default: 'img/about-1.jpg' }}" class="img-fluid w-100 h-100" alt="{{ include.image_alt | default: 'Image' }}">
+                    {% assign about_image = include.image_src %}
+                    {% if about_image == nil %}
+                        {% if mode == 'detailed' %}
+                            {% assign about_image = 'img/about-2.jpg' %}
+                        {% else %}
+                            {% assign about_image = 'img/about-1.jpg' %}
+                        {% endif %}
+                    {% endif %}
+                    <img src="{{ about_image }}" class="img-fluid w-100 h-100" alt="{{ include.image_alt | default: 'Image' }}">
                 </div>
             </div>
             <div class="col-xl-7">
-                {% assign about_data = site.data.about %}
-                {% assign mode = include.mode | default: 'compact' %}
                 {% assign section_title = include.section_title | default: 'About Us' %}
                 {% assign heading = include.heading | default: about_data.heading %}
                 {% assign intro = include.intro | default: about_data.intro %}
@@ -24,7 +32,7 @@
                 {% endif %}
 
                 {% if mode == 'detailed' %}
-                <div class="tab-class bg-secondary p-4">
+                <div class="tab-class p-4">
                     <ul class="nav d-flex mb-2">
                         {% assign about_tabs = include.tabs | default: about_data.tabs %}
                         {% for tab in about_tabs %}
@@ -59,12 +67,23 @@
                         {% endfor %}
                     </div>
                 </div>
-                <div class="d-flex align-items-center justify-content-start mt-3">
-                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ button_href }}">{{ button_text }}</a>
+                <div class="d-flex align-items-center justify-content-start gap-3 mt-3">
+                    <a class="btn btn-outline-primary text-white btn-cta no-arrow py-2 px-4" href="https://e-services.cost.eu/files/domain_files/CA/Action_CA24146/mou/CA24146-e.pdf" target="_blank" rel="noopener" aria-label="Download the MLQC4FC Memorandum of Understanding">
+                        <span class="btn-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </span>
+                        Download MoU
+                    </a>
                 </div>
                 {% else %}
-                <div class="d-flex align-items-center justify-content-start">
-                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ button_href }}">{{ button_text }}</a>
+                <div class="d-flex align-items-center justify-content-start gap-3">
+                    <a class="btn-hover-bg btn btn-primary text-white btn-cta py-2 px-4" href="{{ button_href }}">{{ button_text }}</a>
+                    <a class="btn btn-outline-primary text-white btn-cta no-arrow py-2 px-4" href="https://e-services.cost.eu/files/domain_files/CA/Action_CA24146/mou/CA24146-e.pdf" target="_blank" rel="noopener" aria-label="Download the MLQC4FC Memorandum of Understanding">
+                        <span class="btn-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </span>
+                        Download MoU
+                    </a>
                 </div>
                 {% endif %}
             </div>

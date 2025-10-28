@@ -1,8 +1,6 @@
-heading: Advancing ML and Quantum Computing for Future Colliders
+heading: Accelerating Future Collider studies with Machine Learning and Quantum Computing
 intro: >
-  MLQC4FC connects European expertise in machine learning, quantum computing, detector
-  technologies, and data infrastructures to accelerate innovation for next-generation
-  particle physics colliders.
+  MLQC4FC connects European expertise in Machine Learning (ML), Quantum Computing (QC), Particle Physics, Collider Technologies, and Data Infrastructures to accelerate innovation towards the next-generation particle physics colliders.
 intro_long: >
   Launched under COST Action CA24146, MLQC4FC coordinates researchers, engineers, and
   industry partners who are rethinking the computational backbone of future collider
@@ -34,5 +32,5 @@ tabs:
       Countries, and international partner institutions. Working Groups meet regularly,
       the Core Group monitors progress, and targeted platforms for young researchers and
       inclusiveness target countries keep the network vibrant.
-button_text: Find out more
+button_text: Know more
 button_href: about.html
