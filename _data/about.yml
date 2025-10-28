@@ -1,32 +1,38 @@
-heading: Our main goal is to protect environment
+heading: Advancing ML and Quantum Computing for Future Colliders
 intro: >
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-  has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-  took a galley of type and scrambled it to make a type specimen book. It has
+  MLQC4FC connects European expertise in machine learning, quantum computing, detector
+  technologies, and data infrastructures to accelerate innovation for next-generation
+  particle physics colliders.
+intro_long: >
+  Launched under COST Action CA24146, MLQC4FC coordinates researchers, engineers, and
+  industry partners who are rethinking the computational backbone of future collider
+  experiments. By combining cutting-edge machine learning workflows with emerging quantum
+  computing paradigms, the Action builds common roadmaps, demonstrators, and training
+  opportunities that benefit the entire high-energy physics community.
 tabs:
-  - id: tab-1
-    label: About
-    title: Lorem Ipsum 1
-    body: >
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-      Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-      unknown printer took a galley of type and scrambled it to make a type specimen book.
-      It has
-  - id: tab-2
+  - id: mission
     label: Mission
-    title: Lorem Ipsum 2
+    title: A European hub for ML and QC in collider physics
     body: >
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-      Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-      unknown printer took a galley of type and scrambled it to make a type specimen book.
-      It has
-  - id: tab-3
-    label: Vision
-    title: Lorem Ipsum 3
+      We provide a common forum where collider physicists, computer scientists, and
+      quantum technology specialists can co-design solutions. The Action aligns national
+      efforts, shares best practices, and ensures that breakthroughs in computation
+      translate into real detector and analysis capabilities.
+  - id: objectives
+    label: Objectives
+    title: Strategic objectives
     body: >
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-      Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-      unknown printer took a galley of type and scrambled it to make a type specimen book.
-      It has
-button_text: Read More
-button_href: "#"
+      We map the state of the art in machine learning and quantum computing for collider
+      applications, identify priority R&D challenges, develop open benchmarks and software
+      demonstrators, and back these efforts with training schools, short-term scientific
+      missions, and inclusive networking grants.
+  - id: participation
+    label: Participation
+    title: An open, collaborative network
+    body: >
+      Membership is open to researchers from COST Member Countries, Near Neighbour
+      Countries, and international partner institutions. Working Groups meet regularly,
+      the Core Group monitors progress, and targeted platforms for young researchers and
+      inclusiveness target countries keep the network vibrant.
+button_text: Find out more
+button_href: about.html

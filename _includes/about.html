@@ -8,10 +8,22 @@
                 </div>
             </div>
             <div class="col-xl-7">
-                <h5 class="text-uppercase text-primary">{{ include.section_title | default: 'About Us' }}</h5>
                 {% assign about_data = site.data.about %}
-                <h1 class="mb-4">{{ include.heading | default: about_data.heading }}</h1>
-                <p class="fs-5 mb-4">{{ include.intro | default: about_data.intro }}</p>
+                {% assign mode = include.mode | default: 'compact' %}
+                {% assign section_title = include.section_title | default: 'About Us' %}
+                {% assign heading = include.heading | default: about_data.heading %}
+                {% assign intro = include.intro | default: about_data.intro %}
+                {% assign intro_long = include.intro_long | default: about_data.intro_long %}
+                {% assign button_href = include.button_href | default: about_data.button_href %}
+                {% assign button_text = include.button_text | default: about_data.button_text %}
+                <h5 class="text-uppercase text-primary">{{ section_title }}</h5>
+                <h1 class="mb-4">{{ heading }}</h1>
+                <p class="fs-5 mb-4">{{ intro }}</p>
+                {% if mode == 'detailed' and intro_long %}
+                <p class="mb-4">{{ intro_long }}</p>
+                {% endif %}
+
+                {% if mode == 'detailed' %}
                 <div class="tab-class bg-secondary p-4">
                     <ul class="nav d-flex mb-2">
                         {% assign about_tabs = include.tabs | default: about_data.tabs %}
@@ -31,8 +43,6 @@
                         {% endfor %}
                     </ul>
                     <div class="tab-content">
-                        {% assign button_href = include.button_href | default: about_data.button_href %}
-                        {% assign button_text = include.button_text | default: about_data.button_text %}
                         {% for tab in about_tabs %}
                         <div id="{{ tab.id }}" class="tab-pane fade show p-0{% if forloop.first %} active{% endif %}">
                             <div class="row">
@@ -41,9 +51,6 @@
                                         <div class="text-start my-auto">
                                             <h5 class="text-uppercase mb-3">{{ tab.title }}</h5>
                                             <p class="mb-4">{{ tab.body }}</p>
-                                            <div class="d-flex align-items-center justify-content-start">
-                                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ button_href }}">{{ button_text }}</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -52,6 +59,14 @@
                         {% endfor %}
                     </div>
                 </div>
+                <div class="d-flex align-items-center justify-content-start mt-3">
+                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ button_href }}">{{ button_text }}</a>
+                </div>
+                {% else %}
+                <div class="d-flex align-items-center justify-content-start">
+                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ button_href }}">{{ button_text }}</a>
+                </div>
+                {% endif %}
             </div>
         </div>
     </div>
