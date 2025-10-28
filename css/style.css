@@ -244,15 +244,16 @@ p {
 }
 
 .navbar-primary .navbar-nav .nav-link {
-    padding: 18px 20px;
-    font-size: 15px;
-    font-weight: 100;
+    font-size: 14px;
+    font-weight: 600;
     letter-spacing: 0.05em;
-    font-family: 'Poppins', 'Montserrat', 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     text-transform: capitalize;
+    text-decoration: none;
     transition: all 0.3s ease;
-    color: rgba(15, 31, 72, 0.68);
+    color: rgba(255, 255, 255, 0.62);
+    fill: rgba(255, 255, 255, 0.62);
     position: relative;
 }
 
@@ -1167,6 +1168,12 @@ a:focus {
 
 .dark-mode .navbar .navbar-nav .nav-link:hover,
 .dark-mode .navbar .navbar-nav .nav-link.active {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
     color: var(--ml-link-color);
 }
 
@@ -1177,16 +1184,30 @@ a:focus {
 
 .dark-mode .navbar-primary .navbar-title {
     color: #0082ca;
+    font-family: 'Poppins', sans-serif;
 }
 
 .dark-mode .navbar-primary .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.85);
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #FFFFFF9E;
+    fill: #FFFFFF9E;
 }
 
-.dark-mode .navbar-primary .navbar-nav .nav-link:hover,
-.dark-mode .navbar-primary .navbar-nav .nav-link:focus,
+.dark-mode .navbar-primary .navbar-nav .nav-link:hover {
+    color: #ffffff; 
+}
+
+.dark-mode .navbar-primary .navbar-nav .nav-link:focus {
+    color: #FFFFFF9E;
+    fill: #FFFFFF9E;
+}
 .dark-mode .navbar-primary .navbar-nav .nav-link.active {
-    color: #ffffff;
+    color: #0085CA;
 }
 
 .dark-mode .navbar-primary .navbar-nav .nav-link.active::after {
