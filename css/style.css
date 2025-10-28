@@ -622,7 +622,7 @@ p {
 /*** Counter End ***/
 
 
-/*** causes Start ***/
+/*** Resources Start ***/
 
 .causes .causes-item {
     overflow: hidden;
@@ -701,10 +701,10 @@ p {
 }
 
 
-/*** causes End ***/
+/*** Resources End ***/
 
 
-/*** Events Start ***/
+/*** Activities Start ***/
 
 .event .event-carousel.owl-carousel {
     position: relative;
@@ -754,7 +754,7 @@ p {
 }
 
 
-/*** Events End ***/
+/*** Activities End ***/
 
 
 /*** Blog Start ***/

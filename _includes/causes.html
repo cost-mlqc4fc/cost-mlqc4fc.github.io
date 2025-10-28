@@ -1,4 +1,4 @@
-<!-- Causes Start -->
+<!-- Resources Start -->
 <div class="container-fluid causes py-5">
     <div class="container py-5">
         {% assign causes_data = site.data.causes %}
@@ -17,24 +17,25 @@
             <div class="{{ column_class }}">
                 <div class="causes-item">
                     <div class="causes-img">
-                        <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt | default: 'Cause' }}">
+                        <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt | default: 'Resource' }}">
                         <div class="causes-link pb-2 px-3">
-                            <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: {{ item.goal }}</small>
-                            <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: {{ item.raised }}</small>
+                            {% if item.category %}
+                            <small class="text-white"><i class="fas fa-folder-open text-primary me-2"></i>{{ item.category }}</small>
+                            {% endif %}
+                            {% if item.audience %}
+                            <small class="text-white"><i class="fas fa-users text-primary me-2"></i>{{ item.audience }}</small>
+                            {% endif %}
                         </div>
                         <div class="causes-dination p-2">
-                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="{{ item.donate_href | default: '#' }}">Join with Us</a>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="{{ item.progress }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ item.progress }}%;">
-                            <span>{{ item.progress }}%</span>
+                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="{{ item.link_href | default: causes_data.cta.href | default: '#' }}">{{ item.link_text | default: causes_data.cta.text | default: 'Learn More' }}</a>
                         </div>
                     </div>
                     <div class="causes-content p-4">
                         <h4 class="mb-3">{{ item.title }}</h4>
                         <p class="mb-4">{{ item.body }}</p>
-                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="{{ item.read_href | default: '#' }}">Read More</a>
+                        {% if item.read_href or item.read_text %}
+                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="{{ item.read_href | default: causes_data.cta.href | default: '#' }}">{{ item.read_text | default: 'Discover' }}</a>
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -42,4 +43,4 @@
         </div>
     </div>
 </div>
-<!-- Causes End -->
+<!-- Resources End -->

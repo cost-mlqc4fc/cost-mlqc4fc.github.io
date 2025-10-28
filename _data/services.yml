@@ -1,34 +1,47 @@
-section_title: What we do
-heading: What we do to protect environment
+section_title: Action Structure
+heading: How MLQC4FC organises collaboration across Europe
 items:
   - image: img/service-1.jpg
-    alt: Image
-    title: Raising money to help
+    alt: Action overview
+    title: Action Overview
     description: >
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-      has been the industry's standard dummy text ever since the 1500s,
-    href: "#"
+      A quick look at how MLQC4FC is structured across governance, coordination, and collaboration layers.
+    href: structure.html
   - image: img/service-2.jpg
-    alt: Image
-    title: close work with services
+    alt: Management Committee meeting
+    title: Management Committee
     description: >
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-      has been the industry's standard dummy text ever since the 1500s,
-    href: "#"
+      Nationally nominated delegates coordinate the Action strategy, approve activities, and
+      ensure geographic balance across the network.
+    href: structure.html#management
   - image: img/service-3.jpg
-    alt: Image
-    title: Pro Guided tours only
+    alt: Core group discussion
+    title: Core Group
     description: >
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-      has been the industry's standard dummy text ever since the 1500s,
-    href: "#"
+      A subset of MC members and WG leaders that steers day-to-day execution, monitors milestones,
+      and prepares recommendations ahead of MC decisions.
+    href: structure.html#core-group
   - image: img/service-4.jpg
-    alt: Image
-    title: Protecting animal area
+    alt: Working Group breakout
+    title: Working Groups
     description: >
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-      has been the industry's standard dummy text ever since the 1500s,
-    href: "#"
+      Four thematic Working Groups bring together experts in ML, QC, detector R&D, and outreach
+      to deliver joint milestones.
+    href: structure.html#working-groups
+  - image: img/events-1.jpg
+    alt: Online collaboration
+    title: Cross-cutting Platforms
+    description: >
+      Horizontal platforms connect young researchers, inclusiveness target countries, and industry,
+      ensuring broad participation in every activity.
+    href: structure.html
+  - image: img/donation-3.jpg
+    alt: Administrative support
+    title: Grant Holder Team
+    description: >
+      The Grant Holder institution provides financial administration, communication support,
+      and compliance with COST policies.
+    href: structure.html
 cta:
-  text: Read More
-  href: "#"
+  text: Explore full structure
+  href: structure.html

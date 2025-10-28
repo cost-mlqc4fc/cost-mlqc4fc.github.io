@@ -1,38 +1,38 @@
-section_title: Upcoming Events
-heading: Help today because tomorrow you may be the one who needs more helping!
+section_title: Upcoming Activities
+heading: Training schools, workshops, and networking opportunities
 items:
   - image: img/events-1.jpg
     alt: Image
-    location: Grand Mahal, Dubai 2100.
-    date: 10 Feb, 2023
-    title: How To Build A Cleaning Plan
+    location: CERN, Geneva
+    date: 12 Mar, 2025
+    title: Working Group Kick-off Meeting
     description: >
-      Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip sed eiusmod tempor.
+      WG leads gather to align milestones, share needs with the MC, and outline collaboration tools for the first grant period.
     href: "#"
   - image: img/events-2.jpg
     alt: Image
-    location: Grand Mahal, Dubai 2100.
-    date: 10 Feb, 2023
-    title: How To Build A Cleaning Plan
+    location: Online
+    date: 02 Apr, 2025
+    title: Quantum Computing Training School
     description: >
-      Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip sed eiusmod tempor.
+      Introductory tutorials with hands-on notebooks covering quantum algorithms and toolchains relevant to collider physics.
     href: "#"
   - image: img/events-3.jpg
     alt: Image
-    location: Grand Mahal, Dubai 2100.
-    date: 10 Feb, 2023
-    title: How To Build A Cleaning Plan
+    location: Bologna, Italy
+    date: 18 Jun, 2025
+    title: Joint ML & Detector Workshop
     description: >
-      Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip sed eiusmod tempor.
+      A cross-WG workshop focused on ML-driven reconstruction pipelines and shared performance benchmarks for future colliders.
     href: "#"
   - image: img/events-4.jpg
     alt: Image
-    location: Grand Mahal, Dubai 2100.
-    date: 10 Feb, 2023
-    title: How To Build A Cleaning Plan
+    location: Prague, Czech Republic
+    date: 05 Sep, 2025
+    title: Training School on Computing Infrastructures
     description: >
-      Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip sed eiusmod tempor.
+      Tutorials and labs on distributed computing services, data management, and software best practices for Action members.
     href: "#"
 cta:
-  text: Read More
-  href: "#"
+  text: View Details
+  href: activities.html

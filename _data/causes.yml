@@ -1,42 +1,49 @@
-section_title: Recent Causes
-heading: The environment needs our protection
+section_title: Action Resources
+heading: Tools and knowledge to support the MLQC4FC community
 description: >
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+  Browse guidance documents, templates, and training material produced by the Action to help members
+  collaborate effectively and onboard new contributors.
 items:
   - image: img/causes-4.jpg
-    alt: Image
-    goal: $3600
-    raised: $4000
-    progress: 65
-    title: First environments activity of
-    body: Help today because tomorrow you may be the one who needs more helping!
-    donate_href: "#"
+    alt: MC Roadmap
+    category: Governance
+    audience: Management Committee
+    title: Management Committee Roadmap
+    body: Strategic milestones, decision points, and reporting duties compiled for delegates.
+    link_href: "#"
+    link_text: View Roadmap
     read_href: "#"
+    read_text: Download PDF
   - image: img/causes-2.jpg
-    alt: Image
-    goal: $3600
-    raised: $4000
-    progress: 75
-    title: Build school for poor children.
-    body: Help today because tomorrow you may be the one who needs more helping!
-    donate_href: "#"
+    alt: WG Handbook
+    category: Working Groups
+    audience: New Participants
+    title: Working Group Onboarding Pack
+    body: Roles, expectations, and collaboration guidelines for researchers joining a WG.
+    link_href: "#"
+    link_text: Open Handbook
     read_href: "#"
+    read_text: Download Kit
   - image: img/causes-3.jpg
-    alt: Image
-    goal: $3600
-    raised: $4000
-    progress: 85
-    title: Building clean-water system for rural poor.
-    body: Help today because tomorrow you may be the one who needs more helping!
-    donate_href: "#"
+    alt: Training Library
+    category: Training
+    audience: All Members
+    title: Training Library
+    body: Slides, recordings, and tutorials shared across ML, QC, and detector technology tracks.
+    link_href: "#"
+    link_text: Explore Sessions
     read_href: "#"
+    read_text: Access Archive
   - image: img/causes-1.jpg
-    alt: Image
-    goal: $3600
-    raised: $4000
-    progress: 95
-    title: First environments activity of this summer.
-    body: Help today because tomorrow you may be the one who needs more helping!
-    donate_href: "#"
+    alt: Funding Guide
+    category: Grants
+    audience: Applicants
+    title: Networking Tools & Grant Support
+    body: Practical checklists for STSMs, dissemination grants, and COST Travel support.
+    link_href: "#"
+    link_text: Review Guide
     read_href: "#"
+    read_text: Download Toolkit
+cta:
+  text: See all resources
+  href: resources.html

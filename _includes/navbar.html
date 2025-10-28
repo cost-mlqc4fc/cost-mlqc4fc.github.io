@@ -30,11 +30,18 @@
             {% assign active_nav = include.active | default: page.nav_item %}
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto">
-                    <a href="index.html" class="nav-item nav-link{% if active_nav == 'home' %} active{% endif %}">Home</a>
                     <a href="about.html" class="nav-item nav-link{% if active_nav == 'about' %} active{% endif %}">About</a>
-                    <a href="service.html" class="nav-item nav-link{% if active_nav == 'services' %} active{% endif %}">Services</a>
-                    <a href="causes.html" class="nav-item nav-link{% if active_nav == 'causes' %} active{% endif %}">Causes</a>
-                    <a href="events.html" class="nav-item nav-link{% if active_nav == 'events' %} active{% endif %}">Events</a>
+                    <div class="nav-item dropdown">
+                        <a href="structure.html" class="nav-link dropdown-toggle{% if active_nav == 'structure' %} active{% endif %}" data-bs-toggle="dropdown" role="button" aria-expanded="false">Structure</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="structure.html" class="dropdown-item">Overview</a>
+                            <a href="structure.html#management" class="dropdown-item">Management Committee</a>
+                            <a href="structure.html#core-group" class="dropdown-item">Core Group</a>
+                            <a href="structure.html#working-groups" class="dropdown-item">Working Groups</a>
+                        </div>
+                    </div>
+                    <a href="resources.html" class="nav-item nav-link{% if active_nav == 'resources' %} active{% endif %}">Resources</a>
+                    <a href="activities.html" class="nav-item nav-link{% if active_nav == 'activities' %} active{% endif %}">Activities</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle{% if active_nav == 'pages' %} active{% endif %}" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
