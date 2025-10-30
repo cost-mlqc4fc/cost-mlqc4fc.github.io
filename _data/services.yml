@@ -7,6 +7,20 @@ items:
     description: >
       A quick look at how MLQC4FC is structured across governance, coordination, and collaboration layers.
     href: structure.html
+  - image: img/service-4.jpg
+    alt: Working Group breakout
+    title: Working Groups
+    description: >
+      Four thematic Working Groups bring together experts in ML, QC, detector R&D, and outreach
+      to deliver joint milestones.
+    href: structure.html#working-groups
+  - image: img/events-1.jpg
+    alt: Online collaboration
+    title: Cross-cutting Platforms
+    description: >
+      Horizontal platforms connect young researchers, inclusiveness target countries, and industry,
+      ensuring broad participation in every activity.
+    href: structure.html#platforms
   - image: img/service-2.jpg
     alt: Management Committee meeting
     title: Management Committee
@@ -21,20 +35,6 @@ items:
       A subset of MC members and WG leaders that steers day-to-day execution, monitors milestones,
       and prepares recommendations ahead of MC decisions.
     href: structure.html#core-group
-  - image: img/service-4.jpg
-    alt: Working Group breakout
-    title: Working Groups
-    description: >
-      Four thematic Working Groups bring together experts in ML, QC, detector R&D, and outreach
-      to deliver joint milestones.
-    href: structure.html#working-groups
-  - image: img/events-1.jpg
-    alt: Online collaboration
-    title: Cross-cutting Platforms
-    description: >
-      Horizontal platforms connect young researchers, inclusiveness target countries, and industry,
-      ensuring broad participation in every activity.
-    href: structure.html
   - image: img/donation-3.jpg
     alt: Administrative support
     title: Grant Holder Team
