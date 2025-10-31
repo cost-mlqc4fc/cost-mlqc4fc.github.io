@@ -1,0 +1,13 @@
+{% assign href = include.href | default: '#' %}
+{% assign text = include.text | default: 'Know more' %}
+{% assign variant = include.variant | default: 'primary' %}
+{% assign extra_classes = include.classes %}
+
+{% case variant %}
+{% when 'outline' %}
+  {% assign base_classes = 'btn btn-outline-primary text-white btn-cta' %}
+{% else %}
+  {% assign base_classes = 'btn-hover-bg btn btn-primary text-white btn-cta' %}
+{% endcase %}
+
+<a class="{{ base_classes }} py-2 px-4{% if extra_classes %} {{ extra_classes }}{% endif %}" href="{{ href }}">{{ text }}</a>
