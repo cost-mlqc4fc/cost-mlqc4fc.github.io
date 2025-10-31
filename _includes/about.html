@@ -34,7 +34,7 @@
                 {% if mode == 'detailed' %}
                 <div class="tab-class p-4">
                     <ul class="nav d-flex mb-2">
-                        {% assign about_tabs = include.tabs | default: about_data.tabs %}
+                        {% assign about_tabs = include.tababout | default: about_data.tababout %}
                         {% for tab in about_tabs %}
                         <li class="nav-item mb-3">
                             {% assign nav_classes = 'd-flex py-2 text-center bg-white' %}
@@ -57,7 +57,7 @@
                                 <div class="col-12">
                                     <div class="d-flex">
                                         <div class="text-start my-auto">
-                                            <h5 class="text-uppercase mb-3">{{ tab.title }}</h5>
+                                            <h5 class="text-uppercase text-primary mb-3">{{ tab.title }}</h5>
                                             <p class="mb-4">{{ tab.body }}</p>
                                         </div>
                                     </div>

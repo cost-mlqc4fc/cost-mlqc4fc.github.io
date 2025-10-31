@@ -518,21 +518,21 @@ p {
 
 /*** About Start ***/
 
-.about .tab-class {
+.tab-class {
     background: var(--ml-surface-alt-bg);
     border: 1px solid rgba(255, 255, 255, 0.35);
     border-radius: 18px;
     transition: border-width 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-.about .tab-class:hover {
+.tab-class:hover {
     border-width: 2px;
     border-color: rgba(255, 255, 255, 0.75);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
 
-.about .tab-class .nav .nav-item a.active,
-.about .tab-class .nav .nav-item a.active span {
+.tab-class .nav .nav-item a.active,
+.tab-class .nav .nav-item a.active span {
     background: var(--bs-primary) !important;
     color: var(--bs-white) !important;
 }
@@ -997,12 +997,27 @@ p {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.footer .footer-item {
+    padding: 24px;
+    background: var(--ml-surface-alt-bg);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 18px;
+    transition: border-width 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.footer .footer-item:hover {
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
 .footer .footer-item a,
 .footer .footer-item p {
     line-height: 32px;
     color: var(--ml-footer-color);
     transition: 0.35s;
 }
+
 
 .footer .footer-item a:hover {
     color: var(--bs-secondary);
@@ -1082,7 +1097,7 @@ p {
     --ml-body-bg: #050b1c;
     --ml-body-color: #d9e3ff;
     --ml-surface-bg: #0a1430;
-    --ml-surface-alt-bg: #041c2b;
+    --ml-surface-alt-bg: #050a1c;
     --ml-border-color: rgba(120, 162, 255, 0.23);
     --ml-link-color: #79c4ff;
     --ml-link-hover: #aedbff;
@@ -1399,7 +1414,11 @@ a:focus {
     color: #facc15;
 }
 
-.dark-mode .footer .footer-item,
+.dark-mode .footer .footer-item {
+    background: var(--ml-surface-alt-bg);
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
 .dark-mode .footer .footer-gallery {
     background: transparent;
     border-color: rgba(148, 163, 184, 0.2);

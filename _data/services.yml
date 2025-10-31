@@ -41,7 +41,7 @@ items:
     description: >
       The Grant Holder institution provides financial administration, communication support,
       and compliance with COST policies.
-    href: structure.html
+    href: structure.html#grant-holder
 cta:
   text: Explore full structure
   href: structure.html
