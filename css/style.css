@@ -558,6 +558,7 @@ p {
     padding: 18px 18px 21px;
     background: linear-gradient(180deg, rgba(5, 10, 28, 0.0) 0%, rgba(5, 10, 28, 0.75) 100%);
     min-height: 120px;
+    margin-top: auto;
 }
 
 .structure-card:hover {
@@ -568,6 +569,18 @@ p {
 
 .structure-card:hover .structure-card__image {
     filter: brightness(0.95);
+}
+
+.about-card {
+    min-height: 100%;
+}
+
+.about-card .structure-card__image {
+    aspect-ratio: 4 / 3;
+}
+
+.about-card .structure-card__body {
+    display: none;
 }
 
 
@@ -1574,4 +1587,9 @@ a:focus {
 
 .text-primary {
     color: var(--bs-primary) !important;
+}
+.about-image-frame {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.0) 100%);
 }

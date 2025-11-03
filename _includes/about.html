@@ -4,20 +4,33 @@
         <div class="row g-5">
             {% assign mode = include.mode | default: 'compact' %}
             {% assign about_data = site.data.about %}
-            <div class="col-xl-5">
-                <div class="h-100">
-                    {% assign about_image = include.image_src %}
-                    {% if about_image == nil %}
-                        {% if mode == 'detailed' %}
-                            {% assign about_image = 'img/about-2.jpg' %}
-                        {% else %}
-                            {% assign about_image = 'img/about-1.jpg' %}
-                        {% endif %}
+            {% if mode == 'compact' %}
+                {% assign image_col_class = 'col-xl-6' %}
+                {% assign text_col_class = 'col-xl-6' %}
+            {% else %}
+                {% assign image_col_class = 'col-xl-5' %}
+                {% assign text_col_class = 'col-xl-7' %}
+            {% endif %}
+            <div class="{{ image_col_class }}">
+                {% assign about_image = include.image_src %}
+                {% if about_image == nil %}
+                    {% if mode == 'detailed' %}
+                        {% assign about_image = 'img/about-2.jpg' %}
+                    {% else %}
+                        {% assign about_image = 'img/about-1.jpg' %}
                     {% endif %}
+                {% endif %}
+                {% if mode == 'compact' %}
+                <a class="structure-card about-card text-decoration-none h-100 d-flex flex-column" href="about.html">
+                    <div class="structure-card__image" style="background-image: url('{{ about_image }}');"></div>
+                </a>
+                {% else %}
+                <div class="h-100 overflow-hidden rounded-3 about-image-frame">
                     <img src="{{ about_image }}" class="img-fluid w-100 h-100" alt="{{ include.image_alt | default: 'Image' }}">
                 </div>
+                {% endif %}
             </div>
-            <div class="col-xl-7">
+            <div class="{{ text_col_class }}">
                 {% assign section_title = include.section_title | default: 'About Us' %}
                 {% assign heading = include.heading | default: about_data.heading %}
                 {% assign intro = include.intro | default: about_data.intro %}
