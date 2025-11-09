@@ -1,17 +1,17 @@
 <!-- Structure Overview Start -->
 <div class="container-fluid service py-5 bg-light">
     <div class="container py-5">
-        {% assign services = site.data.services %}
-        {% assign section_title = include.section_title | default: services.section_title %}
-        {% assign heading = include.heading | default: services.heading %}
+        {% assign structure = site.data.structure %}
+        {% assign section_title = include.section_title | default: structure.section_title %}
+        {% assign heading = include.heading | default: structure.heading %}
         <div class="text-center mx-auto pb-5" style="max-width: 800px;">
             <h5 class="text-uppercase text-primary">{{ section_title }}</h5>
             <h1 class="mb-0">{{ heading }}</h1>
         </div>
-        {% assign items = include.items | default: services.items %}
+        {% assign items = include.items | default: structure.items %}
         <div class="row g-4">
             {% assign column_class = include.column_class | default: 'col-md-6 col-lg-6 col-xl-3' %}
-            {% assign cta = include.cta | default: services.cta %}
+            {% assign cta = include.cta | default: structure.cta %}
             {% for item in items %}
             <div class="{{ column_class }}">
                 <div class="service-item">

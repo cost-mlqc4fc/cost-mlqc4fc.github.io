@@ -3,7 +3,7 @@
 {% if mode == 'compact' %}
 <div class="container-fluid py-5">
     <div class="container py-5">
-        {% assign items = site.data.services.items %}
+        {% assign items = site.data.structure.items %}
         {% assign first_row = items | slice: 0, 2 %}
         {% assign second_row = items | slice: 2, 4 %}
 
@@ -22,7 +22,7 @@
                     {% for item in first_row %}
                     <div class="col-6">
                         <a class="structure-card d-flex flex-column text-decoration-none" href="{{ item.href }}">
-                            <div class="structure-card__image" style="background-image: url('{{ item.image }}');"></div>
+                            {% include structure-card-visual.html item=item linkable=false title_tag="span" show_overlay=false %}
                             <div class="structure-card__body">
                                 <h6 class="text-uppercase text-primary fw-semibold mb-2">{{ item.title }}</h6>
                                 <p class="mb-0 text-white">{{ item.description | truncate: 95, '…' }}</p>
@@ -38,7 +38,7 @@
             {% for item in second_row %}
             <div class="col-6 col-lg-3">
                 <a class="structure-card d-flex flex-column text-decoration-none" href="{{ item.href }}">
-                    <div class="structure-card__image" style="background-image: url('{{ item.image }}');"></div>
+                    {% include structure-card-visual.html item=item linkable=false title_tag="span" show_overlay=false %}
                     <div class="structure-card__body">
                         <h6 class="text-uppercase text-primary fw-semibold mb-2">{{ item.title }}</h6>
                         <p class="mb-0 text-white">{{ item.description | truncate: 95, '…' }}</p>
@@ -49,10 +49,8 @@
         </div>
     </div>
 </div>
-    </div>
-</div>
 {% else %}
-    {% include services.html %}
+    {% include structure-cards.html %}
 
     <div class="container py-5" id="working-groups">
         <div class="row g-4 align-items-center">

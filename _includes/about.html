@@ -21,12 +21,12 @@
                     {% endif %}
                 {% endif %}
                 {% if mode == 'compact' %}
-                <a class="structure-card about-card text-decoration-none h-100 d-flex flex-column" href="about.html">
+                <a class="structure-card about-card about-card--compact text-decoration-none h-100 d-flex flex-column" href="about.html">
                     <div class="structure-card__image" style="background-image: url('{{ about_image }}');"></div>
                 </a>
                 {% else %}
-                <div class="h-100 overflow-hidden rounded-3 about-image-frame">
-                    <img src="{{ about_image }}" class="img-fluid w-100 h-100" alt="{{ include.image_alt | default: 'Image' }}">
+                <div class="structure-card about-card about-card--static d-flex flex-column h-100">
+                    <div class="structure-card__image flex-grow-1" style="background-image: url('{{ about_image }}');"></div>
                 </div>
                 {% endif %}
             </div>

@@ -1,0 +1,23 @@
+{% assign item = include.item %}
+{% assign linkable = include.linkable | default: true %}
+{% assign title_tag = include.title_tag | default: 'span' %}
+{% assign show_overlay = include.show_overlay %}
+{% assign has_overlay = true %}
+{% if show_overlay == false %}
+    {% assign has_overlay = false %}
+{% endif %}
+<div class="structure-card-visual{% if include.classes %} {{ include.classes }}{% endif %}{% if has_overlay %} structure-card-visual--with-overlay{% endif %}">
+    <img src="{{ item.image }}" alt="{{ item.alt | default: item.title | default: 'Structure visual' }}">
+    <div class="structure-card-visual__tint"></div>
+    {% if has_overlay %}
+        {% if linkable %}
+        <a class="structure-card-visual__overlay" href="{{ item.href | default: '#' }}">
+            <{{ title_tag }} class="mb-0">{{ item.title }}</{{ title_tag }}>
+        </a>
+        {% else %}
+        <div class="structure-card-visual__overlay structure-card-visual__overlay--static">
+            <{{ title_tag }} class="mb-0">{{ item.title }}</{{ title_tag }}>
+        </div>
+        {% endif %}
+    {% endif %}
+</div>
