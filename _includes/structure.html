@@ -1,56 +1,9 @@
 {% assign mode = include.mode | default: 'detailed' %}
 
 {% if mode == 'compact' %}
-<div class="container-fluid py-5">
-    <div class="container py-5">
-        {% assign items = site.data.structure.items %}
-        {% assign first_row = items | slice: 0, 2 %}
-        {% assign second_row = items | slice: 2, 4 %}
-
-        <div class="row g-4 align-items-start mb-3">
-            <div class="col-lg-6 d-flex flex-column">
-                <div>
-                    <h5 class="text-uppercase text-primary">Structure</h5>
-                    <h2 class="text-white mb-3">How MLQC4FC is organised</h2>
-                    <p class="text-white mb-3">Explore the governance layers that keep the Action coordinated, from Working Groups to the Core Group and Grant Holder Team. Each pillar has a dedicated page describing its remit, leadership, and opportunities to contribute.</p>
-                    <p class="text-white mb-4">Visit the Structure page to learn more about Working Groups, cross-cutting platforms, the Management Committee, and the Grant Holder Team.</p>
-                </div>
-                {% include cta-button.html href="structure.html" text="Know more" classes="mt-auto align-self-start" %}
-            </div>
-            <div class="col-lg-6">
-                <div class="row g-3">
-                    {% for item in first_row %}
-                    <div class="col-6">
-                        <a class="structure-card d-flex flex-column text-decoration-none" href="{{ item.href }}">
-                            {% include structure-card-visual.html item=item linkable=false title_tag="span" show_overlay=false %}
-                            <div class="structure-card__body">
-                                <h6 class="text-uppercase text-primary fw-semibold mb-2">{{ item.title }}</h6>
-                                <p class="mb-0 text-white">{{ item.description | truncate: 95, '…' }}</p>
-                            </div>
-                        </a>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-3 align-items-stretch mt-1">
-            {% for item in second_row %}
-            <div class="col-6 col-lg-3">
-                <a class="structure-card d-flex flex-column text-decoration-none" href="{{ item.href }}">
-                    {% include structure-card-visual.html item=item linkable=false title_tag="span" show_overlay=false %}
-                    <div class="structure-card__body">
-                        <h6 class="text-uppercase text-primary fw-semibold mb-2">{{ item.title }}</h6>
-                        <p class="mb-0 text-white">{{ item.description | truncate: 95, '…' }}</p>
-                    </div>
-                </a>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
-{% else %}
     {% include structure-cards.html %}
+    {% stop %}
+{% endif %}
 
     <div class="container py-5" id="overview">
         <div class="row g-4 align-items-center">
@@ -75,23 +28,53 @@
     </div>
 
     <div class="container py-5" id="working-groups">
-        <div class="row g-4 align-items-center">
+        <div class="row g-5 align-items-stretch flex-column-reverse flex-xl-row">
             <div class="col-lg-6">
-                <h2 class="text-primary mb-3">Working Groups</h2>
-                <p class="mb-4">MLQC4FC brings together communities focused on machine learning, quantum computing, detector technologies, software infrastructures, and outreach. Each Working Group collaborates across disciplines to accelerate knowledge transfer and develop joint deliverables.</p>
-                <ul class="list-unstyled mb-0">
-                    <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>WG1 – Machine Learning for Future Colliders</li>
-                    <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>WG2 – Quantum Computing for High-Energy Physics</li>
-                    <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>WG3 – Theory-Experiment Interface</li>
-                    <li class="mb-2"><i class="fa fa-check text-primary me-2"></i>WG4 – Computational Infrastructure and Resource Optimization</li>
-                    <li class="mb-0"><i class="fa fa-check text-primary me-2"></i>WG5 – Training, Outreach, and Public Engagement</li>
-                </ul>
+                <h5 class="text-uppercase text-primary">Research Pillars</h5>
+                <h2 class="text-white mb-3">Five Working Groups driving collider innovation</h2>
+                <p class="mb-4 text-white">MLQC4FC mobilises five complementary Working Groups that connect ML, QC, theory, infrastructure, and community outreach to turn ideas into impact.</p>
+                {% assign about_data = site.data.about %}
+                {% assign wg_tabs = about_data.tabswg %}
+                <div class="tab-class p-4">
+                    <ul class="nav d-flex mb-3">
+                        {% for tab in wg_tabs %}
+                        <li class="nav-item mb-3">
+                            {% assign nav_classes = 'd-flex py-2 text-center bg-white mx-2' %}
+                            {% if forloop.first %}
+                                {% assign nav_classes = nav_classes | append: ' active' %}
+                            {% endif %}
+                            <a class="{{ nav_classes }}" data-bs-toggle="pill" href="#{{ tab.id }}">
+                                <span class="text-dark" style="width: 90px;">{{ tab.label }}</span>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="tab-content">
+                        {% for tab in wg_tabs %}
+                        <div id="{{ tab.id }}" class="tab-pane fade show p-0{% if forloop.first %} active{% endif %}">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="text-start my-auto">
+                                            <h5 class="text-uppercase text-primary mb-3">{{ tab.title }}</h5>
+                                            <p class="text-white fw-semibold mb-3"><i class="fa fa-user text-primary me-2"></i>Co-Leaders: {{ tab.coleaders }}</p>
+                                            <p class="text-white mb-4">{{ tab.body }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-start gap-3 mt-3">
+                    <a class="btn btn-outline-primary text-white py-2 px-4" href="join.html">Join a Working Group</a>
+                    <a class="btn btn-outline-primary text-white py-2 px-4" href="activities.html">Upcoming Activities</a>
+                </div>
             </div>
-            <div class="col-lg-6">
-                <div class="bg-light rounded-3 shadow-sm p-4">
-                    <h5 class="text-uppercase text-primary mb-3">Get involved</h5>
-                    <p class="mb-3">Researchers from COST member countries can join any Working Group at any stage of the Action. Expressions of interest are reviewed continuously by the WG coordination team.</p>
-                    <a href="join.html" class="btn btn-primary btn-hover-bg text-white">Join a Working Group</a>
+            <div class="col-lg-6 d-flex">
+                <div class="structure-card about-card about-card--static d-flex flex-column h-100 w-100">
+                    <div class="structure-card__image flex-grow-1" style="background-image: url('img/about-2.jpg');"></div>
                 </div>
             </div>
         </div>

@@ -45,7 +45,7 @@ page_title: Home | MLQC4FC
                                 Colliders</h4>
                             <p class="mb-5 fs-5"></p>
                             <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="#about-section">About Us</a>
+                                <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="about.html">About Us</a>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ page_title: Home | MLQC4FC
                                 Colliders</h4>
                             <p class="mb-5 fs-5"></p>
                             <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="#about-section">About Us</a>
+                                <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="about.html">About Us</a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ page_title: Home | MLQC4FC
                             <h1 class="display-1 text-capitalize text-white mb-4">Future Colliders</h1>
                             <p class="mb-5 fs-5"></p>
                             <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="#about-section">About Us</a>
+                                <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="about.html">About Us</a>
                             </div>
                         </div>
                     </div>
@@ -102,10 +102,11 @@ page_title: Home | MLQC4FC
     <!-- Carousel End -->
 
 
-    {% include about.html mode="compact" %} {% include structure.html mode="compact" %} {% include donations.html %}
+    {% comment %} Homepage donation/CTA panel hidden temporarily {% endcomment %}
+    {% comment %}{% include donations.html %}{% endcomment %}
 
 
-    <!-- Counter Start -->
+    <!-- Counter Start (temporarily disabled)
     <div class="container-fluid counter py-5"
         style="background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(img/volunteers-bg.jpg) center center; background-size: cover;">
         <div class="container py-5">
@@ -162,18 +163,19 @@ page_title: Home | MLQC4FC
                 </div>
                 <div class="col-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#about-section">About Us</a>
+                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="about.html">About Us</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Counter End -->
+    Counter End -->
 
 
-    {% include causes.html %} {% include events.html %}
+    {% comment %} Temporarily hiding Action Resources / Upcoming Activities sections {% endcomment %}
+    {% comment %}{% include causes.html %}{% endcomment %} {% comment %}{% include events.html %}{% endcomment %}
 
-    <!-- Blog Start -->
+    <!-- Blog Start (temporarily disabled)
     <div class="container-fluid blog py-5 mb-5">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -281,13 +283,14 @@ page_title: Home | MLQC4FC
             </div>
         </div>
     </div>
-    <!-- Blog End -->
+    Blog End -->
 
 
-    {% include gallery.html %}
+    {% comment %} Our Work gallery hidden temporarily {% endcomment %}
+    {% comment %}{% include gallery.html %}{% endcomment %}
 
 
-    <!-- Volunteers Start -->
+    <!-- Volunteers Start (temporarily disabled)
     <div class="container-fluid volunteer py-5 mt-5">
         <div class="container py-5">
             <div class="row g-5">
@@ -347,12 +350,12 @@ page_title: Home | MLQC4FC
                     <p class="text-dark"><i class=" fa fa-check text-primary me-2"></i> No goal requirements.</p>
                     <p class="text-dark mb-5"><i class=" fa fa-check text-primary me-2"></i> Joining is tottaly free. We
                         dont need any money from you.</p>
-                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#about-section">About Us</a>
+                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="about.html">About Us</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Volunteers End -->
+    Volunteers End -->
 
 
     {% include footer.html %}
