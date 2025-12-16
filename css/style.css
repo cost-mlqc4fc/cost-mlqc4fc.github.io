@@ -539,7 +539,7 @@ body:not(.dark-mode) .tab-class {
 }
 
 body.dark-mode .tab-class {
-    background-color: rgb(10, 20, 48);
+    background: rgb(10, 20, 48);
     border-color: rgb(255, 255, 255);
 }
 
