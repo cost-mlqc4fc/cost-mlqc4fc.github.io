@@ -1172,6 +1172,14 @@ body.dark-mode .structure-panel {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+body:not(.dark-mode) .footer {
+    color: rgb(40, 48, 69);
+}
+
+body.dark-mode .footer {
+    color: var(--ml-footer-color);
+}
+
 .footer .text-body,
 .footer .text-body a {
     color: var(--ml-footer-color) !important;
@@ -1198,10 +1206,21 @@ body.dark-mode .structure-panel {
     transition: 0.35s;
 }
 
+body:not(.dark-mode) .footer .footer-item a,
+body:not(.dark-mode) .footer .footer-item p,
+body:not(.dark-mode) .footer .text-body,
+body:not(.dark-mode) .footer .text-body a {
+    color: rgb(40, 48, 69);
+}
+
 
 .footer .footer-item a:hover {
-    color: var(--bs-secondary);
+    color: #43b3ff;
     letter-spacing: 0.5px;
+}
+
+body:not(.dark-mode) .footer .footer-item a:hover {
+    color: #43b3ff;
 }
 
 .footer .footer-item .footer-gallery {
@@ -1637,7 +1656,7 @@ a:focus {
 }
 
 .dark-mode .footer a:hover {
-    color: #facc15;
+    color: #43b3ff;
 }
 
 .dark-mode .footer .footer-item {
