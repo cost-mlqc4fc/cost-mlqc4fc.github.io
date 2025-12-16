@@ -168,6 +168,10 @@ p {
     background-color: var(--ml-surface-alt-bg) !important;
 }
 
+body:not(.dark-mode) .bg-light {
+    background-color: #ffffff !important;
+}
+
 .bg-white {
     background-color: var(--ml-surface-bg) !important;
 }
@@ -520,15 +524,28 @@ p {
 
 .tab-class {
     background: var(--ml-surface-alt-bg);
-    border: 1px solid rgba(255, 255, 255, 0.35);
+    border: 1px solid rgb(0, 78, 235);
     border-radius: 18px;
     transition: border-width 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
+body:not(.dark-mode) .tab-class {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+}
+
+body.dark-mode .tab-class {
+    border-color: rgb(255, 255, 255);
+}
+
 .tab-class:hover {
     border-width: 2px;
-    border-color: rgba(255, 255, 255, 0.75);
+    border-color: rgb(0, 78, 235);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+body.dark-mode .tab-class:hover {
+    border-color: rgb(255, 255, 255);
 }
 
 .tab-class .nav .nav-item a.active,
@@ -562,6 +579,14 @@ p {
     background: linear-gradient(180deg, rgba(5, 10, 28, 0.0) 0%, rgba(5, 10, 28, 0.75) 100%);
     min-height: 120px;
     margin-top: auto;
+}
+
+.structure-panel {
+    background-color: #ffffff;
+}
+
+body.dark-mode .structure-panel {
+    background-color: var(--ml-surface-alt-bg);
 }
 
 .structure-card:hover {
@@ -1147,6 +1172,11 @@ p {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.footer .text-body,
+.footer .text-body a {
+    color: var(--ml-footer-color) !important;
+}
+
 .footer .footer-item {
     padding: 24px;
     background: var(--ml-surface-alt-bg);
@@ -1216,6 +1246,12 @@ p {
     background: rgba(6, 12, 22, 0.96) !important;
 }
 
+.copyright,
+.copyright .text-body,
+.copyright .text-body a {
+    color: var(--ml-footer-color);
+}
+
 
 /*** copyright end ***/
 
@@ -1228,7 +1264,7 @@ p {
     --ml-body-bg: #ffffff;
     --ml-body-color: #283045;
     --ml-surface-bg: #ffffff;
-    --ml-surface-alt-bg: #f4f7fc;
+    --ml-surface-alt-bg: #ffffff;
     --ml-border-color: rgba(26, 39, 82, 0.12);
     --ml-link-color: #004EEB;
     --ml-link-hover: #1EA0FF;

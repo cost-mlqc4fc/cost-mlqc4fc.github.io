@@ -1,0 +1,7 @@
+body.dark-mode .structure-copy {
+    color: #fff !important;
+}
+
+body:not(.dark-mode) .structure-copy {
+    color: #0f1f38 !important;
+}

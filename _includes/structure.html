@@ -1,20 +1,64 @@
 {% assign mode = include.mode | default: 'detailed' %}
 
 {% if mode == 'compact' %}
-    {% include structure-cards.html %}
-    {% stop %}
-{% endif %}
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        {% assign items = site.data.structure.items %}
+        {% assign first_row = items | slice: 0, 2 %}
+        {% assign second_row = items | slice: 2, 4 %}
 
+        <div class="row g-4 align-items-start mb-3">
+            <div class="col-lg-6 d-flex flex-column">
+                <div>
+                    <h5 class="text-uppercase text-primary">Structure</h5>
+                    <h2 class="mb-3">How MLQC4FC is organised</h2>
+                    <p class="mb-4">Explore the governance layers that keep the Action coordinated, from Working Groups to the Core Group and Grant Holder Team. Each pillar has a dedicated page describing its remit, leadership, and opportunities to contribute.</p>
+                    <p class="mb-4">Visit the Structure page to learn more about Working Groups, cross-cutting platforms, the Management Committee, and the Grant Holder Team.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    {% for item in first_row %}
+                    <div class="col-6">
+                        <a class="structure-card d-flex flex-column text-decoration-none" href="{{ item.href }}">
+                            {% include structure-card-visual.html item=item linkable=false title_tag="span" show_overlay=false %}
+                            <div class="structure-card__body">
+                                <h6 class="text-uppercase text-primary fw-semibold mb-2">{{ item.title }}</h6>
+                                <p class="mb-0 text-white">{{ item.description | truncate: 95, '…' }}</p>
+                            </div>
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-3 align-items-stretch mt-1">
+            {% for item in second_row %}
+            <div class="col-6 col-lg-3">
+                <a class="structure-card d-flex flex-column text-decoration-none" href="{{ item.href }}">
+                    {% include structure-card-visual.html item=item linkable=false title_tag="span" show_overlay=false %}
+                    <div class="structure-card__body">
+                        <h6 class="text-uppercase text-primary fw-semibold mb-2">{{ item.title }}</h6>
+                        <p class="mb-0 text-white">{{ item.description | truncate: 95, '…' }}</p>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% else %}
     <div class="container py-5" id="overview">
         <div class="row g-4 align-items-center">
             <div class="col-lg-6">
-                <h2 class="text-primary mb-3">Action overview</h2>
+                <h5 class="text-uppercase text-primary">Action overview</h5>
+                <h2 class="mb-3">Key building blocks</h2>
                 <p class="mb-4">MLQC4FC brings together five Working Groups, two cross-cutting committees, and a Management Committee coordinated by a Core Group. Delegates from COST Member Countries provide the mandate, the Core Group steers execution between plenary meetings, and each Working Group runs bottom-up initiatives aligned with the Action objectives.</p>
                 <p class="mb-4">The Grant Holder Team underpins everything with financial and administrative support. Together these layers keep the Action agile: WG deliverables flow into MC decisions, cross-cutting platforms provide resources for inclusiveness and communications, and the Core Group makes sure emerging opportunities are captured quickly.</p>
             </div>
             <div class="col-lg-6">
                 <div class="bg-light rounded-3 shadow-sm p-4 h-100">
-                    <h5 class="text-uppercase text-primary mb-3">Key building blocks</h5>
                     <ul class="mb-0">
                         <li class="mb-2"><strong>Management Committee</strong> – approves plans, budgets, and strategic directions.</li>
                         <li class="mb-2"><strong>Core Group</strong> – prepares MC decisions, monitors milestones, and maintains momentum.</li>
@@ -30,9 +74,9 @@
     <div class="container py-5" id="working-groups">
         <div class="row g-5 align-items-stretch flex-column-reverse flex-xl-row">
             <div class="col-lg-6">
-                <h5 class="text-uppercase text-primary">Research Pillars</h5>
-                <h2 class="text-white mb-3">Five Working Groups driving collider innovation</h2>
-                <p class="mb-4 text-white">MLQC4FC mobilises five complementary Working Groups that connect ML, QC, theory, infrastructure, and community outreach to turn ideas into impact.</p>
+                <h5 class="text-uppercase text-primary">Working groups</h5>
+                <h2 class="mb-3">Five Working Groups for five research pillars</h2>
+                <p class="mb-4">MLQC4FC mobilises five complementary Working Groups that connect ML, QC, theory, infrastructure, and community outreach to turn ideas into impact.</p>
                 {% assign about_data = site.data.about %}
                 {% assign wg_tabs = about_data.tabswg %}
                 <div class="tab-class p-4">
@@ -57,8 +101,8 @@
                                     <div class="d-flex">
                                         <div class="text-start my-auto">
                                             <h5 class="text-uppercase text-primary mb-3">{{ tab.title }}</h5>
-                                            <p class="text-white fw-semibold mb-3"><i class="fa fa-user text-primary me-2"></i>Co-Leaders: {{ tab.coleaders }}</p>
-                                            <p class="text-white mb-4">{{ tab.body }}</p>
+                                            <p class="fw-semibold mb-3"><i class="fa fa-user text-primary me-2"></i>Co-Leaders: {{ tab.coleaders }}</p>
+                                            <p class="mb-4">{{ tab.body }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -68,8 +112,8 @@
                     </div>
                 </div>
                 <div class="d-flex align-items-center justify-content-start gap-3 mt-3">
-                    <a class="btn btn-outline-primary text-white py-2 px-4" href="join.html">Join a Working Group</a>
-                    <a class="btn btn-outline-primary text-white py-2 px-4" href="activities.html">Upcoming Activities</a>
+                    <a class="btn btn-outline-primary py-2 px-4" href="join.html">Join a Working Group</a>
+                    <a class="btn btn-outline-primary py-2 px-4" href="activities.html">Upcoming Activities</a>
                 </div>
             </div>
             <div class="col-lg-6 d-flex">
@@ -92,7 +136,8 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <h2 class="text-primary mb-3">Cross-cutting Platforms</h2>
+                <h5 class="text-uppercase text-primary">Cross-cutting Platforms</h5>
+                <h2 class="mb-3">Dedicated committees for Science Communication and Grant Awarding</h2>
                 <p class="mb-4">Two cross-cutting committees keep the Action agile and inclusive. They connect Working Groups, the Core Group, and the Management Committee, translating strategy into hands-on support for members and stakeholders.</p>
                 <p class="mb-4">The platforms track Action-wide KPIs, coordinate joint initiatives, and ensure outcomes are visible both within the COST network and to external partners. They are also the main entry point for members seeking logistical guidance or communication support.</p>
                 <a href="join.html" class="btn btn-outline-primary btn-hover-bg">Express interest in a platform</a>
@@ -103,7 +148,8 @@
     <div class="container py-5" id="management">
         <div class="row g-4 align-items-center">
             <div class="col-lg-5">
-                <h2 class="text-primary mb-3">Management Committee</h2>
+                <h5 class="text-uppercase text-primary">Management Committee</h5>
+                <h2 class="mb-3">The governance body</h2>
                 <p class="mb-4">The Management Committee (MC) is composed of delegates nominated by COST National Coordinators. The MC oversees the Action strategy, approves activities, and ensures geographic balance across the network.</p>
                 <a href="https://www.cost.eu/actions/CA24146/" class="btn btn-outline-primary btn-hover-bg">Visit COST Action Page</a>
             </div>
@@ -135,7 +181,9 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <h2 class="text-primary mb-3">Core Group</h2>
+                <h5 class="text-uppercase text-primary">Core Group</h5>
+                <h2 class="mb-3">The interface between all Action components</h2>
+                <h2 class="text-primary mb-3"></h2>
                 <p class="mb-4">The Core Group connects the Management Committee and Working Groups, meeting regularly to monitor progress, prepare decisions, and react quickly to upcoming opportunities. It ensures that strategic choices are ready for MC approval and that the Action delivers on its milestones between plenary meetings.</p>
                 <div class="d-flex flex-column flex-md-row gap-3">
                     <a href="join.html" class="btn btn-primary btn-hover-bg text-white">Contact the Core Group</a>
@@ -148,7 +196,8 @@
     <div class="container py-5" id="grant-holder">
         <div class="row g-4 align-items-center">
             <div class="col-lg-6">
-                <h2 class="text-primary mb-3">Grant Holder Team</h2>
+                <h5 class="text-uppercase text-primary">Grant Holder Team</h5>
+                <h2 class="mb-3">Managing finances and compliance</h2>
                 <p class="mb-4">The Grant Holder Institution manages the Action’s finances, contractual obligations, and reporting to the COST Association. It supports Working Groups, the Core Group, and the MC with procurement, reimbursements, and compliance.</p>
                 <p class="mb-4">The team acts as the operational backbone of MLQC4FC: processing grants, assisting with event logistics, and ensuring every activity follows COST guidelines.</p>
                 <div class="d-flex flex-column flex-md-row gap-3">
