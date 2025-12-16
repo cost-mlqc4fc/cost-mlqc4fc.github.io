@@ -1334,6 +1334,46 @@ a:focus {
     color: rgba(15, 31, 72, 0.82);
 }
 
+.nav-item-split {
+    display: flex;
+    align-items: stretch;
+}
+
+.nav-item-split .nav-link {
+    display: flex;
+    align-items: center;
+    padding-right: 0.75rem;
+}
+
+.nav-link-caret {
+    border: none;
+    background: transparent;
+    color: inherit;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link-caret::after {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.65rem;
+}
+
+@media (min-width: 1200px) {
+    .nav-link-caret {
+        display: none !important;
+    }
+
+    .navbar-primary .dropdown:hover>.dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
 @media (max-width: 1199.98px) {
     .navbar-primary .navbar-collapse {
         background: linear-gradient(180deg, rgba(11, 59, 122, 0.97) 0%, rgba(16, 82, 154, 0.97) 100%);

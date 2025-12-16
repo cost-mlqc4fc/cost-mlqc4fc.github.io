@@ -6,7 +6,7 @@ items:
     title: Action Overview
     description: >
       A quick look at how MLQC4FC is structured across governance, coordination, and collaboration layers.
-    href: structure.html
+    href: structure.html#overview
   - image: img/structure/working_groups.jpg
     alt: Working Group breakout
     title: Working Groups

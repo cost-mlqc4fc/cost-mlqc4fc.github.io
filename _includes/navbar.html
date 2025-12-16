@@ -37,10 +37,11 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto">
                     <a href="about.html" class="nav-item nav-link{% if active_nav == 'about' %} active{% endif %}">About</a>
-                    <div class="nav-item dropdown">
-                        <a href="structure.html" class="nav-link dropdown-toggle{% if active_nav == 'structure' %} active{% endif %}" data-bs-toggle="dropdown" role="button" aria-expanded="false">Structure</a>
+                    <div class="nav-item dropdown nav-item-split">
+                        <a href="structure.html" class="nav-link{% if active_nav == 'structure' %} active{% endif %}">Structure</a>
+                        <button class="nav-link dropdown-toggle nav-link-caret d-xl-none" type="button" data-bs-toggle="dropdown" aria-label="Toggle Structure menu" aria-expanded="false"></button>
                         <div class="dropdown-menu m-0">
-                            <a href="structure.html" class="dropdown-item">Overview</a>
+                            <a href="structure.html#overview" class="dropdown-item">Action Overview</a>
                             <a href="structure.html#working-groups" class="dropdown-item">Working Groups</a>
                             <a href="structure.html#platforms" class="dropdown-item">Cross-cutting Platforms</a>
                             <a href="structure.html#management" class="dropdown-item">Management Committee</a>
