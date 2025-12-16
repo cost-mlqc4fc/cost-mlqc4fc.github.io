@@ -71,6 +71,10 @@ p {
     scroll-margin-top: 40px;
 }
 
+.structure-section {
+    scroll-margin-top: 100px;
+}
+
 
 /*** Button Start ***/
 
@@ -348,13 +352,13 @@ body:not(.dark-mode) .bg-light {
     border-color: var(--bs-primary);
 }
 
-.navbar-primary .btn-hover-bg.btn {
+.btn-gradient {
     background: linear-gradient(90deg, #004EEB 0%, #1EA0FF 100%);
     border: none;
     box-shadow: 0 10px 24px rgba(0, 78, 235, 0.25);
 }
 
-.navbar-primary .btn-hover-bg.btn:hover {
+.btn-gradient:hover {
     background: linear-gradient(90deg, #1EA0FF 0%, #57BCFF 100%);
     color: #0b1d3a;
 }
@@ -535,6 +539,7 @@ body:not(.dark-mode) .tab-class {
 }
 
 body.dark-mode .tab-class {
+    background-color: rgb(10, 20, 48);
     border-color: rgb(255, 255, 255);
 }
 
@@ -1552,13 +1557,13 @@ a:focus {
     border-color: var(--bs-secondary);
 }
 
-.dark-mode .navbar-primary .btn-hover-bg.btn {
+.dark-mode .btn-gradient {
     background: linear-gradient(90deg, #1EA0FF 0%, #57BCFF 100%);
     color: #0b1628;
     box-shadow: 0 12px 28px rgba(30, 160, 255, 0.35);
 }
 
-.dark-mode .navbar-primary .btn-hover-bg.btn:hover {
+.dark-mode .btn-gradient:hover {
     background: linear-gradient(90deg, #57BCFF 0%, #8BD3FF 100%);
 }
 
