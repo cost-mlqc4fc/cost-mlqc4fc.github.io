@@ -49,31 +49,19 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto">
                     <a href="about.html" class="nav-item nav-link{% if active_nav == 'about' %} active{% endif %}">About</a>
-                    <div class="nav-item dropdown nav-item-split">
-                        <a href="structure.html" class="nav-link{% if active_nav == 'structure' %} active{% endif %}">Structure</a>
-                        <button class="nav-link dropdown-toggle nav-link-caret d-xl-none" type="button" data-bs-toggle="dropdown" aria-label="Toggle Structure menu" aria-expanded="false"></button>
+                    <div class="nav-item dropdown">
+                        <a href="structure.html" class="nav-link dropdown-toggle{% if active_nav == 'structure' %} active{% endif %}" data-bs-toggle="dropdown" aria-expanded="false">Structure</a>
                         <div class="dropdown-menu m-0">
-                            <a href="structure.html#overview" class="dropdown-item">Action Overview</a>
-                            <a href="structure.html#working-groups" class="dropdown-item">Working Groups</a>
-                            <a href="structure.html#platforms" class="dropdown-item">Cross-cutting Platforms</a>
-                            <a href="structure.html#management" class="dropdown-item">Management Committee</a>
-                            <a href="structure.html#core-group" class="dropdown-item">Core Group</a>
-                            <a href="structure.html#grant-holder" class="dropdown-item">Grant Holder Team</a>
+                            <a href="working-groups.html" class="dropdown-item">Working Groups</a>
+                            <a href="platforms.html" class="dropdown-item">Cross-cutting Platforms</a>
+                            <a href="management.html" class="dropdown-item">Management Committee</a>
+                            <a href="core-group.html" class="dropdown-item">Core Group</a>
+                            <a href="grant-holder.html" class="dropdown-item">Grant Holder Team</a>
                         </div>
                     </div>
                     <a href="resources.html" class="nav-item nav-link{% if active_nav == 'resources' %} active{% endif %}">Resources</a>
                     <a href="activities.html" class="nav-item nav-link{% if active_nav == 'activities' %} active{% endif %}">Activities</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle{% if active_nav == 'pages' %} active{% endif %}" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item">Blog</a>
-                        <a href="gallery.html" class="dropdown-item">Gallery</a>
-                        <a href="volunteer.html" class="dropdown-item">Volunteers</a>
-                        <a href="donation.html" class="dropdown-item">Donation</a>
-                        <a href="join.html" class="dropdown-item">Join</a>
-                        <a href="404.html" class="dropdown-item">404 Error</a>
-                    </div>
-                </div>
+                    <a href="blog.html" class="nav-item nav-link{% if active_nav == 'blog' %} active{% endif %}">Blog</a>
                     <a href="contact.html" class="nav-item nav-link{% if active_nav == 'contact' %} active{% endif %}">Contact</a>
                 </div>
                 <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">

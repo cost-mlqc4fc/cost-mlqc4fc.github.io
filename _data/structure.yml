@@ -1,47 +1,41 @@
 section_title: Action Structure
 heading: How MLQC4FC organises collaboration across Europe
 items:
-  - image: img/structure/overview.jpg
-    alt: Action overview
-    title: Action Overview
-    description: >
-      A quick look at how MLQC4FC is structured across governance, coordination, and collaboration layers.
-    href: structure.html#overview
   - image: img/structure/working_groups.jpg
     alt: Working Group breakout
     title: Working Groups
     description: >
       Four thematic Working Groups bring together experts in ML, QC, detector R&D, and outreach
       to deliver joint milestones.
-    href: structure.html#working-groups
+    href: working-groups.html
   - image: img/structure/cross_cutting.jpg
     alt: Online collaboration
     title: Cross-cutting Platforms
     description: >
       Horizontal platforms connect young researchers, inclusiveness target countries, and industry,
       ensuring broad participation in every activity.
-    href: structure.html#platforms
+    href: platforms.html
   - image: img/structure/management_committee.jpg
     alt: Management Committee meeting
     title: Management Committee
     description: >
       Nationally nominated delegates coordinate the Action strategy, approve activities, and
       ensure geographic balance across the network.
-    href: structure.html#management
+    href: management.html
   - image: img/structure/core_group.jpg
     alt: Core group discussion
     title: Core Group
     description: >
       A subset of MC members and WG leaders that steers day-to-day execution, monitors milestones,
       and prepares recommendations ahead of MC decisions.
-    href: structure.html#core-group
+    href: core-group.html
   - image: img/structure/grant_holder.jpg
     alt: Administrative support
     title: Grant Holder Team
     description: >
       The Grant Holder institution provides financial administration, communication support,
       and compliance with COST policies.
-    href: structure.html#grant-holder
+    href: grant-holder.html
 cta:
   text: Explore full structure
   href: structure.html
