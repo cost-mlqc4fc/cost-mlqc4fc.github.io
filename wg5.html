@@ -1,0 +1,131 @@
+---
+title: Working Group 5
+nav_item: working-groups
+page_title: WG5 · MLQC4FC
+wg_id: wg5
+wg_number: 5
+hero_image: img/events-3.jpg
+priorities_intro: >
+  WG5 amplifies the Action’s impact through training, outreach, and communications that grow a diverse community of MLQC4FC contributors.
+focus_points:
+  - Design training schools, bootcamps, and mentoring programmes.
+  - Coordinate outreach and communication assets for internal and public audiences.
+  - Support inclusiveness target countries and early-career researchers with tailored resources.
+deliverables:
+  - Annual training roadmap with joint WG contributions.
+  - Media kits and storytelling guidance for Action news.
+  - Inclusiveness and participation dashboards shared with the MC.
+collaboration_points:
+  - Collaborate with WG1–4 to package technical outputs into reusable lessons.
+  - Work with the Science Communication Committee on external visibility.
+  - Coordinate with the Grant Awarding Committee on equitable access to mobility grants.
+---
+{% assign about_data = site.data.about %}
+{% assign wg = about_data.tabswg | where: 'id', page.wg_id | first %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body class="dark-mode">
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    {% include navbar.html %}
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h3 class="text-white display-3 mb-4">{{ wg.title }}</h3>
+            <p class="fs-5 text-white mb-4">WG5 keeps the community engaged, trained, and visible across Europe.</p>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="structure.html#working-groups">Working Groups</a></li>
+                <li class="breadcrumb-item active text-white">WG{{ page.wg_number }}</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <h5 class="text-uppercase text-primary mb-2">Working Group {{ page.wg_number }}</h5>
+                <h2 class="mb-3">{{ wg.title }}</h2>
+                <p class="mb-4">{{ page.priorities_intro }}</p>
+                <p class="fw-semibold mb-3"><i class="fa fa-user text-primary me-2"></i>Co-Leaders: {{ wg.coleaders }}</p>
+                <ul class="mb-4">
+                    {% for point in page.focus_points %}
+                    <li class="mb-2">{{ point }}</li>
+                    {% endfor %}
+                </ul>
+                <div class="d-flex flex-wrap gap-3">
+                    <a class="btn btn-outline-primary btn-hover-bg" href="join.html">Join this Working Group</a>
+                    <a class="btn btn-outline-primary btn-hover-bg" href="activities.html">See upcoming activities</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="structure-card about-card about-card--static d-flex flex-column h-100 w-100">
+                    <div class="structure-card__image flex-grow-1" style="background-image: url('{{ page.hero_image }}');"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <h3 class="mb-3">Current priorities</h3>
+                <p class="mb-4">WG5 blends storytelling and skills development so Action outputs travel far beyond their originating teams.</p>
+                <div class="bg-light structure-panel rounded-3 shadow-sm p-4">
+                    <h5 class="text-uppercase text-primary mb-3">Key outputs</h5>
+                    <ul class="mb-0">
+                        {% for deliverable in page.deliverables %}
+                        <li class="mb-2">{{ deliverable }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="tab-class p-4 h-100">
+                    <h5 class="text-uppercase text-primary mb-3">Collaboration touchpoints</h5>
+                    <ul class="mb-0">
+                        {% for collab in page.collaboration_points %}
+                        <li class="mb-2">{{ collab }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {% include footer.html %}
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

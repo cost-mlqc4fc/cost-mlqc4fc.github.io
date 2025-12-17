@@ -49,18 +49,52 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto">
                     <a href="about.html" class="nav-item nav-link{% if active_nav == 'about' %} active{% endif %}">About</a>
-                    <div class="nav-item dropdown">
-                        <a href="structure.html" class="nav-link dropdown-toggle{% if active_nav == 'structure' %} active{% endif %}" data-bs-toggle="dropdown" aria-expanded="false">Structure</a>
+                    <div class="nav-item dropdown nav-item-split">
+                        <a href="structure.html" class="nav-link{% if active_nav == 'structure' %} active{% endif %}">Structure</a>
+                        <button class="nav-link dropdown-toggle nav-link-caret" type="button" data-bs-toggle="dropdown"
+                            aria-label="Toggle Structure menu" aria-expanded="false"></button>
                         <div class="dropdown-menu m-0">
-                            <a href="working-groups.html" class="dropdown-item">Working Groups</a>
                             <a href="platforms.html" class="dropdown-item">Cross-cutting Platforms</a>
                             <a href="management.html" class="dropdown-item">Management Committee</a>
                             <a href="core-group.html" class="dropdown-item">Core Group</a>
                             <a href="grant-holder.html" class="dropdown-item">Grant Holder Team</a>
                         </div>
                     </div>
-                    <a href="resources.html" class="nav-item nav-link{% if active_nav == 'resources' %} active{% endif %}">Resources</a>
-                    <a href="activities.html" class="nav-item nav-link{% if active_nav == 'activities' %} active{% endif %}">Activities</a>
+                    <div class="nav-item dropdown nav-item-split">
+                        <a href="working-groups.html" class="nav-link{% if active_nav == 'working-groups' %} active{% endif %}">Working Groups</a>
+                        <button class="nav-link dropdown-toggle nav-link-caret" type="button" data-bs-toggle="dropdown"
+                            aria-label="Toggle Working Groups menu" aria-expanded="false"></button>
+                        <div class="dropdown-menu m-0">
+                            <a href="wg1.html" class="dropdown-item">Working Group 1</a>
+                            <a href="wg2.html" class="dropdown-item">Working Group 2</a>
+                            <a href="wg3.html" class="dropdown-item">Working Group 3</a>
+                            <a href="wg4.html" class="dropdown-item">Working Group 4</a>
+                            <a href="wg5.html" class="dropdown-item">Working Group 5</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown nav-item-split">
+                        <a href="resources.html" class="nav-link{% if active_nav == 'resources' %} active{% endif %}">Resources</a>
+                        <button class="nav-link dropdown-toggle nav-link-caret" type="button" data-bs-toggle="dropdown"
+                            aria-label="Toggle Resources menu" aria-expanded="false"></button>
+                        <div class="dropdown-menu m-0">
+                            <a href="resources-collaborative.html" class="dropdown-item">Collaborative tools</a>
+                            <a href="resources-communication.html" class="dropdown-item">Communication tools</a>
+                            <a href="resources-outreach.html" class="dropdown-item">Outreach tools</a>
+                            <a href="resources-grants.html" class="dropdown-item">Grants</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown nav-item-split">
+                        <a href="activities.html" class="nav-link{% if active_nav == 'activities' %} active{% endif %}">Activities</a>
+                        <button class="nav-link dropdown-toggle nav-link-caret" type="button" data-bs-toggle="dropdown"
+                            aria-label="Toggle Activities menu" aria-expanded="false"></button>
+                        <div class="dropdown-menu m-0">
+                            <a href="activities-meetings.html" class="dropdown-item">Meetings</a>
+                            <a href="activities-workshops.html" class="dropdown-item">Workshops &amp; Conferences</a>
+                            <a href="activities-training.html" class="dropdown-item">Training schools</a>
+                            <a href="activities-webinars.html" class="dropdown-item">Webinars</a>
+                            <a href="activities-outreach.html" class="dropdown-item">Outreach events</a>
+                        </div>
+                    </div>
                     <a href="blog.html" class="nav-item nav-link{% if active_nav == 'blog' %} active{% endif %}">Blog</a>
                     <a href="contact.html" class="nav-item nav-link{% if active_nav == 'contact' %} active{% endif %}">Contact</a>
                 </div>

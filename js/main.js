@@ -145,10 +145,28 @@
         }
     };
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initThemeToggle);
-    } else {
+    var initStructureDropdownLink = function () {
+        var dropdownLinks = document.querySelectorAll('.js-structure-link');
+        dropdownLinks.forEach(function (link) {
+            link.addEventListener('click', function (event) {
+                var parent = link.closest('.dropdown');
+                if (parent && parent.classList.contains('show')) {
+                    event.preventDefault();
+                    window.location.href = link.getAttribute('href');
+                }
+            });
+        });
+    };
+
+    var onReady = function () {
         initThemeToggle();
+        initStructureDropdownLink();
+    };
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', onReady);
+    } else {
+        onReady();
     }
     
 

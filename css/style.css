@@ -451,6 +451,17 @@ body:not(.dark-mode) .bg-light {
     opacity: 1;
 }
 
+.designer-credit {
+    white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+    .designer-credit {
+        white-space: normal;
+        display: inline-block;
+    }
+}
+
 
 /*** Navbar End ***/
 
