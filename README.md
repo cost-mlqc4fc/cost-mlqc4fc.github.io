@@ -18,8 +18,8 @@ Remove the surrounding HTML/Liquid comments to restore any of these sections.
 | Page | Light mode | Dark mode |
 |------|------------|-----------|
 | Home | ✅ | ✅ |
-|   ↳ About | ✅ | ✅ |
-|   ↳ Structure | 🟡 | ⬜ |
+|   ↳ About | ✅ | ✅ |
+|   ↳ Structure | 🟡 | ⬜ |
 |       ↳↳ Management Committee | ⬜ | ⬜ |
 |       ↳↳ Core Group | ⬜ | ⬜ |
 |       ↳↳ Cross-cutting platforms | ⬜ | ⬜ |
