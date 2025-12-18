@@ -605,6 +605,11 @@ body.dark-mode .tab-class:hover {
     height: 100%;
 }
 
+body:not(.dark-mode) .structure-card {
+    background: transparent;
+    border-color: var(--bs-primary);
+}
+
 .structure-card__image {
     background-size: cover;
     background-position: center;
@@ -620,6 +625,16 @@ body.dark-mode .tab-class:hover {
     padding: 18px 18px 21px;
     background: linear-gradient(180deg, rgba(5, 10, 28, 0.0) 0%, rgba(5, 10, 28, 0.75) 100%);
     min-height: 120px;
+}
+
+body:not(.dark-mode) .structure-card__body {
+    background: transparent;
+    color: #0f1c2e;
+}
+
+body:not(.dark-mode) .structure-card__body h6,
+body:not(.dark-mode) .structure-card__body p {
+    color: #0f1c2e;
 }
 
 .structure-panel {
@@ -1510,6 +1525,13 @@ a:focus {
     font-size: 1rem;
 }
 
+.theme-toggle--floating {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    z-index: 1050;
+}
+
 .dark-mode .theme-toggle {
     color: #e2e8f0;
     border-color: rgba(226, 232, 240, 0.2);
@@ -1518,17 +1540,6 @@ a:focus {
 .dark-mode .theme-toggle:hover,
 .dark-mode .theme-toggle:focus {
     color: #0f172a;
-}
-
-.dark-mode .navbar .navbar-nav .nav-link:hover,
-.dark-mode .navbar .navbar-nav .nav-link.active {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    text-transform: capitalize;
-    color: var(--ml-link-color);
 }
 
 .dark-mode .navbar-primary {
@@ -1542,14 +1553,8 @@ a:focus {
 }
 
 .dark-mode .navbar-primary .navbar-nav .nav-link {
-    font-size: 14px;
-    font-weight: 100;
-    letter-spacing: 0.05em;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    text-transform: capitalize;
-    color: #FFFFFF9E;
-    fill: #FFFFFF9E;
+    color: #ffffff9e;
+    fill: #ffffff9e;
 }
 
 .dark-mode .navbar-primary .navbar-nav .nav-link:hover {

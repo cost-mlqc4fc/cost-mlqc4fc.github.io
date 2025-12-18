@@ -12,10 +12,10 @@
                 <div>
                     <h5 class="text-uppercase text-primary">Structure</h5>
                     <h2 class="mb-3">How MLQC4FC is organised</h2>
-                    <p class="mb-4">MLQC4FC brings together five Working Groups, two cross-cutting committees, and a Management Committee
-                        coordinated by a Core Group. Delegates from COST Member Countries provide the mandate, the Core Group steers
-                        execution between plenary meetings, and each Working Group runs bottom-up initiatives aligned with the Action
-                        objectives.</p>
+                    <p class="mb-4">MLQC4FC brings together five Working Groups, a Management Committee
+                        coordinated by a Core Group, two cross-cutting committees, and the Grant Holder Team. </p>
+                    <p class="mb-4">Delegates from COST Member Countries, the Management Committee members, provide the mandate, the Core Group steers execution and is delegated a
+                        number of tasks from the MC, the two cross-cutting committees take care of grants awarding and science communication, and each Working Group runs bottom-up initiatives aligned with the Action objectives.</p>
                     <p class="mb-4">The Grant Holder Team underpins everything with financial and administrative support. Together these
                         layers keep the Action agile: WG deliverables flow into MC decisions, cross-cutting platforms provide resources for
                         inclusiveness and communications, and the Core Group makes sure emerging opportunities are captured quickly.</p>
@@ -30,7 +30,7 @@
                     {% include structure-card-visual.html item=item linkable=false title_tag="span" show_overlay=false %}
                     <div class="structure-card__body">
                         <h6 class="text-uppercase text-primary fw-semibold mb-2">{{ item.title }}</h6>
-                        <p class="mb-0 text-white">{{ item.description | truncate: 95, '…' }}</p>
+                        <p class="mb-0">{{ item.description | truncate: 150, '…' }}</p>
                     </div>
                 </a>
             </div>

@@ -19,7 +19,7 @@ Remove the surrounding HTML/Liquid comments to restore any of these sections.
 |------|------------|-----------|
 | Home | ✅ | ✅ |
 |  ↳ About | ✅ | ✅ |
-|  ↳ Structure | 🟡 | ⬜ |
+|  ↳ Structure | ✅ | ✅ |
 |    ↳ Management Committee | ⬜ | ⬜ |
 |    ↳ Core Group | ⬜ | ⬜ |
 |    ↳ Cross-cutting platforms | ⬜ | ⬜ |
@@ -49,5 +49,5 @@ Remove the surrounding HTML/Liquid comments to restore any of these sections.
 
 | Component | Light mode | Dark mode |
 |----------|------------|-----------|
-| Header / Navbar | ⬜ | ⬜ |
+| Header / Navbar | ✅ | ✅ |
 | Footer | ⬜ | ⬜ |

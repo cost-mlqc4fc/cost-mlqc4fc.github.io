@@ -5,7 +5,7 @@ items:
     alt: Working Group breakout
     title: Working Groups
     description: >
-      Four thematic Working Groups bring together experts in ML, QC, detector R&D, and outreach
+      Five thematic Working Groups bring together experts in ML, QC, detector R&D, and outreach
       to deliver joint milestones.
     href: working-groups.html
   - image: img/structure/management_committee.jpg
@@ -26,15 +26,14 @@ items:
     alt: Online collaboration
     title: Cross-cutting Platforms
     description: >
-      Horizontal platforms connect young researchers, inclusiveness target countries, and industry,
-      ensuring broad participation in every activity.
+      Horizontal platforms take care of grant awarding, science communication, and
+      dissemination across all WGs.
     href: platforms.html
   - image: img/structure/grant_holder.jpg
     alt: Administrative support
     title: Grant Holder Team
     description: >
-      The Grant Holder institution provides financial administration, communication support,
-      and compliance with COST policies.
+      The Grant Holder institution, Fondazione Alma Mater, provides financial administration, communication support, and compliance with COST policies.
     href: grant-holder.html
 cta:
   text: Explore full structure
