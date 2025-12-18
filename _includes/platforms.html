@@ -1,3 +1,4 @@
+{% assign platforms_data = site.data.platforms %}
 <div class="container py-5 structure-section" id="platforms">
     <div class="row g-4 align-items-center">
         <div class="col-lg-6">
@@ -12,11 +13,28 @@
                 <div class="text-start">
                     <h5 class="text-uppercase text-primary mb-3">Committees at a glance</h5>
                     <ul class="mb-0">
-                        <li class="mb-3"><strong>Grant Awarding Committee</strong><br><span class="mb-2">Coordinates calls for Short-Term Scientific Missions, training schools, and dissemination grants, ensuring transparent evaluation and balanced participation.</span></li>
-                        <li class="mb-0"><strong>Science Communication Committee</strong><br><span class="mb-2">Curates outreach, maintains the Action’s communication assets, and supports Working Groups in sharing results with the wider community.</span></li>
+                        {% for item in platforms_data.overview.at_a_glance %}
+                        <li class="mb-{% if forloop.last %}0{% else %}3{% endif %}"><strong>{{ item.title }}</strong><br><span class="mb-2">{{ item.description }}</span></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+{% for section in platforms_data.sections %}
+<div class="container py-5">
+    <div class="text-center mb-4">
+        <h2 class="text-primary mb-3">{{ section.title }}</h2>
+        <p>{{ section.description }}</p>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 g-4">
+        {% for member in section.members %}
+        <div class="col">
+            {% include structure-person-card.html person=member %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}

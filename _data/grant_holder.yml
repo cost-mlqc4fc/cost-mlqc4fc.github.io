@@ -1,0 +1,34 @@
+team:
+  heading: Grant Holder Team
+  description: >
+    The Fondazione Alma Mater team combines legal, administrative, and scientific leads to keep the
+    Action compliant with COST rules while supporting members day to day.
+  address: &fam_address
+    - Fondazione Alma Mater
+    - Via Quirico Filopanti 7
+    - 40126 Bologna, Italy
+  members:
+    - role: GH Legal Representative
+      name: Roberto Vecchi
+      email: roberto.vecchi@unibo.it
+      address: *fam_address
+      phone: "+39 051 20 9 7175"
+    - role: GH Administrative Representative
+      name: Anna Rita Grano
+      email: a.grano@fondazionealmamater.it
+      address: *fam_address
+      phone: "+39 051 2080510"
+    - role: GH Scientific Representative
+      name: Federica Fabbri
+      email: federica.fabbri26@unibo.it
+      address: *fam_address
+      phone: "+39 340 826 2066"
+    - role: GH Manager
+      name: Alessandro Vriz
+      email: gh.manager@fondazionealmamater.it
+      address: *fam_address
+      phone: "+39 051 2080 524"
+    - role: GH Administrative Support
+      name: Alessandro Lotti
+      email: alessandro.lotti4@unibo.it
+      address: *fam_address

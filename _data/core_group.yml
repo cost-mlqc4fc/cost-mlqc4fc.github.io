@@ -1,0 +1,126 @@
+intro:
+  heading: Who we are
+  description: >
+    The Core Group brings together leadership from every Working Group alongside the Grant Holder
+    and COST coordination teams.
+members:
+  - role: Action Chair
+    name: Dr Riccardo Torre
+    email: riccardo.torre@ge.infn.it
+    address:
+      - Istituto Nazionale Di Fisica Nucleare
+      - Via Dodecaneso 33
+      - 16146 Genova, Italy
+    phone: "+39 327 530 8667"
+  - role: Action Vice-Chair
+    name: Dr Venus Keus
+    email: venus@stp.dias.ie
+    address:
+      - Dublin Institute For Advanced Studies
+      - 10 Burlington Road
+      - Dublin 4, Ireland
+    phone: "+353 1 614 0135"
+  - role: Grant Holder Scientific Representative
+    name: Dr Federica Fabbri
+    email: federica.fabbri26@unibo.it
+    address:
+      - Fondazione Alma Mater
+      - Via Quirico Filopanti 7
+      - 40126 Bologna, Italy
+    phone: "+39 340 826 2066"
+  - role: Science Communication Coordinator
+    name: Dr German Sborlini
+    email: german.sborlini@usal.es
+    address:
+      - Universidad de Salamanca
+      - Plaza de los Caídos s/n
+      - 37008 Salamanca, Spain
+    phone: "+34 639 539 690"
+  - role: Grant Awarding Coordinator
+    name: Prof Juergen Reuter
+    email: juergen.reuter@desy.de
+    address:
+      - DESY
+      - Notkestrasse 85
+      - 22607 Hamburg, Germany
+    phone: "+49 40 8405 8088"
+  - role: WG1 Co-Leader
+    name: Dr Valentina Vecchio
+    email: valentina.vecchio@cern.ch
+    address:
+      - University of Manchester
+      - Oxford Road
+      - Manchester M13 9PL, UK
+    phone: "+44 7546 602 513"
+  - role: WG1 Co-Leader
+    name: Prof Pietro Vischia
+    email: pietro.vischia@gmail.com
+    address:
+      - Universidad de Oviedo
+      - Leopoldo Calvo Sotelo 18
+      - 33007 Oviedo, Spain
+    phone: "+34 666 986 616"
+  - role: WG2 Co-Leader
+    name: Dr Simon Williams
+    email: simon.j.williams@durham.ac.uk
+    address:
+      - IPPP, Durham University
+      - South Road
+      - Durham DH1 3LE, UK
+    phone: "+44 191 334 2000"
+  - role: WG2 Co-Leader
+    name: Dr Theodota Lagouri
+    email: theodota.lagouri@cern.ch
+    address:
+      - CERN
+      - Route de Meyrin
+      - 1211 Geneva 23, Switzerland
+    phone: "+41 76 450 0824"
+  - role: WG3 Co-Leader
+    name: Dr Humberto Reyes-Gonzalez
+    email: humberto.reyes@rwth-aachen.de
+    address:
+      - RWTH Aachen University
+      - Templergraben 55
+      - 52062 Aachen, Germany
+    phone: "+39 347 648 6293"
+  - role: WG3 Co-Leader
+    name: Dr Andrea Coccaro
+    email: andrea.coccaro@ge.infn.it
+    address:
+      - INFN Genova
+      - Via Dodecaneso 33
+      - 16146 Genova, Italy
+    phone: "+39 371 395 4562"
+  - role: WG4 Co-Leader
+    name: Prof Louis-Francois Pau
+    email: frans_dk@hotmail.com
+    address:
+      - Universitatea Transilvania din Brasov
+      - Bdul Eroilor 29
+      - 500036 Brasov, Romania
+    phone: "+45 2588 4241"
+  - role: WG4 Co-Leader
+    name: Dr Rakhi Mahbubani
+    email: rakhi@cern.ch
+    address:
+      - Rudjer Boskovic Institute
+      - Bijenicka cesta 54
+      - 10000 Zagreb, Croatia
+    phone: "+385 1 468 0221"
+  - role: WG5 Co-Leader
+    name: Dr Jelena Jovicevic
+    email: jelena@cern.ch
+    address:
+      - Institute of Physics Belgrade
+      - Pregrevica 118
+      - 11080 Belgrade, Serbia
+    phone: "+41 79 199 1914"
+  - role: WG5 Co-Leader
+    name: Dr German Sborlini
+    email: german.sborlini@usal.es
+    address:
+      - Universidad de Salamanca
+      - Plaza de los Caídos s/n
+      - 37008 Salamanca, Spain
+    phone: "+34 639 539 690"

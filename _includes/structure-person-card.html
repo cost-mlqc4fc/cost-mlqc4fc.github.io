@@ -1,0 +1,23 @@
+{% assign person = include.person %}
+{% assign image = person.image | default: include.image | default: 'img/structure/management_committee.jpg' %}
+<div class="structure-card d-flex flex-column h-100">
+    <div class="structure-card-visual">
+        <img src="{{ image }}" alt="{{ person.alt | default: person.name | default: 'Structure visual' }}">
+        <div class="structure-card-visual__tint"></div>
+    </div>
+    <div class="structure-card__body">
+        {% if person.role %}
+        <p class="text-uppercase text-primary fw-semibold mb-1 small">{{ person.role }}</p>
+        {% endif %}
+        <h5 class="mb-1">{{ person.name }}</h5>
+        {% if person.email %}
+        <p class="mb-1"><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+        {% endif %}
+        {% if person.address %}
+        <p class="mb-1 small text-body">{{ person.address | join: '<br>' }}</p>
+        {% endif %}
+        {% if person.phone %}
+        <p class="mb-0"><i class="fa fa-phone-alt me-2 text-primary"></i>{{ person.phone }}</p>
+        {% endif %}
+    </div>
+</div>

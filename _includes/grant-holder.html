@@ -1,3 +1,4 @@
+{% assign grant_holder_data = site.data.grant_holder %}
 <div class="container py-5 structure-section" id="grant-holder">
     <div class="row g-4 align-items-start">
         <div class="col-lg-6 order-1 order-lg-2">
@@ -28,3 +29,19 @@
         </div>
     </div>
 </div>
+
+{% if grant_holder_data.team %}
+<div class="container py-5">
+    <div class="text-center mb-4">
+        <h2 class="text-primary mb-3">{{ grant_holder_data.team.heading }}</h2>
+        <p>{{ grant_holder_data.team.description }}</p>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 g-4">
+        {% for member in grant_holder_data.team.members %}
+        <div class="col">
+            {% include structure-person-card.html person=member %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

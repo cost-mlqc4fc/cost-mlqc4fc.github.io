@@ -1833,3 +1833,8 @@ a:focus {
 .text-primary {
     color: var(--bs-primary) !important;
 }
+.member-avatar {
+    width: 64px;
+    height: 64px;
+    font-size: 1.25rem;
+}
