@@ -8,13 +8,6 @@ items:
       Four thematic Working Groups bring together experts in ML, QC, detector R&D, and outreach
       to deliver joint milestones.
     href: working-groups.html
-  - image: img/structure/cross_cutting.jpg
-    alt: Online collaboration
-    title: Cross-cutting Platforms
-    description: >
-      Horizontal platforms connect young researchers, inclusiveness target countries, and industry,
-      ensuring broad participation in every activity.
-    href: platforms.html
   - image: img/structure/management_committee.jpg
     alt: Management Committee meeting
     title: Management Committee
@@ -29,6 +22,13 @@ items:
       A subset of MC members and WG leaders that steers day-to-day execution, monitors milestones,
       and prepares recommendations ahead of MC decisions.
     href: core-group.html
+  - image: img/structure/cross_cutting.jpg
+    alt: Online collaboration
+    title: Cross-cutting Platforms
+    description: >
+      Horizontal platforms connect young researchers, inclusiveness target countries, and industry,
+      ensuring broad participation in every activity.
+    href: platforms.html
   - image: img/structure/grant_holder.jpg
     alt: Administrative support
     title: Grant Holder Team
