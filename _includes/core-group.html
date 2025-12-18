@@ -5,7 +5,6 @@
             <h2 class="mb-3">The interface between all Action components</h2>
             <p class="mb-4">The Core Group connects the Management Committee and Working Groups, meeting regularly to monitor progress, prepare decisions, and react quickly to upcoming opportunities. It ensures that strategic choices are ready for MC approval and that the Action delivers on its milestones between plenary meetings.</p>
             <div class="d-flex flex-column flex-md-row gap-3">
-                <a href="join.html" class="btn btn-primary btn-hover-bg text-white">Contact the Core Group</a>
                 <a href="activities.html" class="btn btn-outline-primary btn-hover-bg">See Upcoming Meetings</a>
             </div>
         </div>
@@ -22,5 +21,48 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="text-center mb-4">
+        <h2 class="text-primary mb-3">Who we are</h2>
+        <p>The Core Group brings together leadership from every Working Group alongside the Grant Holder and COST coordination teams.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+        {% assign core_members = 
+            "Action Chair|Dr Riccardo Torre|riccardo.torre@ge.infn.it,
+             Action Vice-Chair|Dr Venus Keus|venus@stp.dias.ie,
+             Grant Holder Scientific Representative|Dr Federica Fabbri|federica.fabbri26@unibo.it,
+             Science Communication Coordinator|Dr German Sborlini|german.sborlini@cern.ch,
+             Grant Awarding Coordinator|Prof Juergen Reuter|juergen.reuter@cern.ch,
+             WG1 Leader|Dr Valentina Vecchio|valentina.vecchio@cern.ch,
+             WG2 Leader|Dr Simon Williams|simon.williams@cern.ch,
+             WG3 Leader|Dr Humberto Reyes-Gonzalez|humberto.reyes@cern.ch,
+             WG4 Leader|Prof Louis-Francois Pau|louis-francois.pau@cern.ch,
+             WG5 Leader|Dr Jelena Jovicevic|jelena.jovicevic@cern.ch,
+             WG1 Co-Leader|Prof Pietro Vischia|pietro.vischia@cern.ch,
+             WG2 Co-Leader|Dr Theodota Lagouri|theodota.lagouri@cern.ch,
+             WG3 Co-Leader|Dr Andrea Coccaro|andrea.coccaro@cern.ch,
+             WG4 Co-Leader|Dr Rakhi Mahbubani|rakhi.mahbubani@cern.ch,
+             WG5 Co-Leader|Dr German Sborlini|german.sborlini@cern.ch"
+            | split: ',' %}
+        {% for member in core_members %}
+            {% assign parts = member | strip | split: '|' %}
+            <div class="col">
+                <div class="bg-white bg-opacity-10 border border-primary h-100 p-3 rounded-3 d-flex">
+                    <div class="me-3 flex-shrink-0">
+                        <div class="member-avatar rounded-circle bg-primary bg-opacity-25 d-flex align-items-center justify-content-center text-primary fw-bold">
+                            {{ parts[1] | strip | slice: 0,1 }}
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-uppercase text-primary fw-semibold mb-1 small">{{ parts[0] | strip }}</p>
+                        <h5 class="mb-1">{{ parts[1] | strip }}</h5>
+                        <p class="mb-0"><a href="mailto:{{ parts[2] | strip }}">{{ parts[2] | strip }}</a></p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
     </div>
 </div>
