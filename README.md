@@ -15,7 +15,7 @@ Remove the surrounding HTML/Liquid comments to restore any of these sections.
 
 ## List of pages
 
-- [x] Home
+- Home - [x] Bright Mode - [x] Dark Mode
   - [x] About
   - [ ] Structure
     - [ ] Management Committee
