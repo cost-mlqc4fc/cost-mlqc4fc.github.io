@@ -15,23 +15,20 @@ tababout:
       We provide a common forum where collider physicists, computer scientists, and
       quantum technology specialists can collaborate to shape the future of particle accelerators and experiments. 
       The Action aligns national efforts to ensure that breakthroughs in computation
-      translate into real detector and analysis capabilities.
+      translate into real opportunities for the future of fundamental physics research.
   - id: objectives
     label: Objectives
     title: Strategic objectives
     body: >
       We map the state of the art in Machine Learning and Quantum Computing for collider
       applications, identify priority R&D challenges, develop open benchmarks and software
-      demonstrators, and back these efforts with training schools, short-term scientific
-      missions, and inclusive networking grants.
+      demonstrators, and back these efforts with several networking opportunities: training schools, workshops, conferences, short-term scientific missions, and inclusive networking grants.
   - id: participation
     label: Participation
     title: An open, collaborative network
     body: >
-      Membership is open to researchers from COST Member Countries, Near Neighbour
-      Countries, and international partner institutions. Working Groups meet regularly,
-      the Core Group monitors progress, and targeted platforms organize grant awarding
-      and science communication to the community and to the public.
+      Working Group membership is open to researchers from <a href="https://www.cost.eu/about/members/">COST Member Countries</a>, <a href="https://www.cost.eu/about/strategy/international-collaboration/">Near Neighbour Countries</a>, and <a href="https://www.cost.eu/about/strategy/international-collaboration/">International Partner Countries</a>. Working Groups meet regularly,
+      the Management Committee and the Core Group monitors progress, and targeted platforms organize grant awarding and science communication to the community and to the public.
 tabswg:
   - id: wg1
     label: WG1

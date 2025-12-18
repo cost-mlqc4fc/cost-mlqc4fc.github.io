@@ -13,38 +13,37 @@ The following homepage components have been commented out in `index.html` for po
 
 Remove the surrounding HTML/Liquid comments to restore any of these sections.
 
-## To do list
-List of pages:
+## List of pages
 
-- Home
-- Home / About
-- Home / Structure
-- Home / Structure / Management Committee
-- Home / Structure / Core Group
-- Home / Structure / Cross-cutting platforms
-- Home / Structure / Grant Holder Team
-- Home / Working Groups
-- Home / Working Groups / WG1
-- Home / Working Groups / WG2
-- Home / Working Groups / WG3
-- Home / Working Groups / WG4
-- Home / Working Groups / WG5
-- Home / Resources
-- Home / Resources / Collaborative tools
-- Home / Resources / Communication tools
-- Home / Resources / Outreach tools
-- Home / Resources / Grants
-- Home / Activities
-- Home / Activities / Meetings
-- Home / Activities / Workshop & Conferences
-- Home / Activities / Training schools
-- Home / Activities / Webinars
-- Home / Activities / Outreach events
-- Home / Blog
-- Home / Contact
-- Home / Join
+- [x] Home
+  - [x] About
+  - [ ] Structure
+    - [ ] Management Committee
+    - [ ] Core Group
+    - [ ] Cross-cutting platforms
+    - [ ] Grant Holder Team
+  - [ ] Working Groups
+    - [ ] WG1
+    - [ ] WG2
+    - [ ] WG3
+    - [ ] WG4
+    - [ ] WG5
+  - [ ] Resources
+    - [ ] Collaborative tools
+    - [ ] Communication tools
+    - [ ] Outreach tools
+    - [ ] Grants
+  - [ ] Activities
+    - [ ] Meetings
+    - [ ] Workshops & Conferences
+    - [ ] Training schools
+    - [ ] Webinars
+    - [ ] Outreach events
+  - [ ] Blog
+  - [ ] Contact
+  - [ ] Join
 
-Additional shared components
+## Additional shared components
 
-- Header / Navbar
-- Footer
+- [ ] Header / Navbar
+- [ ] Footer
