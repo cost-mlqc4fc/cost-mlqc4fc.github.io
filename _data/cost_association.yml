@@ -1,0 +1,36 @@
+intro:
+  eyebrow: COST Association
+  heading: Support from the COST Association
+  paragraphs:
+    - The COST Association accompanies MLQC4FC from proposal to implementation, ensuring that the Action delivers impact while remaining compliant with the COST rules and financial framework.
+    - A dedicated Science Officer and an Administrative Officer provide the bridge between our Management Committee, the Grant Holder, and the COST governance bodies.
+  cta:
+    text: Visit the Action page on cost.eu
+    href: https://www.cost.eu/actions/CA24146/
+support:
+  title: How COST officers help MLQC4FC
+  items:
+    - Provide strategic feedback on MC decisions and work plans.
+    - Validate reporting packages and monitor budget execution with the Grant Holder.
+    - Connect MLQC4FC to other COST Actions, EC services, and evaluation bodies.
+    - Ensure inclusiveness policies and COST priorities are implemented.
+contacts:
+  heading: COST Association contacts
+  description: Reach the officers assigned to MLQC4FC for procedural questions, reporting guidance, or formal communications.
+  members:
+    - role: COST Science Officer
+      name: Ralph Stübner
+      email: ralph.stuebner@cost.eu
+      phone: "+32 2 533 38 26"
+      address:
+        - COST Association
+        - Avenue du Boulevard 21
+        - 1210 Brussels, Belgium
+    - role: COST Administrative Officer
+      name: Aranzazu Sánchez
+      email: aranzazu.sanchez@cost.eu
+      phone: "+32 2 533 38 20"
+      address:
+        - COST Association
+        - Avenue du Boulevard 21
+        - 1210 Brussels, Belgium

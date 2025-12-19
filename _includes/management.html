@@ -1,3 +1,4 @@
+{% assign management_data = site.data.management %}
 <div class="container py-5 structure-section" id="management">
     <div class="row g-4 align-items-center">
         <div class="col-lg-6 order-1 order-lg-2">
@@ -19,3 +20,19 @@
         </div>
     </div>
 </div>
+
+{% if management_data.members %}
+<div class="container py-5">
+    <div class="text-center mb-4">
+        <h2 class="text-primary mb-3">Management Committee Delegates</h2>
+        <p>Nationally nominated delegates span the entire COST network. Browse the current MC roster below.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 g-4">
+        {% for member in management_data.members %}
+        <div class="col">
+            {% include structure-person-card.html person=member %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

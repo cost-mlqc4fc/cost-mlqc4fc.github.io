@@ -1,0 +1,313 @@
+members:
+  - role: Austria
+    name: Dr Claudius Krause
+    email: claudius.krause@oeaw.ac.at
+    phone: "+43 1 515 81 2800"
+    address:
+      - Marietta Blau Institute for Particle Physics, Austrian Academy of Sciences
+      - Dominikanerbastei 16
+      - 1010 Vienna, Austria
+  - role: Belgium
+    name: Dr Olivier Mattelaer
+    email: olivier.mattelaer@uclouvain.be
+    phone: "+32 10 72 01 0"
+    address:
+      - UCLouvain
+      - 1, Place de l'Université
+      - 1348 Louvain-la-Neuve, Belgium
+  - role: Bulgaria
+    name: Prof Maria Nenova
+    email: mvn@tu-sofia.bg
+    phone: "+359 887 805 668"
+    address:
+      - Technical University of Sofia
+      - Kliment Ohridsky Blvd 8
+      - 1000 Sofia, Bulgaria
+  - role: Croatia
+    name: Mr Nino Kovacic
+    email: nkovacic.phy@pmf.hr
+    phone: "+385 97 6160 985"
+    address:
+      - Faculty of Science, University of Zagreb
+      - Bijenička cesta 32
+      - 10000 Zagreb, Croatia
+  - role: Croatia
+    name: Dr Rakhi Mahbubani
+    email: rakhi@cern.ch
+    phone: "+385 1 468 0221"
+    address:
+      - Ruđer Bošković Institute
+      - Bijenička cesta 54
+      - 10000 Zagreb, Croatia
+  - role: Denmark
+    name: Dr Ashutosh Dhar Dwivedi
+    email: addw@es.aau.dk
+    phone: "+45 71 58 29 40"
+    address:
+      - Aalborg Universitet
+      - A.C. Meyers Vænge 15
+      - 2450 Copenhagen, Denmark
+  - role: Estonia
+    name: Prof Martti Raidal
+    email: martti.raidal@cern.ch
+    phone: "+372 516 4854"
+    address:
+      - National Institute of Chemical Physics and Biophysics
+      - Akadeemia tee
+      - 161214 Tallinn, Estonia
+  - role: France
+    name: Dr Sabine Kraml
+    email: sabine.kraml@lpsc.in2p3.fr
+    phone: "+33 4 76 28 40 52"
+    address:
+      - LPSC / CNRS-IN2P3 / Université Grenoble Alpes
+      - 53 avenue des Martyrs
+      - 38000 Grenoble, France
+  - role: France
+    name: Dr David Rousseau
+    email: rousseau@ijclab.in2p3.fr
+    phone: "+33 1 69 15 41 40"
+    address:
+      - IJCLab / CNRS / Université Paris-Saclay
+      - Bâtiment 100, 15 rue Georges Clémenceau
+      - 91405 Orsay Cedex, France
+  - role: Germany
+    name: Prof Juergen Reuter
+    email: juergen.reuter@desy.de
+    phone: "+49 40 8405 8088"
+    address:
+      - DESY
+      - Notkestrasse 85
+      - 22607 Hamburg, Germany
+  - role: Germany
+    name: Dr Humberto Reyes-Gonzalez
+    email: humberto.reyes@rwth-aachen.de
+    phone: "+39 347 648 6293"
+    address:
+      - RWTH Aachen University
+      - Templergraben 55
+      - 52062 Aachen, Germany
+  - role: Greece
+    name: Prof Konstantinos Kordas
+    email: kostas.kordas@cern.ch
+    phone: "+30 2310 994 121"
+    address:
+      - Aristotle University of Thessaloniki
+      - Faculty of Sciences Building, University Campus
+      - 54124 Thessaloniki, Greece
+  - role: Greece
+    name: Prof George Zoupanos
+    email: george.zoupanos@cern.ch
+    phone: "+30 210 963 1329"
+    address:
+      - National Technical University of Athens
+      - Zografou Campus, 9 Iroon Polytechniou Str.
+      - 15772 Athens, Greece
+  - role: Hungary
+    name: Dr Gabriella Pásztor
+    email: Gabriella.Pasztor@cern.ch
+    phone: "+36 1 372 2760"
+    address:
+      - Eötvös Loránd University
+      - Egyetem tér 1-3
+      - 1053 Budapest, Hungary
+  - role: Hungary
+    name: Prof Zoltán Trócsányi
+    email: zoltan.trocsanyi@cern.ch
+    phone: "+36 30 508 5934"
+    address:
+      - Eötvös Loránd University
+      - Egyetem tér 1-3
+      - 1053 Budapest, Hungary
+  - role: Ireland
+    name: Dr Krishnendu Guha
+    email: KGuha@ucc.ie
+    phone: "+353 83 157 9187"
+    address:
+      - University College Cork
+      - T12 XF62 Cork
+      - Ireland
+  - role: Ireland
+    name: Dr Venus Keus
+    email: venus@stp.dias.ie
+    phone: "+353 1 614 0135"
+    address:
+      - Dublin Institute for Advanced Studies
+      - 10 Burlington Road
+      - Dublin 4, Ireland
+  - role: Italy
+    name: Dr Andrea Coccaro
+    email: andrea.coccaro@ge.infn.it
+    phone: "+39 371 395 4562"
+    address:
+      - Istituto Nazionale di Fisica Nucleare
+      - Via Dodecaneso 33
+      - 16146 Genova, Italy
+  - role: Italy
+    name: Dr Federica Fabbri
+    email: federica.fabbri26@unibo.it
+    phone: "+39 340 826 2066"
+    address:
+      - Fondazione Alma Mater
+      - Via Quirico Filopanti 7
+      - 40126 Bologna, Italy
+  - role: Malta
+    name: Prof John Abela
+    email: john.abela@um.edu.mt
+    phone: "+356 2340 2503"
+    address:
+      - University of Malta
+      - Faculty of ICT Building, University of Malta
+      - MSD 2080 Msida, Malta
+  - role: Malta
+    name: Prof Gianluca Valentino
+    email: gianluca.valentino@um.edu.mt
+    phone: "+356 2340 2520"
+    address:
+      - University of Malta
+      - MSD 2080 Msida, Malta
+      - Malta
+  - role: Netherlands
+    name: Dr Lydia Brenner
+    email: lydia.brenner@cern.ch
+    phone: "+31 6 4873 0064"
+    address:
+      - NWO (Netherlands Organisation for Scientific Research)
+      - Laan van Nieuw Oost-Indie 300
+      - 2593 CE The Hague, Netherlands
+  - role: Netherlands
+    name: Dr Pamela Ferrari
+    email: Pamela.Ferrari@nikhef.nl
+    phone: "+45 02 82 719"
+    address:
+      - Radboud University
+      - Erasmusplein 1
+      - 6525 HT Nijmegen, Netherlands
+  - role: Poland
+    name: Prof Jan Kalinowski
+    email: Jan.Kalinowski@fuw.edu.pl
+    phone: "+48 22 783 6744"
+    address:
+      - University of Warsaw
+      - Ludwika Pasteura 5
+      - 02-093 Warsaw, Poland
+  - role: Poland
+    name: Dr Kamila Kowalska
+    email: kamila.kowalska@ncbj.gov.pl
+    phone: "+48 22 273 2851"
+    address:
+      - National Centre for Nuclear Research
+      - ul. Pasteura 7
+      - 02-093 Warsaw, Poland
+  - role: Portugal
+    name: Dr Margarida (Gui) Rebelo
+    email: rebelo@tecnico.ulisboa.pt
+    phone: "+351 218 419 010"
+    address:
+      - Instituto Superior Técnico
+      - Av. Rovisco Pais 1
+      - 1049-001 Lisbon, Portugal
+  - role: Romania
+    name: Prof Paul Nicolae Borza
+    email: borzapn@unitbv.ro
+    phone: "+40 268 322 808"
+    address:
+      - Universitatea Transilvania din Brasov
+      - Bdul Eroilor 29
+      - 500036 Brasov, Romania
+  - role: Romania
+    name: Dr Gabriel Suliman
+    email: gabriel.suliman@upb.ro
+    phone: "+40 740 099 797"
+    address:
+      - National University of Science and Technology POLITEHNICA Bucharest
+      - 1-7 Gheorghe Polizu
+      - 011061 Bucharest, Romania
+  - role: Serbia
+    name: Dr Jelena Jovicevic
+    email: jelena@cern.ch
+    phone: "+41 79 199 1914"
+    address:
+      - Institute of Physics Belgrade
+      - Pregrevica 118
+      - 11080 Belgrade, Serbia
+  - role: Slovenia
+    name: Prof Luka Leskovec
+    email: luka.leskovec@fmf.uni-lj.si
+    phone: "+386 68 144 275"
+    address:
+      - University of Ljubljana
+      - Jadranska 19
+      - 1000 Ljubljana, Slovenia
+  - role: Slovenia
+    name: Dr Aleks Smolkovič
+    email: aleks.smolkovic@ijs.si
+    phone: "+386 1 477 3783"
+    address:
+      - Jožef Stefan Institute
+      - Jamova cesta 39
+      - 1000 Ljubljana, Slovenia
+  - role: Spain
+    name: Dr German Sborlini
+    email: german.sborlini@usal.es
+    phone: "+34 639 539 690"
+    address:
+      - Universidad de Salamanca
+      - Plaza de los Caídos s/n
+      - 37008 Salamanca, Spain
+  - role: Spain
+    name: Prof Pietro Vischia
+    email: pietro.vischia@gmail.com
+    phone: "+34 666 986 616"
+    address:
+      - Universidad de Oviedo
+      - Leopoldo Calvo Sotelo 18
+      - 33007 Oviedo, Spain
+  - role: Sweden
+    name: Prof Gabriele Ferretti
+    email: ferretti@chalmers.se
+    phone: "+46 31 772 3157"
+    address:
+      - Chalmers University of Technology
+      - Kemivägen 10
+      - 41296 Gothenburg, Sweden
+  - role: Switzerland
+    name: Prof Tobias Golling
+    email: Tobias.Golling@unige.ch
+    phone: "+41 75 411 2570"
+    address:
+      - University of Geneva
+      - Quai Ernest-Ansermet 24
+      - 1205 Geneva, Switzerland
+  - role: Switzerland
+    name: Dr Theodota Lagouri
+    email: theodota.lagouri@cern.ch
+    phone: "+41 76 450 0824"
+    address:
+      - CERN
+      - Route de Meyrin
+      - 1211 Geneva 23, Switzerland
+  - role: Türkiye
+    name: Prof Mehmet Demirci
+    email: mehmetdemirci@ktu.edu.tr
+    phone: "+90 462 377 2556"
+    address:
+      - Karadeniz Teknik Üniversitesi
+      - Ortahisar
+      - 61080 Trabzon, Türkiye
+  - role: United Kingdom
+    name: Dr Valentina Vecchio
+    email: valentina.vecchio@cern.ch
+    phone: "+44 7546 602 513"
+    address:
+      - University of Manchester
+      - Oxford Road
+      - Manchester M13 9PL, United Kingdom
+  - role: United Kingdom
+    name: Dr Simon Williams
+    email: simon.j.williams@durham.ac.uk
+    phone: "+44 191 334 2000"
+    address:
+      - IPPP, Durham University
+      - South Road
+      - Durham DH1 3LE, United Kingdom

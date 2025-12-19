@@ -8,13 +8,6 @@ items:
       Five thematic Working Groups bring together experts in ML, QC, detector R&D, and outreach
       to deliver joint milestones.
     href: working-groups.html
-  - image: img/structure/management_committee.jpg
-    alt: Management Committee meeting
-    title: Management Committee
-    description: >
-      Nationally nominated delegates coordinate the Action strategy, approve activities, and
-      ensure geographic balance across the network.
-    href: management.html
   - image: img/structure/core_group.jpg
     alt: Core group discussion
     title: Core Group
@@ -22,6 +15,13 @@ items:
       A subset of MC members and WG leaders that steers day-to-day execution, monitors milestones,
       and prepares recommendations ahead of MC decisions.
     href: core-group.html
+  - image: img/structure/management_committee.jpg
+    alt: Management Committee meeting
+    title: Management Committee
+    description: >
+      Nationally nominated delegates coordinate the Action strategy, approve activities, and
+      ensure geographic balance across the network.
+    href: management.html
   - image: img/structure/cross_cutting.jpg
     alt: Online collaboration
     title: Cross-cutting Platforms
@@ -35,6 +35,12 @@ items:
     description: >
       The Grant Holder institution, Fondazione Alma Mater, provides financial administration, communication support, and compliance with COST policies.
     href: grant-holder.html
+  - image: img/structure/COST2.jpg
+    alt: COST Association Support
+    title: COST Association Support
+    description: >
+      COST Science and Administrative Officers back the Action with procedural guidance, reporting oversight, and connections across the COST ecosystem.
+    href: cost-association.html
 cta:
   text: Explore full structure
   href: structure.html

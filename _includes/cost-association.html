@@ -1,0 +1,39 @@
+{% assign cost_data = site.data.cost_association %}
+<div class="container py-5 structure-section" id="cost-association">
+    <div class="row g-4 align-items-center">
+        <div class="col-lg-6 order-1 order-lg-1">
+            <h5 class="text-uppercase text-primary">{{ cost_data.intro.eyebrow }}</h5>
+            <h2 class="mb-3">{{ cost_data.intro.heading }}</h2>
+            {% for paragraph in cost_data.intro.paragraphs %}
+            <p class="mb-4">{{ paragraph }}</p>
+            {% endfor %}
+            <a href="{{ cost_data.intro.cta.href }}" class="btn btn-outline-primary btn-hover-bg" target="_blank" rel="noopener">{{ cost_data.intro.cta.text }}</a>
+        </div>
+        <div class="col-lg-6 order-2 order-lg-2">
+            <div class="tab-class p-4 h-100">
+                <h5 class="text-uppercase text-primary mb-3">{{ cost_data.support.title }}</h5>
+                <ul class="mb-0">
+                    {% for item in cost_data.support.items %}
+                    <li class="mb-{% if forloop.last %}0{% else %}2{% endif %}">{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if cost_data.contacts %}
+<div class="container py-5">
+    <div class="text-center mb-4">
+        <h2 class="text-primary mb-3">{{ cost_data.contacts.heading }}</h2>
+        <p>{{ cost_data.contacts.description }}</p>
+    </div>
+    <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 g-4">
+        {% for member in cost_data.contacts.members %}
+        <div class="col">
+            {% include structure-person-card.html person=member %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
