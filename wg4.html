@@ -20,8 +20,7 @@ collaboration_points:
   - Align with WG3 to ensure benchmark datasets stay versioned and traceable.
   - Coordinate with the Grant Holder Team on procurement and service agreements.
 ---
-{% assign about_data = site.data.about %}
-{% assign wg = about_data.tabswg | where: 'id', page.wg_id | first %}
+{% assign wg = site.data.working_groups.tabs | where: 'id', page.wg_id | first %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,8 +71,28 @@ collaboration_points:
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="structure-card about-card about-card--static d-flex flex-column h-100 w-100">
-                    <div class="structure-card__image flex-grow-1" style="background-image: url('{{ page.hero_image }}');"></div>
+                {% assign co_leader_names = wg.coleaders | split: ',' %}
+                <div class="row g-4">
+                    {% for name in co_leader_names %}
+                    {% assign leader_name = name | strip %}
+                    {% assign leader = site.data.core_group.members | where: 'name', leader_name | first %}
+                    <div class="col-12 col-md-6">
+                        {% if leader %}
+                            {% include structure-person-card.html person=leader %}
+                        {% else %}
+                            <div class="structure-card d-flex flex-column h-100">
+                                <div class="structure-card-visual">
+                                    <img src="img/structure/management_committee.jpg" alt="{{ leader_name }}">
+                                    <div class="structure-card-visual__tint"></div>
+                                </div>
+                                <div class="structure-card__body">
+                                    <p class="text-uppercase text-primary fw-semibold mb-1 small">Co-Leader</p>
+                                    <h5 class="mb-1">{{ leader_name }}</h5>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>

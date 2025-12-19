@@ -20,11 +20,11 @@ Remove the surrounding HTML/Liquid comments to restore any of these sections.
 | Home | ✅ | ✅ |
 |  ↳ About | ✅ | ✅ |
 |  ↳ Structure | ✅ | ✅ |
-|    ↳ Management Committee | ⬜ | ⬜ |
-|    ↳ Core Group | ⬜ | ⬜ |
-|    ↳ Cross-cutting platforms | ⬜ | ⬜ |
-|    ↳ Grant Holder Team | ⬜ | ⬜ |
-|  ↳ Working Groups | ⬜ | ⬜ |
+|    ↳ Management Committee | ✅ | ✅ |
+|    ↳ Core Group | ✅ | ✅ |
+|    ↳ Cross-cutting platforms | ✅ | ✅ |
+|    ↳ Grant Holder Team | ✅ | ✅ |
+|  ↳ Working Groups | ✅ | ✅ |
 |    ↳ WG1 | ⬜ | ⬜ |
 |    ↳ WG2 | ⬜ | ⬜ |
 |    ↳ WG3 | ⬜ | ⬜ |

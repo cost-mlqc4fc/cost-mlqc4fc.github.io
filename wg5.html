@@ -6,11 +6,11 @@ wg_id: wg5
 wg_number: 5
 hero_image: img/events-3.jpg
 priorities_intro: >
-  WG5 amplifies the Action’s impact through training, outreach, and communications that grow a diverse community of MLQC4FC contributors.
+  WG5 amplifies the Action's overall impact by coordinating training, outreach, and communications for fostering a broad and inclusive community of contributors.
 focus_points:
-  - Design training schools, bootcamps, and mentoring programmes.
-  - Coordinate outreach and communication assets for internal and public audiences.
-  - Support inclusiveness target countries and early-career researchers with tailored resources.
+  - Designs training schools, bootcamps, and mentoring programmes.
+  - Coordinates outreach and communication assets for internal and public audiences.
+  - Supports inclusiveness target countries and early-career researchers with tailored resources.
 deliverables:
   - Annual training roadmap with joint WG contributions.
   - Media kits and storytelling guidance for Action news.
@@ -20,8 +20,7 @@ collaboration_points:
   - Work with the Science Communication Committee on external visibility.
   - Coordinate with the Grant Awarding Committee on equitable access to mobility grants.
 ---
-{% assign about_data = site.data.about %}
-{% assign wg = about_data.tabswg | where: 'id', page.wg_id | first %}
+{% assign wg = site.data.working_groups.tabs | where: 'id', page.wg_id | first %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,8 +71,28 @@ collaboration_points:
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="structure-card about-card about-card--static d-flex flex-column h-100 w-100">
-                    <div class="structure-card__image flex-grow-1" style="background-image: url('{{ page.hero_image }}');"></div>
+                {% assign co_leader_names = wg.coleaders | split: ',' %}
+                <div class="row g-4">
+                    {% for name in co_leader_names %}
+                    {% assign leader_name = name | strip %}
+                    {% assign leader = site.data.core_group.members | where: 'name', leader_name | first %}
+                    <div class="col-12 col-md-6">
+                        {% if leader %}
+                            {% include structure-person-card.html person=leader %}
+                        {% else %}
+                            <div class="structure-card d-flex flex-column h-100">
+                                <div class="structure-card-visual">
+                                    <img src="img/structure/management_committee.jpg" alt="{{ leader_name }}">
+                                    <div class="structure-card-visual__tint"></div>
+                                </div>
+                                <div class="structure-card__body">
+                                    <p class="text-uppercase text-primary fw-semibold mb-1 small">Co-Leader</p>
+                                    <h5 class="mb-1">{{ leader_name }}</h5>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -83,7 +102,8 @@ collaboration_points:
         <div class="row g-4">
             <div class="col-lg-7">
                 <h3 class="mb-3">Current priorities</h3>
-                <p class="mb-4">WG5 blends storytelling and skills development so Action outputs travel far beyond their originating teams.</p>
+                <p class="mb-4">WG5 strengthens the Action output and its external presence by developing outreach strategies and training activities
+                and by maintaining active social communication channels.</p>
                 <div class="bg-light structure-panel rounded-3 shadow-sm p-4">
                     <h5 class="text-uppercase text-primary mb-3">Key outputs</h5>
                     <ul class="mb-0">

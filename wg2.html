@@ -6,7 +6,7 @@ wg_id: wg2
 wg_number: 2
 hero_image: img/about-2.jpg
 priorities_intro: >
-  WG2 probes how quantum computing can accelerate collider studies, translating rapid hardware advances into realistic hybrid workflows for the Action.
+  WG2 investigates how quantum computing can accelerate collider studies, translating rapid hardware advances into realistic hybrid workflows for the Action.
 focus_points:
   - Assess emerging quantum hardware for collider-relevant computations and simulations.
   - Develop hybrid ML+QC prototypes for optimisation, pattern recognition, and generative modelling.
@@ -20,8 +20,7 @@ collaboration_points:
   - Collaborate with WG4 on access to accelerators and emulation infrastructure.
   - Liaise with the Grant Awarding Committee to support QC-focused STSMs.
 ---
-{% assign about_data = site.data.about %}
-{% assign wg = about_data.tabswg | where: 'id', page.wg_id | first %}
+{% assign wg = site.data.working_groups.tabs | where: 'id', page.wg_id | first %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,8 +71,28 @@ collaboration_points:
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="structure-card about-card about-card--static d-flex flex-column h-100 w-100">
-                    <div class="structure-card__image flex-grow-1" style="background-image: url('{{ page.hero_image }}');"></div>
+                {% assign co_leader_names = wg.coleaders | split: ',' %}
+                <div class="row g-4">
+                    {% for name in co_leader_names %}
+                    {% assign leader_name = name | strip %}
+                    {% assign leader = site.data.core_group.members | where: 'name', leader_name | first %}
+                    <div class="col-12 col-md-6">
+                        {% if leader %}
+                            {% include structure-person-card.html person=leader %}
+                        {% else %}
+                            <div class="structure-card d-flex flex-column h-100">
+                                <div class="structure-card-visual">
+                                    <img src="img/structure/management_committee.jpg" alt="{{ leader_name }}">
+                                    <div class="structure-card-visual__tint"></div>
+                                </div>
+                                <div class="structure-card__body">
+                                    <p class="text-uppercase text-primary fw-semibold mb-1 small">Co-Leader</p>
+                                    <h5 class="mb-1">{{ leader_name }}</h5>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -83,7 +102,8 @@ collaboration_points:
         <div class="row g-4">
             <div class="col-lg-7">
                 <h3 class="mb-3">Current priorities</h3>
-                <p class="mb-4">Focus is on actionable prototypes that quantify quantum potential while keeping workflows compatible with the Action’s ML and infrastructure strategies.</p>
+                <p class="mb-4">Focus is on building prototypes for quantifying the potential in quantum computing within the workflows and
+                infrastructure strategies of the experimental collaborations.</p>
                 <div class="bg-light structure-panel rounded-3 shadow-sm p-4">
                     <h5 class="text-uppercase text-primary mb-3">Key outputs</h5>
                     <ul class="mb-0">

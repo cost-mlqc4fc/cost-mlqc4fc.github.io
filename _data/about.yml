@@ -29,42 +29,5 @@ tababout:
     body: >
       Working Group membership is open to researchers from <a href="https://www.cost.eu/about/members/">COST Member Countries</a>, <a href="https://www.cost.eu/about/strategy/international-collaboration/">Near Neighbour Countries</a>, and <a href="https://www.cost.eu/about/strategy/international-collaboration/">International Partner Countries</a>. Working Groups meet regularly,
       the Management Committee and the Core Group monitors progress, and targeted platforms organize grant awarding and science communication to the community and to the public.
-tabswg:
-  - id: wg1
-    label: WG1
-    title: WG1 · Machine Learning Applications for Collider Physics
-    coleaders: Dr Valentina Vecchio, Prof Pietro Vischia
-    body: >
-      Develops advanced ML techniques for reconstruction, triggering, anomaly detection,
-      and analysis workflows tailored to collider datasets, emphasising robustness and
-      interpretability.
-  - id: wg2
-    label: WG2
-    title: WG2 · Quantum Computing for Collider Physics
-    coleaders: Dr Simon Williams, Dr Theodota Lagouri
-    body: >
-      Investigates quantum algorithms, hardware acceleration, and hybrid ML+QC pipelines
-      that can support simulation, optimisation, and pattern recognition tasks.
-  - id: wg3
-    label: WG3
-    title: WG3 · Theory-Experiment Interface
-    coleaders: Dr Humberto Reyes-Gonzalez, Dr Andrea Coccaro
-    body: >
-      Bridges theoretical developments and experimental requirements, curating common
-      benchmarks and translating physics use cases into computational specifications.
-  - id: wg4
-    label: WG4
-    title: WG4 · Computational Infrastructure and Resource Optimization
-    coleaders: Prof Louis-Francois Pau, Dr Rakhi Mahbubani
-    body: >
-      Coordinates software engineering, data management, and computing resource strategies,
-      ensuring Action outputs can scale on heterogeneous infrastructures.
-  - id: wg5
-    label: WG5
-    title: WG5 · Training, Outreach, and Public Engagement
-    coleaders: Dr Jelena Jovicevic, Dr German Sborlini
-    body: >
-      Designs training schools, communication campaigns, and inclusive outreach activities
-      to grow the community and share impact beyond the Action.
 button_text: Know more
 button_href: about.html
