@@ -25,11 +25,11 @@ Remove the surrounding HTML/Liquid comments to restore any of these sections.
 |    ↳ Cross-cutting platforms | ✅ | ✅ |
 |    ↳ Grant Holder Team | ✅ | ✅ |
 |  ↳ Working Groups | ✅ | ✅ |
-|    ↳ WG1 | ⬜ | ⬜ |
-|    ↳ WG2 | ⬜ | ⬜ |
-|    ↳ WG3 | ⬜ | ⬜ |
-|    ↳ WG4 | ⬜ | ⬜ |
-|    ↳ WG5 | ⬜ | ⬜ |
+|    ↳ WG1 | ✅ | ✅ |
+|    ↳ WG2 | ✅ | ✅ |
+|    ↳ WG3 | ✅ | ✅ |
+|    ↳ WG4 | ✅ | ✅ |
+|    ↳ WG5 | ✅ | ✅ |
 |  ↳ Resources | ⬜ | ⬜ |
 |    ↳ Collaborative tools | ⬜ | ⬜ |
 |    ↳ Communication tools | ⬜ | ⬜ |
