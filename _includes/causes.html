@@ -1,46 +1,27 @@
-<!-- Resources Start -->
-<div class="container-fluid causes py-5">
+{% assign resources_data = site.data.resources %}
+<div class="container-fluid py-5 bg-light">
     <div class="container py-5">
-        {% assign causes_data = site.data.causes %}
         <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-            <h5 class="text-uppercase text-primary">{{ include.section_title | default: causes_data.section_title }}</h5>
-            <h1 class="mb-4">{{ include.heading | default: causes_data.heading }}</h1>
-            {% assign description = include.description | default: causes_data.description %}
+            <h5 class="text-uppercase text-primary">{{ include.section_title | default: resources_data.section_title }}</h5>
+            <h1 class="mb-4">{{ include.heading | default: resources_data.heading }}</h1>
+            {% assign description = include.description | default: resources_data.description %}
             {% if description %}
             <p class="mb-0">{{ description }}</p>
             {% endif %}
         </div>
-        {% assign causes_items = include.items | default: causes_data.items %}
-        <div class="row g-4">
-            {% assign column_class = include.column_class | default: 'col-lg-6 col-xl-3' %}
-            {% for item in causes_items %}
-            <div class="{{ column_class }}">
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt | default: 'Resource' }}">
-                        <div class="causes-link pb-2 px-3">
-                            {% if item.category %}
-                            <small class="text-white"><i class="fas fa-folder-open text-primary me-2"></i>{{ item.category }}</small>
-                            {% endif %}
-                            {% if item.audience %}
-                            <small class="text-white"><i class="fas fa-users text-primary me-2"></i>{{ item.audience }}</small>
-                            {% endif %}
-                        </div>
-                        <div class="causes-dination p-2">
-                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="{{ item.link_href | default: causes_data.cta.href | default: '#' }}">{{ item.link_text | default: causes_data.cta.text | default: 'Learn More' }}</a>
-                        </div>
+        {% assign resources_items = include.items | default: resources_data.items %}
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 align-items-stretch">
+            {% for item in resources_items %}
+            <div class="col">
+                <a class="structure-card d-flex flex-column text-decoration-none h-100" href="{{ item.href }}">
+                    {% include structure-card-visual.html item=item linkable=false title_tag="span" show_overlay=false %}
+                    <div class="structure-card__body">
+                        <h6 class="text-uppercase text-primary fw-semibold mb-2">{{ item.title }}</h6>
+                        <p class="mb-0">{{ item.description | truncate: 150, '…' }}</p>
                     </div>
-                    <div class="causes-content p-4">
-                        <h4 class="mb-3">{{ item.title }}</h4>
-                        <p class="mb-4">{{ item.body }}</p>
-                        {% if item.read_href or item.read_text %}
-                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="{{ item.read_href | default: causes_data.cta.href | default: '#' }}">{{ item.read_text | default: 'Discover' }}</a>
-                        {% endif %}
-                    </div>
-                </div>
+                </a>
             </div>
             {% endfor %}
         </div>
     </div>
 </div>
-<!-- Resources End -->

@@ -80,22 +80,34 @@
                         {% endfor %}
                     </div>
                 </div>
-                <div class="d-flex align-items-center justify-content-start gap-3 mt-3">
+                <div class="d-flex align-items-center justify-content-start gap-3 mt-3 flex-wrap">
                     <a class="btn btn-outline-primary btn-cta no-arrow py-2 px-4" href="https://e-services.cost.eu/files/domain_files/CA/Action_CA24146/mou/CA24146-e.pdf" target="_blank" rel="noopener" aria-label="Download the MLQC4FC Memorandum of Understanding">
                         <span class="btn-icon">
                             <i class="fas fa-file-pdf"></i>
                         </span>
                         Download MoU
                     </a>
+                    <a class="btn btn-outline-primary btn-cta no-arrow py-2 px-4" href="https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf" target="_blank" rel="noopener" aria-label="Download the COST Annotated Rules">
+                        <span class="btn-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </span>
+                        COST Annotated Rules
+                    </a>
                 </div>
                 {% else %}
-                <div class="d-flex align-items-center justify-content-start gap-3">
+                <div class="d-flex align-items-center justify-content-start gap-3 flex-wrap">
                     {% include cta-button.html href=button_href text=button_text %}
                     <a class="btn btn-outline-primary btn-cta no-arrow py-2 px-4" href="https://e-services.cost.eu/files/domain_files/CA/Action_CA24146/mou/CA24146-e.pdf" target="_blank" rel="noopener" aria-label="Download the MLQC4FC Memorandum of Understanding">
                         <span class="btn-icon">
                             <i class="fas fa-file-pdf"></i>
                         </span>
                         Download MoU
+                    </a>
+                    <a class="btn btn-outline-primary btn-cta no-arrow py-2 px-4" href="https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf" target="_blank" rel="noopener" aria-label="Download the COST Annotated Rules">
+                        <span class="btn-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </span>
+                        COST Annotated Rules
                     </a>
                 </div>
                 {% endif %}

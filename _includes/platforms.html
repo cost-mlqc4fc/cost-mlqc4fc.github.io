@@ -24,7 +24,7 @@
 </div>
 
 {% for section in platforms_data.sections %}
-<div class="container py-5">
+<div class="container py-5 structure-section" id="{{ section.id }}">
     <div class="text-center mb-4">
         <h2 class="text-primary mb-3">{{ section.title }}</h2>
         <p>{{ section.description }}</p>

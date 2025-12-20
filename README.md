@@ -30,10 +30,9 @@ Remove the surrounding HTML/Liquid comments to restore any of these sections.
 |    ↳ WG3 | ✅ | ✅ |
 |    ↳ WG4 | ✅ | ✅ |
 |    ↳ WG5 | ✅ | ✅ |
-|  ↳ Resources | ⬜ | ⬜ |
-|    ↳ Collaborative tools | ⬜ | ⬜ |
-|    ↳ Communication tools | ⬜ | ⬜ |
-|    ↳ Outreach tools | ⬜ | ⬜ |
+|  ↳ Resources | ✅ | ✅ |
+|    ↳ Collaborative tools | ✅ | ✅ |
+|    ↳ Outreach | ⬜ | ⬜ |
 |    ↳ Grants | ⬜ | ⬜ |
 |  ↳ Activities | ⬜ | ⬜ |
 |    ↳ Meetings | ⬜ | ⬜ |

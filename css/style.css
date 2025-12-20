@@ -146,6 +146,7 @@ p {
     border-radius: 12%;
 }
 
+
 .btn-square {
     width: 32px;
     height: 32px;
@@ -785,6 +786,16 @@ body.dark-mode .structure-panel {
     aspect-ratio: auto;
     background-size: cover;
     background-position: center;
+}
+
+.wg-map-image {
+    background: url('../img/maps/map_wg_bright.jpg') center / 100% auto no-repeat;
+    min-height: 420px;
+    width: 100%;
+}
+
+body.dark-mode .wg-map-image {
+    background-image: url('../img/maps/map_wg_dark.jpg');
 }
 
 
