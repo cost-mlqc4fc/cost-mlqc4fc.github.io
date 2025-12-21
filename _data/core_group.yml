@@ -28,14 +28,6 @@ members:
       - Via Quirico Filopanti 7
       - 40126 Bologna, Italy
     phone: "+39 340 826 2066"
-  - role: Science Communication Coordinator
-    name: Dr German Sborlini
-    email: german.sborlini@usal.es
-    address:
-      - Universidad de Salamanca
-      - Plaza de los Caídos s/n
-      - 37008 Salamanca, Spain
-    phone: "+34 639 539 690"
   - role: Grant Awarding Coordinator
     name: Prof Juergen Reuter
     email: juergen.reuter@desy.de
@@ -44,6 +36,14 @@ members:
       - Notkestrasse 85
       - 22607 Hamburg, Germany
     phone: "+49 40 8405 8088"
+  - role: Training Coordinator
+    name: Dr Lydia Brenner
+    email: lydia.brenner@cern.ch
+    address:
+      - NWO (Netherlands Organisation for Scientific Research)
+      - Laan van Nieuw Oost-Indie 300
+      - 2593 CE The Hague, Netherlands
+    phone: "+31 6 4873 0064"
   - role: WG1 Co-Leader
     name: Dr Valentina Vecchio
     email: valentina.vecchio@cern.ch
@@ -116,7 +116,7 @@ members:
       - Pregrevica 118
       - 11080 Belgrade, Serbia
     phone: "+41 79 199 1914"
-  - role: WG5 Co-Leader
+  - role: WG5 Co-Leader / Science Communication Coordinator
     name: Dr German Sborlini
     email: german.sborlini@usal.es
     address:

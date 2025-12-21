@@ -16,7 +16,7 @@
         {% if person.address %}
         <p class="mb-1 small text-body">{{ person.address | join: '<br>' }}</p>
         {% endif %}
-        {% if person.phone %}
+        {% if person.phone and include.show_phone != false and include.show_phone != 'false' %}
         <p class="mb-0"><i class="fa fa-phone-alt me-2 text-primary"></i>{{ person.phone }}</p>
         {% endif %}
     </div>

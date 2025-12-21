@@ -32,7 +32,7 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 g-4">
         {% for member in section.members %}
         <div class="col">
-            {% include structure-person-card.html person=member %}
+            {% include structure-person-card.html person=member show_phone=false %}
         </div>
         {% endfor %}
     </div>
