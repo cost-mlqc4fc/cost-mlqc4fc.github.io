@@ -13,29 +13,29 @@ team:
       email: roberto.vecchi@unibo.it
       address: *fam_address
       phone: "+39 051 20 9 7175"
-      orcid: 0000-0000-0000-0000
-      inspire: https://inspirehep.net/authors/0000000
+      orcid: null
+      inspire: null
     - role: GH Administrative Representative
       name: Anna Rita Grano
       email: a.grano@fondazionealmamater.it
       address: *fam_address
       phone: "+39 051 2080510"
-      orcid: 0000-0000-0000-0000
-      inspire: https://inspirehep.net/authors/0000000
+      orcid: null
+      inspire: null
     - role: GH Scientific Representative
       name: Federica Fabbri
       email: federica.fabbri26@unibo.it
       address: *fam_address
       phone: "+39 340 826 2066"
-      orcid: 0000-0000-0000-0000
-      inspire: https://inspirehep.net/authors/0000000
+      orcid: 0000-0001-8474-0978
+      inspire: 1334857
     - role: GH Manager
       name: Alessandro Vriz
       email: gh.manager@fondazionealmamater.it
       address: *fam_address
       phone: "+39 051 2080 524"
-      orcid: 0000-0000-0000-0000
-      inspire: https://inspirehep.net/authors/0000000
+      orcid: null
+      inspire: null
     - role: GH Administrative Support
       name: Alessandro Lotti
       email: alessandro.lotti4@unibo.it
