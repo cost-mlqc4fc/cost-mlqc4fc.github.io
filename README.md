@@ -34,19 +34,19 @@ Remove the surrounding HTML/Liquid comments to restore any of these sections.
 |    ↳ Collaborative tools | ✅ | ✅ |
 |    ↳ Outreach tools | ✅ | ✅ |
 |    ↳ Grants | ✅ | ✅ |
-|  ↳ Activities | ⬜ | ⬜ |
-|    ↳ Meetings | ⬜ | ⬜ |
-|    ↳ Workshops & Conferences | ⬜ | ⬜ |
-|    ↳ Training schools | ⬜ | ⬜ |
-|    ↳ Webinars | ⬜ | ⬜ |
-|    ↳ Outreach events | ⬜ | ⬜ |
-|  ↳ Blog | ⬜ | ⬜ |
-|  ↳ Contact | ⬜ | ⬜ |
-|  ↳ Join | ⬜ | ⬜ |
+|  ↳ Events | ✅ | ✅ |
+|    ↳ Meetings | ✅ | ✅ |
+|    ↳ Workshops & Conferences | ✅ | ✅ |
+|    ↳ Training schools | ✅ | ✅ |
+|    ↳ Webinars | ✅ | ✅ |
+|    ↳ Outreach events | ✅ | ✅ |
+|  ↳ News | ✅ | ✅ |
+|  ↳ Contact | ✅ | ✅ |
+|  ↳ Join | ✅ | ✅ |
 
 ## Additional shared components
 
 | Component | Light mode | Dark mode |
 |----------|------------|-----------|
 | Header / Navbar | ✅ | ✅ |
-| Footer | ⬜ | ⬜ |
+| Footer | ✅ | ✅ |
