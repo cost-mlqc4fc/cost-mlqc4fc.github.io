@@ -908,26 +908,37 @@ body.dark-mode .wg-map-image {
 /*** Counter Start ***/
 
 .counter {
-    background: linear-gradient(135deg, rgba(11, 59, 122, 0.92), rgba(16, 82, 154, 0.8)), url('../img/volunteers-bg.jpg');
-    background-size: cover;
-    background-position: center;
+    background: transparent;
 }
 
 .counter .counter-item {
-    background: rgba(255, 255, 255, 0.14);
+    background: var(--ml-surface-bg);
     border-radius: 18px;
-    border: 1px solid rgba(30, 160, 255, 0.35);
-    box-shadow: 0 18px 40px rgba(12, 32, 82, 0.25);
+    border: 1px solid rgb(0, 78, 235);
+    box-shadow: var(--ml-card-shadow);
+    height: 100%;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body.dark-mode .counter .counter-item {
+    border-color: rgb(255, 255, 255);
+}
+
+.counter .counter-item .counter-counting {
+    margin-top: auto;
 }
 
 .counter .counter-item i {
-    color: #ffffff;
+    color: var(--bs-primary);
 }
 
 .counter .counter-item .counter-counting {
     width: 100%;
     text-align: center;
-    border: 1px dashed rgba(255, 255, 255, 0.5);
+    border: 1px dashed var(--ml-border-color);
     font-size: 30px;
     border-radius: 12px;
 }
@@ -1792,33 +1803,13 @@ a:focus {
     border-color: rgba(148, 163, 184, 0.2);
 }
 
-.dark-mode .counter {
-    background: linear-gradient(135deg, rgba(5, 12, 28, 0.95), rgba(10, 32, 68, 0.88)), url('../img/volunteers-bg.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.dark-mode .counter .counter-item {
-    background: rgba(9, 20, 44, 0.65);
-    border: 1px solid rgba(90, 185, 255, 0.35);
-}
-
-.dark-mode .counter .counter-item i {
-    color: var(--bs-secondary);
-}
-
-.dark-mode .counter .counter-item .counter-counting {
-    border-color: rgba(121, 192, 255, 0.45);
-}
-
 .dark-mode .contact {
     background: linear-gradient(135deg, rgba(8, 26, 58, 0.65), rgba(9, 21, 43, 0.85));
     border-color: rgba(121, 192, 255, 0.25);
 }
 
 .dark-mode .counter {
-    background-blend-mode: multiply;
-    background-color: var(--ml-surface-alt-bg);
+    background: transparent;
 }
 
 .dark-mode .progress {
