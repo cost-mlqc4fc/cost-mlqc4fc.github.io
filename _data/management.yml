@@ -3,6 +3,8 @@ members:
     name: Dr Claudius Krause
     email: claudius.krause@oeaw.ac.at
     phone: "+43 1 515 81 2800"
+    orcid: 0000-0003-0924-3036
+    inspire: 1256558
     address:
       - Marietta Blau Institute for Particle Physics, Austrian Academy of Sciences
       - Dominikanerbastei 16
@@ -11,6 +13,8 @@ members:
     name: Dr Olivier Mattelaer
     email: olivier.mattelaer@uclouvain.be
     phone: "+32 10 72 01 0"
+    orcid: 0000-0002-7302-7744
+    inspire: 1065036
     address:
       - UCLouvain
       - 1, Place de l'Université
@@ -19,6 +23,8 @@ members:
     name: Prof Maria Nenova
     email: mvn@tu-sofia.bg
     phone: "+359 887 805 668"
+    orcid: 0000-0002-5120-6979
+    inspire: 2724573
     address:
       - Technical University of Sofia
       - Kliment Ohridsky Blvd 8
@@ -27,6 +33,8 @@ members:
     name: Mr Nino Kovacic
     email: nkovacic.phy@pmf.hr
     phone: "+385 97 6160 985"
+    orcid: 0009-0002-6015-6288
+    inspire: 2724208
     address:
       - Faculty of Science, University of Zagreb
       - Bijenička cesta 32
@@ -35,6 +43,8 @@ members:
     name: Dr Rakhi Mahbubani
     email: rakhi@cern.ch
     phone: "+385 1 468 0221"
+    orcid: 0000-0001-6311-4310
+    inspire: 1041997
     address:
       - Ruđer Bošković Institute
       - Bijenička cesta 54
@@ -43,6 +53,8 @@ members:
     name: Dr Ashutosh Dhar Dwivedi
     email: addw@es.aau.dk
     phone: "+45 71 58 29 40"
+    orcid: 0000-0001-8010-6275
+    inspire: 2741804
     address:
       - Aalborg Universitet
       - A.C. Meyers Vænge 15
@@ -51,6 +63,8 @@ members:
     name: Prof Martti Raidal
     email: martti.raidal@cern.ch
     phone: "+372 516 4854"
+    orcid: 0000-0001-7040-9491
+    inspire: 992409
     address:
       - National Institute of Chemical Physics and Biophysics
       - Akadeemia tee
@@ -59,6 +73,8 @@ members:
     name: Dr Sabine Kraml
     email: sabine.kraml@lpsc.in2p3.fr
     phone: "+33 4 76 28 40 52"
+    orcid: 0000-0002-2613-7000
+    inspire: 1001913
     address:
       - LPSC / CNRS-IN2P3 / Université Grenoble Alpes
       - 53 avenue des Martyrs
@@ -67,6 +83,8 @@ members:
     name: Dr David Rousseau
     email: rousseau@ijclab.in2p3.fr
     phone: "+33 1 69 15 41 40"
+    orcid: 0000-0001-7613-8063
+    inspire: 991107
     address:
       - IJCLab / CNRS / Université Paris-Saclay
       - Bâtiment 100, 15 rue Georges Clémenceau
@@ -75,6 +93,8 @@ members:
     name: Prof Juergen Reuter
     email: juergen.reuter@desy.de
     phone: "+49 40 8405 8088"
+    orcid: 0000-0003-1866-0157
+    inspire: 1021811
     address:
       - DESY
       - Notkestrasse 85
@@ -83,6 +103,8 @@ members:
     name: Dr Humberto Reyes-Gonzalez
     email: humberto.reyes@rwth-aachen.de
     phone: "+39 347 648 6293"
+    orcid: 0000-0003-3283-5208
+    inspire: 1635396
     address:
       - RWTH Aachen University
       - Templergraben 55
@@ -91,6 +113,8 @@ members:
     name: Prof Konstantinos Kordas
     email: kostas.kordas@cern.ch
     phone: "+30 2310 994 121"
+    orcid: 0000-0003-0486-2081
+    inspire: 1002181
     address:
       - Aristotle University of Thessaloniki
       - Faculty of Sciences Building, University Campus
@@ -99,6 +123,8 @@ members:
     name: Prof George Zoupanos
     email: george.zoupanos@cern.ch
     phone: "+30 210 963 1329"
+    orcid: 0000-0002-9262-7884
+    inspire: 981939
     address:
       - National Technical University of Athens
       - Zografou Campus, 9 Iroon Polytechniou Str.
@@ -107,6 +133,8 @@ members:
     name: Dr Gabriella Pásztor
     email: Gabriella.Pasztor@cern.ch
     phone: "+36 1 372 2760"
+    orcid: 0000-0003-0707-9762
+    inspire: 994092
     address:
       - Eötvös Loránd University
       - Egyetem tér 1-3
@@ -115,6 +143,8 @@ members:
     name: Prof Zoltán Trócsányi
     email: zoltan.trocsanyi@cern.ch
     phone: "+36 30 508 5934"
+    orcid: 0000-0002-2129-1279
+    inspire: 985628
     address:
       - Eötvös Loránd University
       - Egyetem tér 1-3
@@ -123,6 +153,8 @@ members:
     name: Dr Krishnendu Guha
     email: KGuha@ucc.ie
     phone: "+353 83 157 9187"
+    orcid: 0000-0003-1139-9582
+    inspire: null
     address:
       - University College Cork
       - T12 XF62 Cork
@@ -131,6 +163,8 @@ members:
     name: Dr Venus Keus
     email: venus@stp.dias.ie
     phone: "+353 1 614 0135"
+    orcid: 0000-0002-0345-3414
+    inspire: 1205951
     address:
       - Dublin Institute for Advanced Studies
       - 10 Burlington Road
@@ -139,6 +173,8 @@ members:
     name: Dr Andrea Coccaro
     email: andrea.coccaro@ge.infn.it
     phone: "+39 371 395 4562"
+    orcid: 0000-0003-2368-4559
+    inspire: 1067185
     address:
       - Istituto Nazionale di Fisica Nucleare
       - Via Dodecaneso 33
@@ -147,6 +183,8 @@ members:
     name: Dr Federica Fabbri
     email: federica.fabbri26@unibo.it
     phone: "+39 340 826 2066"
+    orcid: 0000-0001-8474-0978
+    inspire: 1334857
     address:
       - Fondazione Alma Mater
       - Via Quirico Filopanti 7
@@ -155,6 +193,8 @@ members:
     name: Prof John Abela
     email: john.abela@um.edu.mt
     phone: "+356 2340 2503"
+    orcid: 0000-0002-8162-5816
+    inspire: 2332580
     address:
       - University of Malta
       - Faculty of ICT Building, University of Malta
@@ -163,6 +203,8 @@ members:
     name: Prof Gianluca Valentino
     email: gianluca.valentino@um.edu.mt
     phone: "+356 2340 2520"
+    orcid: 0000-0003-3864-7785
+    inspire: 1228129
     address:
       - University of Malta
       - MSD 2080 Msida, Malta
@@ -171,6 +213,8 @@ members:
     name: Dr Lydia Brenner
     email: lydia.brenner@cern.ch
     phone: "+31 6 4873 0064"
+    orcid: 0000-0001-5350-7081
+    inspire: 1256706
     address:
       - NWO (Netherlands Organisation for Scientific Research)
       - Laan van Nieuw Oost-Indie 300
@@ -179,6 +223,8 @@ members:
     name: Dr Pamela Ferrari
     email: Pamela.Ferrari@nikhef.nl
     phone: "+45 02 82 719"
+    orcid: 0000-0002-1387-153X
+    inspire: 1010096
     address:
       - Radboud University
       - Erasmusplein 1
@@ -187,6 +233,8 @@ members:
     name: Prof Jan Kalinowski
     email: Jan.Kalinowski@fuw.edu.pl
     phone: "+48 22 783 6744"
+    orcid: 0000-0001-5618-0141
+    inspire: 1003873
     address:
       - University of Warsaw
       - Ludwika Pasteura 5
@@ -195,6 +243,8 @@ members:
     name: Dr Kamila Kowalska
     email: kamila.kowalska@ncbj.gov.pl
     phone: "+48 22 273 2851"
+    orcid: 0000-0001-8457-2847
+    inspire: 1042771
     address:
       - National Centre for Nuclear Research
       - ul. Pasteura 7
@@ -203,6 +253,8 @@ members:
     name: Dr Margarida (Gui) Rebelo
     email: rebelo@tecnico.ulisboa.pt
     phone: "+351 218 419 010"
+    orcid: 0000-0002-8744-5146
+    inspire: 992137
     address:
       - Instituto Superior Técnico
       - Av. Rovisco Pais 1
@@ -211,6 +263,8 @@ members:
     name: Prof Paul Nicolae Borza
     email: borzapn@unitbv.ro
     phone: "+40 268 322 808"
+    orcid: 0000-0003-2255-7427
+    inspire: 2037545
     address:
       - Universitatea Transilvania din Brasov
       - Bdul Eroilor 29
@@ -219,6 +273,8 @@ members:
     name: Dr Gabriel Suliman
     email: gabriel.suliman@upb.ro
     phone: "+40 740 099 797"
+    orcid: 0000-0001-8475-1992
+    inspire: 1984594
     address:
       - National University of Science and Technology POLITEHNICA Bucharest
       - 1-7 Gheorghe Polizu
@@ -227,6 +283,8 @@ members:
     name: Dr Jelena Jovicevic
     email: jelena@cern.ch
     phone: "+41 79 199 1914"
+    orcid: 0000-0001-5650-4556
+    inspire: 1074049
     address:
       - Institute of Physics Belgrade
       - Pregrevica 118
@@ -235,6 +293,8 @@ members:
     name: Prof Luka Leskovec
     email: luka.leskovec@fmf.uni-lj.si
     phone: "+386 68 144 275"
+    orcid: 0000-0002-8926-527X
+    inspire: 1223659
     address:
       - University of Ljubljana
       - Jadranska 19
@@ -243,6 +303,8 @@ members:
     name: Dr Aleks Smolkovič
     email: aleks.smolkovic@ijs.si
     phone: "+386 1 477 3783"
+    orcid: 0000-0003-0798-9512
+    inspire: 1747511
     address:
       - Jožef Stefan Institute
       - Jamova cesta 39
@@ -251,6 +313,8 @@ members:
     name: Dr German Sborlini
     email: german.sborlini@usal.es
     phone: "+34 639 539 690"
+    orcid: 0000-0003-4765-7440
+    inspire: 1074173
     address:
       - Universidad de Salamanca
       - Plaza de los Caídos s/n
@@ -259,6 +323,8 @@ members:
     name: Prof Pietro Vischia
     email: pietro.vischia@gmail.com
     phone: "+34 666 986 616"
+    orcid: 0000-0002-7088-8557
+    inspire: 1054943
     address:
       - Universidad de Oviedo
       - Leopoldo Calvo Sotelo 18
@@ -267,6 +333,8 @@ members:
     name: Prof Gabriele Ferretti
     email: ferretti@chalmers.se
     phone: "+46 31 772 3157"
+    orcid: 0000-0002-3365-3409
+    inspire: 1010065
     address:
       - Chalmers University of Technology
       - Kemivägen 10
@@ -275,6 +343,8 @@ members:
     name: Prof Tobias Golling
     email: Tobias.Golling@unige.ch
     phone: "+41 75 411 2570"
+    orcid: 0000-0001-8535-6687
+    inspire: 1008080
     address:
       - University of Geneva
       - Quai Ernest-Ansermet 24
@@ -283,6 +353,8 @@ members:
     name: Dr Theodota Lagouri
     email: theodota.lagouri@cern.ch
     phone: "+41 76 450 0824"
+    orcid: 0000-0001-7509-7765
+    inspire: 1001277
     address:
       - CERN
       - Route de Meyrin
@@ -291,6 +363,8 @@ members:
     name: Prof Mehmet Demirci
     email: mehmetdemirci@ktu.edu.tr
     phone: "+90 462 377 2556"
+    orcid: 0000-0003-2504-6251
+    inspire: 1249469
     address:
       - Karadeniz Teknik Üniversitesi
       - Ortahisar
@@ -299,6 +373,8 @@ members:
     name: Dr Valentina Vecchio
     email: valentina.vecchio@cern.ch
     phone: "+44 7546 602 513"
+    orcid: 0000-0002-1351-6757
+    inspire: 1505521
     address:
       - University of Manchester
       - Oxford Road
@@ -307,6 +383,8 @@ members:
     name: Dr Simon Williams
     email: simon.j.williams@durham.ac.uk
     phone: "+44 191 334 2000"
+    orcid: 0000-0001-8540-0780
+    inspire: 1821879
     address:
       - IPPP, Durham University
       - South Road

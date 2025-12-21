@@ -22,6 +22,8 @@ contacts:
       name: Ralph Stübner
       email: ralph.stuebner@cost.eu
       phone: "+32 2 533 38 26"
+      orcid: 0000-0000-0000-0000
+      inspire: https://inspirehep.net/authors/0000000
       address:
         - COST Association
         - Avenue du Boulevard 21
@@ -30,6 +32,8 @@ contacts:
       name: Aranzazu Sánchez
       email: aranzazu.sanchez@cost.eu
       phone: "+32 2 533 38 20"
+      orcid: 0000-0000-0000-0000
+      inspire: https://inspirehep.net/authors/0000000
       address:
         - COST Association
         - Avenue du Boulevard 21

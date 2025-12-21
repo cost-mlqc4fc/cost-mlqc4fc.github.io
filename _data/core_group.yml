@@ -12,6 +12,8 @@ members:
       - Via Dodecaneso 33
       - 16146 Genova, Italy
     phone: "+39 010 335 64 12"
+    orcid: 0000-0002-8832-5488
+    inspire: 1064514
   - role: Action Vice-Chair
     name: Dr Venus Keus
     email: venus@stp.dias.ie
@@ -20,6 +22,8 @@ members:
       - 10 Burlington Road
       - Dublin 4, Ireland
     phone: "+353 1 614 0135"
+    orcid: 0000-0002-0345-3414
+    inspire: 1205951
   - role: Grant Holder Scientific Representative
     name: Dr Federica Fabbri
     email: federica.fabbri26@unibo.it
@@ -28,6 +32,8 @@ members:
       - Via Quirico Filopanti 7
       - 40126 Bologna, Italy
     phone: "+39 340 826 2066"
+    orcid: 0000-0001-8474-0978
+    inspire: 1334857
   - role: Grant Awarding Coordinator
     name: Prof Juergen Reuter
     email: juergen.reuter@desy.de
@@ -36,6 +42,8 @@ members:
       - Notkestrasse 85
       - 22607 Hamburg, Germany
     phone: "+49 40 8405 8088"
+    orcid: 0000-0003-1866-0157
+    inspire: 1021811
   - role: Training Coordinator
     name: Dr Lydia Brenner
     email: lydia.brenner@cern.ch
@@ -44,6 +52,8 @@ members:
       - Laan van Nieuw Oost-Indie 300
       - 2593 CE The Hague, Netherlands
     phone: "+31 6 4873 0064"
+    orcid: 0000-0001-5350-7081
+    inspire: 1256706
   - role: WG1 Co-Leader
     name: Dr Valentina Vecchio
     email: valentina.vecchio@cern.ch
@@ -52,6 +62,8 @@ members:
       - Oxford Road
       - Manchester M13 9PL, UK
     phone: "+44 7546 602 513"
+    orcid: 0000-0002-1351-6757
+    inspire: 1505521
   - role: WG1 Co-Leader
     name: Prof Pietro Vischia
     email: pietro.vischia@gmail.com
@@ -60,6 +72,8 @@ members:
       - Leopoldo Calvo Sotelo 18
       - 33007 Oviedo, Spain
     phone: "+34 666 986 616"
+    orcid: 0000-0002-7088-8557
+    inspire: 1054943
   - role: WG2 Co-Leader
     name: Dr Simon Williams
     email: simon.j.williams@durham.ac.uk
@@ -68,6 +82,8 @@ members:
       - South Road
       - Durham DH1 3LE, UK
     phone: "+44 191 334 2000"
+    orcid: 0000-0001-8540-0780
+    inspire: 1821879
   - role: WG2 Co-Leader
     name: Dr Theodota Lagouri
     email: theodota.lagouri@cern.ch
@@ -76,6 +92,8 @@ members:
       - Route de Meyrin
       - 1211 Geneva 23, Switzerland
     phone: "+41 76 450 0824"
+    orcid: 0000-0001-7509-7765
+    inspire: 1001277
   - role: WG3 Co-Leader
     name: Dr Humberto Reyes-Gonzalez
     email: humberto.reyes@rwth-aachen.de
@@ -84,6 +102,8 @@ members:
       - Templergraben 55
       - 52062 Aachen, Germany
     phone: "+39 347 648 6293"
+    orcid: 0000-0003-3283-5208
+    inspire: 1635396
   - role: WG3 Co-Leader
     name: Dr Andrea Coccaro
     email: andrea.coccaro@ge.infn.it
@@ -92,6 +112,8 @@ members:
       - Via Dodecaneso 33
       - 16146 Genova, Italy
     phone: "+39 371 395 4562"
+    orcid: 0000-0003-2368-4559
+    inspire: 1067185
   - role: WG4 Co-Leader
     name: Prof Louis-Francois Pau
     email: frans_dk@hotmail.com
@@ -100,6 +122,8 @@ members:
       - Bdul Eroilor 29
       - 500036 Brasov, Romania
     phone: "+45 2588 4241"
+    orcid: 0000-0003-1503-1486
+    inspire: null
   - role: WG4 Co-Leader
     name: Dr Rakhi Mahbubani
     email: rakhi@cern.ch
@@ -108,6 +132,8 @@ members:
       - Bijenicka cesta 54
       - 10000 Zagreb, Croatia
     phone: "+385 1 468 0221"
+    orcid: 0000-0001-6311-4310
+    inspire: 1041997
   - role: WG5 Co-Leader
     name: Dr Jelena Jovicevic
     email: jelena@cern.ch
@@ -116,6 +142,8 @@ members:
       - Pregrevica 118
       - 11080 Belgrade, Serbia
     phone: "+41 79 199 1914"
+    orcid: 0000-0001-5650-4556
+    inspire: 1074049
   - role: WG5 Co-Leader / Science Communication Coordinator
     name: Dr German Sborlini
     email: german.sborlini@usal.es
@@ -124,3 +152,5 @@ members:
       - Plaza de los Caídos s/n
       - 37008 Salamanca, Spain
     phone: "+34 639 539 690"
+    orcid: 0000-0003-4765-7440
+    inspire: 1074173
