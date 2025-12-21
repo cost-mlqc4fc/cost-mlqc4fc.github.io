@@ -14,33 +14,33 @@ items:
     description: >
       A subset of MC members and WG leaders that steers day-to-day execution, monitors milestones,
       and prepares recommendations ahead of MC decisions.
-    href: core-group.html
+    href: structure-core-group.html
   - image: img/structure/management_committee.jpg
     alt: Management Committee meeting
     title: Management Committee
     description: >
-      Nationally nominated delegates coordinate the Action strategy, approve activities, and
+      Nationally nominated delegates coordinate the Action strategy, approve events, and
       ensure geographic balance across the network.
-    href: management.html
+    href: structure-mc.html
   - image: img/structure/cross_cutting.jpg
     alt: Online collaboration
     title: Cross-cutting Platforms
     description: >
       Horizontal platforms take care of grant awarding, science communication, and
       dissemination across all WGs.
-    href: platforms.html
+    href: structure-platforms.html
   - image: img/structure/grant_holder.jpg
     alt: Administrative support
     title: Grant Holder Team
     description: >
       The Grant Holder institution, Fondazione Alma Mater, provides financial administration, communication support, and compliance with COST policies.
-    href: grant-holder.html
-  - image: img/structure/COST.jpg
+    href: structure-grant-holder.html
+  - image: img/structure/cost.jpg
     alt: COST Association Support
     title: COST Association Support
     description: >
       COST Science and Administrative Officers back the Action with procedural guidance, reporting oversight, and connections across the COST ecosystem.
-    href: cost-association.html
+    href: structure-cost-association.html
 cta:
   text: Explore full structure
   href: structure.html

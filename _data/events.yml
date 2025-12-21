@@ -1,38 +1,79 @@
-section_title: Upcoming Activities
-heading: Training schools, workshops, and networking opportunities
+section_title: Upcoming Events
+heading: Major events relevant for MLQC4FC in 2026
 items:
-  - image: img/events-1.jpg
+  - image: img/events/event-epigraphy-2026.jpg
     alt: Image
-    location: CERN, Geneva
-    date: 12 Mar, 2025
-    title: Working Group Kick-off Meeting
+    location: Lisbon, Portugal
+    date: 12-15 Jan, 2026
+    title: EPIGRAPHY Kickoff School & Workshop
     description: >
-      WG leads gather to align milestones, share needs with the MC, and outline collaboration tools for the first grant period.
-    href: "#"
-  - image: img/events-2.jpg
+      Kickoff event for the EPIGRAPHY COST Action, tightly complementary to MLQC4FC, and focusing on efficient and low-latency deep learning for on-edge inference in particle physics and beyond.
+    href: "https://indico.cern.ch/event/1608897/"
+
+  - image: img/events/event-aihep-kek-2026.jpg
+    alt: AI+HEP East Asia Workshop
+    location: Tsukuba, Japan
+    date: 19–23 Jan, 2026
+    title: 2nd AI+HEP in East Asia Workshop
+    description: >
+      A regional workshop bringing together researchers working at the interface of artificial   intelligence and high-energy physics, with contributions spanning experiments, theory, and   computing.
+    href: "https://conference-indico.kek.jp/event/355/"
+
+  - image: img/events/event-fcc-physics-2026.jpg
+    alt: 9th FCC Physics Workshop
+    location: Munich, Germany
+    date: 26 Jan, 2026
+    title: 9th FCC Physics Workshop
+    description: >
+      A workshop on physics and future collider studies at the Max Planck Institute for Physics   in Munich-Garching. 
+      The event brings together researchers to discuss the latest developments in FCC physics,  including sessions for early career researchers and a poster session at the Welcome  Reception.  [oai_citation:0‡Indico](https://indico.cern.ch/event/1588696/)
+    href: "https://indico.cern.ch/event/1588696/"
+
+  - image: img/events/event-corfu-fa-2026.jpg
     alt: Image
-    location: Online
-    date: 02 Apr, 2025
-    title: Quantum Computing Training School
+    location: Corfu, Greece
+    date: 27 Apr - 4 May, 2025
+    title: Workshop on Future Accelerators 2026
     description: >
-      Introductory tutorials with hands-on notebooks covering quantum algorithms and toolchains relevant to collider physics.
-    href: "#"
-  - image: img/events-3.jpg
+      The first event co-organized by the MLQC4FC Action, focusing on Future Collider studies and associated computing challenges. The program will be fully aligned with the Action's objectives and WG structure.
+    href: "https://physics.ntua.gr/corfu2026/fa.html"
+
+  - image: img/events/event-chep-2026.jpg
+    alt: CHEP 2026
+    location: Bangkok, Thailand
+    date: 25–29 May, 2026
+    title: CHEP 2026 – Computing in High Energy and Nuclear Physics
+    description: >
+      The flagship conference on computing for high-energy and nuclear physics, covering   software, data management, distributed computing, and machine learning applications.
+    href: "https://indico.cern.ch/e/chep2026"
+
+  - image: img/events/event-ichep-2026.jpg
+    alt: ICHEP 2026
+    location: Natal, Brazil
+    date: 30 Jul–05 Aug, 2026
+    title: ICHEP 2026 – International Conference on High Energy Physics
+    description: >
+      The major international conference in high-energy physics, covering experimental and   theoretical developments, accelerator physics, computing, and machine learning applications.
+    href: "https://ichep2026.org/"
+
+  - image: img/events/events-eucaifcon-2026.jpg
+    alt: EuCAIFCon 2026
+    location: Heidelberg, Germany
+    date: 24–28 Aug, 2026
+    title: EuCAIFCon 2026
+    description: >
+      A European conference dedicated to artificial intelligence for fundamental physics,   bringing together communities from particle physics, astroparticle physics, and cosmology.
+    href: "https://eucaif.org/"
+
+  - image: img/events/event-ml4jets-2026.jpg
     alt: Image
-    location: Bologna, Italy
-    date: 18 Jun, 2025
-    title: Joint ML & Detector Workshop
+    location: Vienna, Austria
+    date: 14–18 Sep 2026
+    title: ML4Jets 2026
     description: >
-      A cross-WG workshop focused on ML-driven reconstruction pipelines and shared performance benchmarks for future colliders.
-    href: "#"
-  - image: img/events-4.jpg
-    alt: Image
-    location: Prague, Czech Republic
-    date: 05 Sep, 2025
-    title: Training School on Computing Infrastructures
-    description: >
-      Tutorials and labs on distributed computing services, data management, and software best practices for Action members.
-    href: "#"
+      A community workshop highlighting recent progress and open challenges in machine learning and AI for High Energy Physics, with contributions from HEP and related scientific communities.
+    href: "https://indico.global/event/15240/"
+  
 cta:
-  text: View Details
-  href: activities.html
+  text: Visit event page
+  href: events.html

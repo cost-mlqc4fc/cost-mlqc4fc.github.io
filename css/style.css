@@ -570,7 +570,7 @@ body:not(.dark-mode) .bg-light {
 /*** Single Page Hero Header Start ***/
 
 .bg-breadcrumb {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/breadcrumb-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/group-mc.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1065,6 +1065,34 @@ body.dark-mode .wg-map-image {
     border-top: 0;
     border-color: var(--bs-white);
     background: var(--bs-secondary);
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.event .event-carousel .event-item img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.event .event-carousel .event-item .event-content h4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.event .event-carousel .event-item .event-content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.event .event-carousel .event-item .event-content .btn-hover-bg {
+    margin-top: auto;
 }
 
 

@@ -3,19 +3,19 @@ heading: Action resources and tools
 description: >
   Discover collaborative tools, outreach assets, and grant information curated for MLQC4FC members.
 items:
-  - image: img/structure/repos.jpg
+  - image: img/resources/repos.jpg
     alt: Collaborative tools
     title: Collaborative tools
     description: >
       Shared workspaces, repositories, and platforms that keep Working Groups aligned and productive.
     href: resources-collaborative.html
-  - image: img/structure/outreach.jpg
+  - image: img/resources/outreach.jpg
     alt: Outreach tools
     title: Outreach tools
     description: >
       Outreach materials, public engagement resources, and templates for events and campaigns.
     href: resources-outreach.html
-  - image: img/structure/grants.jpg
+  - image: img/resources/grants.jpg
     alt: Grants
     title: Grants
     description: >

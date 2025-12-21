@@ -32,8 +32,8 @@ Remove the surrounding HTML/Liquid comments to restore any of these sections.
 |    ↳ WG5 | ✅ | ✅ |
 |  ↳ Resources | ✅ | ✅ |
 |    ↳ Collaborative tools | ✅ | ✅ |
-|    ↳ Outreach | ⬜ | ⬜ |
-|    ↳ Grants | ⬜ | ⬜ |
+|    ↳ Outreach tools | ✅ | ✅ |
+|    ↳ Grants | ✅ | ✅ |
 |  ↳ Activities | ⬜ | ⬜ |
 |    ↳ Meetings | ⬜ | ⬜ |
 |    ↳ Workshops & Conferences | ⬜ | ⬜ |

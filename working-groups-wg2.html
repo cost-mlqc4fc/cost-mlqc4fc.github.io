@@ -1,24 +1,24 @@
 ---
-title: Working Group 4
+title: Working Group 2
 nav_item: working-groups
-page_title: WG4 · MLQC4FC
-wg_id: wg4
-wg_number: 4
-hero_image: img/events-2.jpg
+page_title: WG2 · MLQC4FC
+wg_id: wg2
+wg_number: 2
+hero_image: img/collider-2.jpg
 priorities_intro: >
-  WG4 keeps the Action’s software, data, and computing resources future‑ready, efficient, and accessible across all interested contributors.
+  WG2 investigates how quantum computing can accelerate collider studies, translating rapid hardware advances into realistic hybrid workflows for the Action.
 focus_points:
-  - Coordinate shared software engineering standards and CI/CD practices.
-  - Optimise access to heterogeneous computing backends across Europe.
-  - Support data management, reproducibility, and security guidelines.
+  - Assess emerging quantum hardware for collider-relevant computations and simulations.
+  - Develop hybrid ML+QC prototypes for optimisation, pattern recognition, and generative modelling.
+  - Provide algorithm-hardware co-design guidance to Action members.
 deliverables:
-  - Publish infrastructure playbooks for deploying WG outputs.
-  - Operate shared sandboxes for testing ML and QC demonstrators.
-  - Track resource usage and provide quarterly status notes to the Core Group.
+  - Catalogue collider use cases that benefit from near-term QC resources.
+  - Produce tutorials and demonstrators for hybrid workflows accessible to newcomers.
+  - Benchmark QC prototypes against classical baselines to quantify advantages and gaps.
 collaboration_points:
-  - Partner with WG1 & WG2 to host benchmarks and hybrid pipelines.
-  - Align with WG3 to ensure benchmark datasets stay versioned and traceable.
-  - Coordinate with the Grant Holder Team on procurement and service agreements.
+  - Coordinate with WG1 on hybrid ML/QC pipelines.
+  - Collaborate with WG4 on access to accelerators and emulation infrastructure.
+  - Liaise with the Grant Awarding Committee to support QC-focused STSMs.
 ---
 {% assign wg = site.data.working_groups.tabs | where: 'id', page.wg_id | first %}
 <!DOCTYPE html>
@@ -43,7 +43,7 @@ collaboration_points:
     <div class="container-fluid bg-breadcrumb">
         <div class="container text-center py-5" style="max-width: 900px;">
             <h3 class="text-white display-3 mb-4">{{ wg.title }}</h3>
-            <p class="fs-5 text-white mb-4">WG4 keeps Action infrastructure running smoothly so every WG can deliver.</p>
+            <p class="fs-5 text-white mb-4">WG2 spots realistic quantum advantages and prepares the Action for rapid QC evolution.</p>
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item"><a href="structure.html#working-groups">Working Groups</a></li>
@@ -67,7 +67,7 @@ collaboration_points:
                 </ul>
                 <div class="d-flex flex-wrap gap-3">
                     <a class="btn btn-outline-primary btn-hover-bg" href="join.html">Join this Working Group</a>
-                    <a class="btn btn-outline-primary btn-hover-bg" href="activities.html">See upcoming activities</a>
+                    <a class="btn btn-outline-primary btn-hover-bg" href="events.html">See upcoming events</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -102,8 +102,8 @@ collaboration_points:
         <div class="row g-4">
             <div class="col-lg-7">
                 <h3 class="mb-3">Current priorities</h3>
-                <p class="mb-4">
-                  Reliability, clear documentation, and equitable access guide the work of WG4, enabling all Action members to reproduce and build on shared outputs.</p>
+                <p class="mb-4">Focus is on building prototypes for quantifying the potential in quantum computing within the workflows and
+                infrastructure strategies of the experimental collaborations.</p>
                 <div class="bg-light structure-panel rounded-3 shadow-sm p-4">
                     <h5 class="text-uppercase text-primary mb-3">Key outputs</h5>
                     <ul class="mb-0">

@@ -1,4 +1,4 @@
-<!-- Activities Start -->
+<!-- Events Start -->
 <div class="container-fluid event py-5">
     <div class="container py-5">
         {% assign events = site.data.events %}
@@ -7,11 +7,7 @@
         <div class="text-center mx-auto mb-5" style="max-width: 800px;">
             <h5 class="text-uppercase text-primary">{{ section_title }}</h5>
             <h1 class="mb-0">{{ heading }}</h1>
-            <div class="text-center mt-3">
-                <a href="https://indico.cern.ch/category/20330/" class="btn btn-outline-primary btn-cta">See all activities on
-                    Indico</a>
-            </div>
-            <div style="height: 30px;"></div>
+            <p class="mt-3 mb-0">Here we list all relevant forthcoming events, either organized or co-organized by the Action, or highlighted because they align with MLQC4FC topics and objectives.</p>
         </div>
         {% assign items = include.items | default: events.items %}
         {% assign cta = include.cta | default: events.cta %}
@@ -33,6 +29,80 @@
             </div>
             {% endfor %}
         </div>
+        <div class="mt-5">
+            <div class="text-center mx-auto mb-4" style="max-width: 800px;">
+                <h5 class="text-uppercase text-primary">All events</h5>
+                <h2 class="mb-3">Training schools, workshops, and other events</h2>
+                <p class="mb-0">Explore the dedicated event pages for meetings, training, and outreach initiatives.</p>
+            </div>
+            <div class="text-center mt-3">
+                <a href="https://indico.cern.ch/category/20330/" class="btn btn-outline-primary btn-cta">See all Action's events on
+                    Indico</a>
+            </div>
+            <div style="height: 30px;"></div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 g-4 align-items-stretch">
+                <div class="col">
+                    <a class="structure-card d-flex flex-column text-decoration-none h-100" href="events-meetings.html">
+                        <div class="structure-card-visual">
+                            <img src="img/events/meetings.jpg" alt="Meetings">
+                            <div class="structure-card-visual__tint"></div>
+                        </div>
+                        <div class="structure-card__body">
+                            <h6 class="text-uppercase text-primary fw-semibold mb-2">Meetings</h6>
+                            <p class="mb-0">Action meetings, WG syncs, and coordination sessions.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="structure-card d-flex flex-column text-decoration-none h-100" href="events-workshops.html">
+                        <div class="structure-card-visual">
+                            <img src="img/events/conferences.jpg" alt="Conferences &amp; workshops">
+                            <div class="structure-card-visual__tint"></div>
+                        </div>
+                        <div class="structure-card__body">
+                            <h6 class="text-uppercase text-primary fw-semibold mb-2">Conferences &amp; Workshops</h6>
+                            <p class="mb-0">Flagship meetings and co-organized scientific events.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="structure-card d-flex flex-column text-decoration-none h-100" href="events-training.html">
+                        <div class="structure-card-visual">
+                            <img src="img/events/schools.jpg" alt="Training schools">
+                            <div class="structure-card-visual__tint"></div>
+                        </div>
+                        <div class="structure-card__body">
+                            <h6 class="text-uppercase text-primary fw-semibold mb-2">Training schools</h6>
+                            <p class="mb-0">Hands-on schools and summer programs for members.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="structure-card d-flex flex-column text-decoration-none h-100" href="events-webinars.html">
+                        <div class="structure-card-visual">
+                            <img src="img/events/webinars.jpg" alt="Webinars">
+                            <div class="structure-card-visual__tint"></div>
+                        </div>
+                        <div class="structure-card__body">
+                            <h6 class="text-uppercase text-primary fw-semibold mb-2">Webinars</h6>
+                            <p class="mb-0">Online seminars and lecture series.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="structure-card d-flex flex-column text-decoration-none h-100" href="events-outreach.html">
+                        <div class="structure-card-visual">
+                            <img src="img/resources/outreach.jpg" alt="Outreach events">
+                            <div class="structure-card-visual__tint"></div>
+                        </div>
+                        <div class="structure-card__body">
+                            <h6 class="text-uppercase text-primary fw-semibold mb-2">Outreach events</h6>
+                            <p class="mb-0">Public engagement, exhibitions, and community events.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<!-- Activities End -->
+<!-- Events End -->
