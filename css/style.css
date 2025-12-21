@@ -924,7 +924,11 @@ body.dark-mode .wg-map-image {
 }
 
 body.dark-mode .counter .counter-item {
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255) !important;
+}
+
+body:not(.dark-mode) .counter .counter-item {
+    border-color: rgb(0, 78, 235) !important;
 }
 
 .counter .counter-item .counter-counting {
