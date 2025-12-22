@@ -78,7 +78,7 @@ collaboration_points:
                     {% assign leader = site.data.core_group.members | where: 'name', leader_name | first %}
                     <div class="col-12 col-md-6">
                         {% if leader %}
-                            {% include structure-person-card.html person=leader %}
+                            {% include structure-person-card.html person=leader show_phone=false %}
                         {% else %}
                             <div class="structure-card d-flex flex-column h-100">
                                 <div class="structure-card-visual">
