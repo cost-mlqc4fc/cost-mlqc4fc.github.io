@@ -136,7 +136,7 @@ p {
     display: inline-flex;
     width: 1.5em;
     height: 1.5em;
-    transform: translateY(4px);
+    transform: translateY(5px);
 }
 
 .icon-substack svg,
@@ -145,6 +145,11 @@ p {
     height: 100%;
     display: block;
     border-radius: 12%;
+}
+
+.social-label-raise {
+    position: relative;
+    top: -9px;
 }
 
 
