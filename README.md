@@ -33,6 +33,7 @@ Remove the surrounding HTML/Liquid comments to restore any of these sections.
 |  ↳ Resources | ✅ | ✅ |
 |    ↳ Collaborative tools | ✅ | ✅ |
 |    ↳ Outreach tools | ✅ | ✅ |
+|    ↳ Publications | ✅ | ✅ |
 |    ↳ Grants | ✅ | ✅ |
 |  ↳ Events | ✅ | ✅ |
 |    ↳ Meetings | ✅ | ✅ |

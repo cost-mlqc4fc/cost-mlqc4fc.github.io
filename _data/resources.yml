@@ -21,3 +21,9 @@ items:
     description: >
       Information on available grants, eligibility criteria, and application timelines.
     href: resources-grants.html
+  - image: img/resources/publications.jpg
+    alt: Publications
+    title: Publications
+    description: >
+      Share MLQC4FC-related publications and ensure proper COST acknowledgements.
+    href: resources-publications.html
