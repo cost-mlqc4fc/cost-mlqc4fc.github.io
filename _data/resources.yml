@@ -15,15 +15,15 @@ items:
     description: >
       Outreach materials, public engagement resources, and templates for events and campaigns.
     href: resources-outreach.html
-  - image: img/resources/grants.jpg
-    alt: Grants
-    title: Grants
-    description: >
-      Information on available grants, eligibility criteria, and application timelines.
-    href: resources-grants.html
   - image: img/resources/publications.jpg
     alt: Publications
     title: Publications
     description: >
       Share MLQC4FC-related publications and ensure proper COST acknowledgements.
     href: resources-publications.html
+  - image: img/resources/grants.jpg
+    alt: Grants
+    title: Grants
+    description: >
+      Information on available grants, eligibility criteria, and application timelines.
+    href: resources-grants.html
