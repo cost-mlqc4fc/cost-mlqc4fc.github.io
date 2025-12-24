@@ -22,14 +22,6 @@
     });
 
 
-    // Donation
-    $('.progress').waypoint(function () {
-        $('.progress-bar').each(function () {
-            $(this).css("width", $(this).attr("aria-valuenow") + '%');
-        });
-    }, {offset: '80%'});
-
-
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 5,

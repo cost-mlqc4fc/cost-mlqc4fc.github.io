@@ -853,64 +853,6 @@ body.dark-mode .wg-map-image {
 /*** Service End ***/
 
 
-/*** Donation Start ***/
-
-.donation .donation-item {
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-}
-
-.donation .donation-item::after {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    display: flex;
-    background: linear-gradient(200deg, rgba(0, 78, 235, 0.8) 0%, rgba(26, 160, 255, 0.7) 70%, rgba(0, 0, 0, 0.45) 100%);
-    z-index: 2;
-}
-
-.donation .donation-item .donation-content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    justify-content: end;
-    bottom: -60px;
-    left: 0;
-    transition: 0.5s;
-    z-index: 3;
-}
-
-.donation .donation-item:hover .donation-content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    justify-content: end;
-    bottom: 0px;
-    left: 0;
-    background: linear-gradient(200deg, rgba(30, 160, 255, 0.85) 0%, rgba(0, 78, 235, 0.9) 70%, rgba(0, 0, 0, 0.55) 100%);
-}
-
-.donation .donation-item .donation-btn {
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.donation .donation-item:hover .donation-btn {
-    visibility: visible;
-    opacity: 1;
-}
-
-
-/*** Donation End ***/
-
-
 /*** Counter Start ***/
 
 .counter {
@@ -1797,7 +1739,6 @@ a:focus {
 .dark-mode .service,
 .dark-mode .gallery,
 .dark-mode .blog,
-.dark-mode .donation,
 .dark-mode .event,
 .dark-mode .about,
 .dark-mode .volunteer,
