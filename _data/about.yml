@@ -27,7 +27,7 @@ tababout:
     label: Participation
     title: An open, collaborative network
     body: >
-      Working Group membership is open to researchers from <a href="https://www.cost.eu/about/members/">COST Member Countries</a>, <a href="https://www.cost.eu/about/strategy/international-collaboration/">Near Neighbour Countries</a>, and <a href="https://www.cost.eu/about/strategy/international-collaboration/">International Partner Countries</a>. Working Groups meet regularly,
+      Working Group membership is open to researchers from <a href="https://www.cost.eu/about/members/" target="_blank">COST Member Countries</a>, <a href="https://www.cost.eu/about/strategy/international-collaboration/" target="_blank">Near Neighbour Countries</a>, and <a href="https://www.cost.eu/about/strategy/international-collaboration/" target="_blank">International Partner Countries</a>. Working Groups meet regularly,
       the Management Committee and the Core Group monitors progress, and targeted platforms organize grant awarding and science communication to the community and to the public.
 button_text: Know more
 button_href: about.html
