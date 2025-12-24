@@ -1,0 +1,23 @@
+section_title: Latest News
+heading: Find out what is happening in MLQC4FC
+items:
+  - image: img/events/event-school-call-2026.jpg
+    alt: MLQC4FC training school call
+    date: Dec 2025
+    title: "Call for proposals: first MLQC4FC Training School (Sept 2026)"
+    description: >
+      We invite proposals to host the first MLQC4FC Training School. The school will be aligned
+      with the Action’s objectives and cover particle physics, collider physics, future colliders,
+      ML4HEP, and QC4HEP. Proposals should outline the venue, dates, organizing team, and a draft
+      programme.
+    href: https://forms.gle/RHRibgvGuskpwHvo8
+    cta: Submit a proposal
+  - image: img/events/event-corfu-fa-2026.jpg
+    alt: Corfu Workshop on Future Accelerators
+    date: 27 Apr - 4 May, 2025
+    title: CORFU Workshop on Future Accelerators
+    description: >
+      The first event co-organized by MLQC4FC, focusing on future collider studies and associated
+      computing challenges.
+    href: https://physics.ntua.gr/corfu2026/fa.html
+    cta: Learn more

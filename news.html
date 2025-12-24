@@ -36,27 +36,30 @@ page_title: News | MLQC4FC
 
     <!-- Blog Start -->
     <div class="container-fluid blog py-5">
+        {% assign news_data = site.data.news %}
         <div class="container py-5">
             <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                <h5 class="text-uppercase text-primary">Latest News</h5>
-                <h1 class="mb-0">Find out what is happening in MLQC4FC</h1>
+                <h5 class="text-uppercase text-primary">{{ news_data.section_title }}</h5>
+                <h1 class="mb-0">{{ news_data.heading }}</h1>
             </div>
-            <div class="row g-4 justify-content-center">
+            <div class="row g-4 justify-content-center align-items-stretch">
+                {% for item in news_data.items %}
                 <div class="col-md-6 col-xl-4">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/events/event-school-call-2026.jpg" class="img-fluid w-100" alt="MLQC4FC training school call">
+                            <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt }}">
                             <div class="blog-info">
-                                <span><i class="fa fa-clock"></i> Sep 2025</span>
+                                <span><i class="fa fa-clock"></i> {{ item.date }}</span>
                             </div>
                         </div>
                         <div class="text-dark border p-4">
-                            <h4 class="mb-3">Call for proposals: first MLQC4FC Training School (Sept 2026)</h4>
-                            <p class="mb-4">We invite proposals to host the first MLQC4FC Training School. The school will be aligned with the Action’s objectives and cover particle physics, collider physics, future colliders, ML4HEP, and QC4HEP. Proposals should outline the venue, dates, organizing team, and a draft programme.</p>
-                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="https://forms.gle/RHRibgvGuskpwHvo8" target="_blank" rel="noopener">Submit a proposal</a>
+                            <h4 class="mb-3">{{ item.title }}</h4>
+                            <p class="mb-4">{{ item.description | truncate: 300, '...' }}</p>
+                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ item.href }}" target="_blank" rel="noopener">{{ item.cta }}</a>
                         </div>
                     </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
     </div>
