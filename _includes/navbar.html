@@ -52,11 +52,11 @@
                 </button>
             {% assign active_nav = include.active | default: page.nav_item %}
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto">
+                <div class="navbar-nav ms-auto w-100 w-xl-auto align-items-start align-items-xl-center">
                     <a href="about.html" class="nav-item nav-link{% if active_nav == 'about' %} active{% endif %}">About</a>
                     <div class="nav-item dropdown nav-item-split">
                         <a href="structure.html" class="nav-link{% if active_nav == 'structure' %} active{% endif %}">Structure</a>
-                        <button class="nav-link dropdown-toggle nav-link-caret" type="button" data-bs-toggle="dropdown"
+                        <button class="nav-link dropdown-toggle nav-link-caret d-none d-xl-inline-flex" type="button" data-bs-toggle="dropdown"
                             aria-label="Toggle Structure menu" aria-expanded="false"></button>
                         <div class="dropdown-menu m-0">
                             <a href="structure-core-group.html" class="dropdown-item">Core Group</a>
@@ -66,9 +66,14 @@
                             <a href="structure-cost-association.html" class="dropdown-item">COST Association Support</a>
                         </div>
                     </div>
+                    <a href="structure-core-group.html" class="nav-item nav-link d-xl-none mobile-subnav">Core Group</a>
+                    <a href="structure-mc.html" class="nav-item nav-link d-xl-none mobile-subnav">Management Committee</a>
+                    <a href="structure-platforms.html" class="nav-item nav-link d-xl-none mobile-subnav">Cross-cutting Platforms</a>
+                    <a href="structure-grant-holder.html" class="nav-item nav-link d-xl-none mobile-subnav">Grant Holder Team</a>
+                    <a href="structure-cost-association.html" class="nav-item nav-link d-xl-none mobile-subnav">COST Association Support</a>
                     <div class="nav-item dropdown nav-item-split">
                         <a href="working-groups.html" class="nav-link{% if active_nav == 'working-groups' %} active{% endif %}">Working Groups</a>
-                        <button class="nav-link dropdown-toggle nav-link-caret" type="button" data-bs-toggle="dropdown"
+                        <button class="nav-link dropdown-toggle nav-link-caret d-none d-xl-inline-flex" type="button" data-bs-toggle="dropdown"
                             aria-label="Toggle Working Groups menu" aria-expanded="false"></button>
                         <div class="dropdown-menu m-0">
                             <a href="working-groups-wg1.html" class="dropdown-item">Working Group 1</a>
@@ -78,9 +83,14 @@
                             <a href="working-groups-wg5.html" class="dropdown-item">Working Group 5</a>
                         </div>
                     </div>
+                    <a href="working-groups-wg1.html" class="nav-item nav-link d-xl-none mobile-subnav">Working Group 1</a>
+                    <a href="working-groups-wg2.html" class="nav-item nav-link d-xl-none mobile-subnav">Working Group 2</a>
+                    <a href="working-groups-wg3.html" class="nav-item nav-link d-xl-none mobile-subnav">Working Group 3</a>
+                    <a href="working-groups-wg4.html" class="nav-item nav-link d-xl-none mobile-subnav">Working Group 4</a>
+                    <a href="working-groups-wg5.html" class="nav-item nav-link d-xl-none mobile-subnav">Working Group 5</a>
                     <div class="nav-item dropdown nav-item-split">
                         <a href="resources.html" class="nav-link{% if active_nav == 'resources' %} active{% endif %}">Resources</a>
-                        <button class="nav-link dropdown-toggle nav-link-caret" type="button" data-bs-toggle="dropdown"
+                        <button class="nav-link dropdown-toggle nav-link-caret d-none d-xl-inline-flex" type="button" data-bs-toggle="dropdown"
                             aria-label="Toggle Resources menu" aria-expanded="false"></button>
                         <div class="dropdown-menu m-0">
                             <a href="resources-collaborative.html" class="dropdown-item">Collaborative tools</a>
@@ -89,9 +99,13 @@
                             <a href="resources-grants.html" class="dropdown-item">Grants</a>
                         </div>
                     </div>
+                    <a href="resources-collaborative.html" class="nav-item nav-link d-xl-none mobile-subnav">Collaborative tools</a>
+                    <a href="resources-outreach.html" class="nav-item nav-link d-xl-none mobile-subnav">Outreach tools</a>
+                    <a href="resources-publications.html" class="nav-item nav-link d-xl-none mobile-subnav">Publications</a>
+                    <a href="resources-grants.html" class="nav-item nav-link d-xl-none mobile-subnav">Grants</a>
                     <div class="nav-item dropdown nav-item-split">
                         <a href="events.html" class="nav-link{% if active_nav == 'events' %} active{% endif %}">Events</a>
-                        <button class="nav-link dropdown-toggle nav-link-caret" type="button" data-bs-toggle="dropdown"
+                        <button class="nav-link dropdown-toggle nav-link-caret d-none d-xl-inline-flex" type="button" data-bs-toggle="dropdown"
                             aria-label="Toggle Events menu" aria-expanded="false"></button>
                         <div class="dropdown-menu m-0">
                             <a href="events-meetings.html" class="dropdown-item">Meetings</a>
@@ -101,6 +115,11 @@
                             <a href="events-outreach.html" class="dropdown-item">Outreach events</a>
                         </div>
                     </div>
+                    <a href="events-meetings.html" class="nav-item nav-link d-xl-none mobile-subnav">Meetings</a>
+                    <a href="events-workshops.html" class="nav-item nav-link d-xl-none mobile-subnav">Workshops &amp; Conferences</a>
+                    <a href="events-training.html" class="nav-item nav-link d-xl-none mobile-subnav">Training schools</a>
+                    <a href="events-webinars.html" class="nav-item nav-link d-xl-none mobile-subnav">Webinars</a>
+                    <a href="events-outreach.html" class="nav-item nav-link d-xl-none mobile-subnav">Outreach events</a>
                     <a href="news.html" class="nav-item nav-link{% if active_nav == 'news' %} active{% endif %}">News</a>
                     <a href="contact.html" class="nav-item nav-link{% if active_nav == 'contact' %} active{% endif %}">Contact</a>
                 </div>
