@@ -404,6 +404,14 @@ body:not(.dark-mode) .bg-light {
     border-color: var(--bs-primary);
 }
 
+.navbar-actions {
+    flex-shrink: 0;
+}
+
+.navbar-actions .btn {
+    white-space: nowrap;
+}
+
 .btn-gradient {
     background: linear-gradient(90deg, #004EEB 0%, #1EA0FF 100%);
     border: none;
@@ -455,6 +463,15 @@ body:not(.dark-mode) .bg-light {
         border: 0;
         transition: .5s;
         opacity: 0;
+    }
+    .navbar-primary .navbar-collapse {
+        flex-wrap: nowrap;
+    }
+    .navbar-actions {
+        flex: 0 0 auto;
+    }
+    .navbar-actions .btn {
+        white-space: nowrap;
     }
 }
 
