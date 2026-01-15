@@ -1,0 +1,32 @@
+<!-- Resources Overview Start -->
+<div class="container-fluid service py-5 bg-light">
+    <div class="container py-5">
+        {% assign resources = site.data.resources %}
+        {% assign section_title = include.section_title | default: resources.section_title %}
+        {% assign heading = include.heading | default: resources.heading %}
+        {% assign description = include.description | default: resources.description %}
+        <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+            <h5 class="text-uppercase text-primary">{{ section_title }}</h5>
+            <h1 class="mb-3">{{ heading }}</h1>
+            {% if description %}
+            <p class="mb-0">{{ description }}</p>
+            {% endif %}
+        </div>
+        {% assign items = include.items | default: resources.items %}
+        <div class="row g-4">
+            {% assign column_class = include.column_class | default: 'col-md-6 col-lg-6 col-xl-3' %}
+            {% for item in items %}
+            <div class="{{ column_class }}">
+                <div class="service-item">
+                    <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt | default: 'Image' }}">
+                    <div class="service-link">
+                        <a href="{{ item.href | default: '#' }}" class="h4 mb-0">{{ item.title }}</a>
+                    </div>
+                </div>
+                <p class="my-4">{{ item.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- Resources Overview End -->
