@@ -1,6 +1,17 @@
 section_title: Latest News
 heading: Find out what is happening in MLQC4FC
 items:
+  - image: img/resources/grants.jpg
+    alt: Grant Evaluation Committee guidelines GP1
+    date: Feb 2026
+    title: "Grant Evaluation Committee guidelines GP1 approved"
+    description: >
+      The Grant Evaluation Committee guidelines GP1 have been approved.
+      Read the document for the full guidelines and procedures.
+      First travel period: 15/02/2026 - 14/06/2026 with deadline for submission on 15/02/2026.
+      Second travel period: 15/06/2026 - 15/10/2026 with deadline for submission on 31/05/2026.
+    href: docs/Grant%20Evaluation%20Committee%20guidelines%20GP1.pdf
+    cta: Download Guidelines
   - image: img/events/event-school-call-2026.jpg
     alt: MLQC4FC training school call
     date: Dec 2025

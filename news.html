@@ -42,21 +42,19 @@ page_title: News | MLQC4FC
                 <h5 class="text-uppercase text-primary">{{ news_data.section_title }}</h5>
                 <h1 class="mb-0">{{ news_data.heading }}</h1>
             </div>
-            <div class="row g-4 justify-content-center align-items-stretch">
+            <div class="news-carousel owl-carousel owl-theme">
                 {% for item in news_data.items %}
-                <div class="col-md-6 col-xl-4">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt }}">
-                            <div class="blog-info">
-                                <span><i class="fa fa-clock"></i> {{ item.date }}</span>
-                            </div>
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt }}">
+                        <div class="blog-info">
+                            <span><i class="fa fa-clock"></i> {{ item.date }}</span>
                         </div>
-                        <div class="text-dark border p-4">
-                            <h4 class="mb-3">{{ item.title }}</h4>
-                            <p class="mb-4">{{ item.description | truncate: 300, '...' }}</p>
-                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ item.href }}" target="_blank" rel="noopener">{{ item.cta }}</a>
-                        </div>
+                    </div>
+                    <div class="text-dark border p-4">
+                        <h4 class="mb-3">{{ item.title }}</h4>
+                        <p class="mb-4">{{ item.description | truncate: 300, '...' }}</p>
+                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="{{ item.href }}" target="_blank" rel="noopener">{{ item.cta }}</a>
                     </div>
                 </div>
                 {% endfor %}
@@ -86,6 +84,35 @@ page_title: News | MLQC4FC
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            if (window.jQuery && jQuery.fn && jQuery.fn.owlCarousel) {
+                var $news = jQuery('.news-carousel');
+                if ($news.length && !$news.hasClass('owl-loaded')) {
+                    $news.owlCarousel({
+                        autoplay: true,
+                        smartSpeed: 1000,
+                        center: false,
+                        dots: false,
+                        loop: true,
+                        margin: 25,
+                        nav: true,
+                        navText: [
+                            '<i class="bi bi-arrow-left"></i>',
+                            '<i class="bi bi-arrow-right"></i>'
+                        ],
+                        responsiveClass: true,
+                        responsive: {
+                            0: { items: 1 },
+                            768: { items: 1 },
+                            992: { items: 2 },
+                            1200: { items: 3 }
+                        }
+                    });
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
