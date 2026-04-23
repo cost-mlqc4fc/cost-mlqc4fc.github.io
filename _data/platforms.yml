@@ -4,6 +4,8 @@ overview:
       description: Coordinates calls for Short-Term Scientific Missions, training schools, and dissemination grants, ensuring transparent evaluation and balanced participation.
     - title: Science Communication Committee
       description: Curates outreach, maintains the Action’s communication assets, and supports Working Groups in sharing results with the wider community.
+    - title: Training Committee
+      description: Coordinates training activities, including schools, workshops, and mentorship programs, to enhance the skills of Action members and foster the next generation of researchers.
 sections:
   - id: grant-awarding
     title: Grant Awarding Committee
@@ -104,12 +106,36 @@ sections:
         orcid: 0000-0002-3365-3409
         inspire: 1010065
       - role: Science Communication Committee Member
-        name: Dr Lydia Brenner
-        email: lydia.brenner@cern.ch
+        name: Dr Rakhi Mahbubani
+        email: rakhi@cern.ch
         address:
-          - Netherlands Organisation for Scientific Research
-          - Laan van Nieuw Oost-Indie 300
-          - 2593 CE Den Haag, Netherlands
-        phone: "+31 6 4873 0064"
-        orcid: 0000-0001-5350-7081
-        inspire: 1256706
+          - Rudjer Boskovic Institute
+          - Bijenicka cesta 54
+          - 10000 Zagreb, Croatia
+        phone: "+385 1 468 0221"
+        orcid: 0000-0001-6311-4310
+        inspire: 1041997
+  - id: training
+    title: Training Committee
+    description: Organizes training schools, activities, and events to enhance the skills and knowledge of Action members and young researchers.
+    members:
+      - role: Training Coordinator
+        name: Dr Rakhi Mahbubani
+        email: rakhi@cern.ch
+        address:
+          - Rudjer Boskovic Institute
+          - Bijenicka cesta 54
+          - 10000 Zagreb, Croatia
+        phone: "+385 1 468 0221"
+        orcid: 0000-0001-6311-4310
+        inspire: 1041997
+      - role: Training Committee Member
+        name: Dr Jelena Jovicevic
+        email: jelena@cern.ch
+        address:
+          - Institute of Physics Belgrade
+          - Pregrevica 118
+          - 11080 Belgrade, Serbia
+        phone: "+41 79 199 1914"
+        orcid: 0000-0001-5650-4556
+        inspire: 1074049
