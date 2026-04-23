@@ -23,7 +23,7 @@ tabs:
   - id: wg4
     label: WG4
     title: WG4 · Computational Infrastructure and Resource Optimization
-    coleaders: Prof Louis-Francois Pau, Dr Rakhi Mahbubani
+    coleaders: Dr Olivier Mattelaer, Dr Juan Manuel Cruz-Martinez
     body: >
       Coordinates software engineering, data management, and computing resource strategies, ensuring Action outputs can scale on heterogeneous infrastructures.
   - id: wg5

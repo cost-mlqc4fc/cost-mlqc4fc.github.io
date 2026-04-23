@@ -24,16 +24,26 @@ members:
     phone: "+353 1 614 0135"
     orcid: 0000-0002-0345-3414
     inspire: 1205951
+#  - role: Grant Holder Scientific Representative
+#    name: Dr Federica Fabbri
+#    email: federica.fabbri26@unibo.it
+#    address:
+#      - Fondazione Alma Mater
+#      - Via Quirico Filopanti 7
+#      - 40126 Bologna, Italy
+#    phone: "+39 340 826 2066"
+#    orcid: 0000-0001-8474-0978
+#    inspire: 1334857
   - role: Grant Holder Scientific Representative
-    name: Dr Federica Fabbri
-    email: federica.fabbri26@unibo.it
+    name: Prof Matteo Franchini
+    email: matteo.franchini5@unibo.it
     address:
       - Fondazione Alma Mater
       - Via Quirico Filopanti 7
       - 40126 Bologna, Italy
-    phone: "+39 340 826 2066"
-    orcid: 0000-0001-8474-0978
-    inspire: 1334857
+    phone: null
+    orcid: 0000-0002-4554-252X
+    inspire: 1074471
   - role: Grant Awarding Coordinator
     name: Prof Juergen Reuter
     email: juergen.reuter@desy.de
@@ -45,15 +55,15 @@ members:
     orcid: 0000-0003-1866-0157
     inspire: 1021811
   - role: Training Coordinator
-    name: Dr Lydia Brenner
-    email: lydia.brenner@cern.ch
+    name: Dr Rakhi Mahbubani
+    email: rakhi@cern.ch
     address:
-      - NWO (Netherlands Organisation for Scientific Research)
-      - Laan van Nieuw Oost-Indie 300
-      - 2593 CE The Hague, Netherlands
-    phone: "+31 6 4873 0064"
-    orcid: 0000-0001-5350-7081
-    inspire: 1256706
+      - Rudjer Boskovic Institute
+      - Bijenicka cesta 54
+      - 10000 Zagreb, Croatia
+    phone: "+385 1 468 0221"
+    orcid: 0000-0001-6311-4310
+    inspire: 1041997
   - role: WG1 Co-Leader
     name: Dr Valentina Vecchio
     email: valentina.vecchio@cern.ch
@@ -115,25 +125,25 @@ members:
     orcid: 0000-0003-2368-4559
     inspire: 1067185
   - role: WG4 Co-Leader
-    name: Prof Louis-Francois Pau
-    email: frans_dk@hotmail.com
+    name: Dr Olivier Mattelaer
+    email: olivier.mattelaer@uclouvain.be
     address:
-      - Universitatea Transilvania din Brasov
-      - Bdul Eroilor 29
-      - 500036 Brasov, Romania
-    phone: "+45 2588 4241"
-    orcid: 0000-0003-1503-1486
-    inspire: null
+      - UCLouvain
+      - 1, Place de l'Université
+      - 1348 Louvain-la-Neuve, Belgium
+    phone: "+32 10 72 01 0"
+    orcid: 0000-0002-7302-7744
+    inspire: 1065036
   - role: WG4 Co-Leader
-    name: Dr Rakhi Mahbubani
-    email: rakhi@cern.ch
+    name: Dr Juan Manuel Cruz-Martinez
+    email: jcruz@us.es
     address:
-      - Rudjer Boskovic Institute
-      - Bijenicka cesta 54
-      - 10000 Zagreb, Croatia
-    phone: "+385 1 468 0221"
-    orcid: 0000-0001-6311-4310
-    inspire: 1041997
+      - Department of Atomic, Molecular and Nuclear Physics
+      - Faculty of Physics, University of Sevilla
+      - Mercedes Campus, Sevilla
+    phone: null
+    orcid: 0000-0002-8061-1965
+    inspire: 1519335
   - role: WG5 Co-Leader
     name: Dr Jelena Jovicevic
     email: jelena@cern.ch

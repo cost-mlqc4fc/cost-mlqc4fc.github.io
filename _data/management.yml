@@ -1,4 +1,14 @@
 members:
+  - role: Albania
+    name: Ms Alba Medani
+    email: alba.merdani@fti.edu.al
+    phone: null
+    orcid: 0009-0006-9218-7045
+    inspire: null
+    address:
+      - Polytechnic University of Tirana
+      - Bulevardi Dëshmorët e Kombit Nr. 4
+      - 1000 Tirana, Albania 
   - role: Austria
     name: Dr Claudius Krause
     email: claudius.krause@oeaw.ac.at
@@ -49,6 +59,16 @@ members:
       - Ruđer Bošković Institute
       - Bijenička cesta 54
       - 10000 Zagreb, Croatia
+  - role: Czech Republic
+    name: Prof Roman Šenkeřík
+    email: senkerik@utb.cz
+    phone: null
+    orcid: null
+    inspire: null
+    address:
+      - Univerzita Tomase Bati Ve Zline
+      - Mostní 5139
+      - Zlín 76001, Czechia 
   - role: Denmark
     name: Dr Ashutosh Dhar Dwivedi
     email: addw@es.aau.dk
@@ -69,6 +89,16 @@ members:
       - National Institute of Chemical Physics and Biophysics
       - Akadeemia tee
       - 161214 Tallinn, Estonia
+  - role: Finland
+    name: Dr Laurila Santeri
+    email: santeri.laurila@cern.ch
+    phone: null
+    orcid: 0000-0001-7507-8636
+    inspire: 1380835
+    address:
+      - Helsinki Institute of Physics
+      - P.O.Box 64 (Gustaf Hällströmin katu 2)
+      - Helsinki 00014, Finland
   - role: France
     name: Dr Sabine Kraml
     email: sabine.kraml@lpsc.in2p3.fr
@@ -179,12 +209,22 @@ members:
       - Istituto Nazionale di Fisica Nucleare
       - Via Dodecaneso 33
       - 16146 Genova, Italy
+ # - role: Italy
+ #   name: Dr Federica Fabbri
+ #   email: federica.fabbri26@unibo.it
+ #   phone: "+39 340 826 2066"
+ #   orcid: 0000-0001-8474-0978
+ #   inspire: 1334857
+ #   address:
+ #     - Fondazione Alma Mater
+ #     - Via Quirico Filopanti 7
+ #     - 40126 Bologna, Italy
   - role: Italy
-    name: Dr Federica Fabbri
-    email: federica.fabbri26@unibo.it
-    phone: "+39 340 826 2066"
-    orcid: 0000-0001-8474-0978
-    inspire: 1334857
+    name: Prof Matteo Franchini
+    email: matteo.franchini5@unibo.it
+    phone: null
+    orcid: 0000-0002-4554-252X
+    inspire: 1074471
     address:
       - Fondazione Alma Mater
       - Via Quirico Filopanti 7
@@ -249,6 +289,16 @@ members:
       - National Centre for Nuclear Research
       - ul. Pasteura 7
       - 02-093 Warsaw, Poland
+  - role: Portugal
+    name: Dr José Guilherme Milhano
+    email: gmilhano@lip.pt
+    phone: null
+    orcid: 0000-0001-8154-3688
+    inspire: 997452
+    address:
+      - Laboratorio De Instrumentacao E Fisica Experimental De Particulas Lip
+      - Av Professor Gama Pinto, 2
+      - 1649-003 Lisbon, Portugal
   - role: Portugal
     name: Dr Margarida (Gui) Rebelo
     email: rebelo@tecnico.ulisboa.pt
@@ -369,6 +419,16 @@ members:
       - Karadeniz Teknik Üniversitesi
       - Ortahisar
       - 61080 Trabzon, Türkiye
+  - role: Türkiye
+    name: Prof Bora Isildak
+    email: bora.isildak@cern.ch
+    phone: null
+    orcid: 0000-0002-0283-5234
+    inspire: 1064234
+    address:
+      - Yildiz Technical University Çifte Havuzlar Mahallesi Yıldız Teknik Üniversitesi
+      - Davutpaşa Kampüsü
+      - 34220 Esenler, Istanbul, Türkiye
   - role: United Kingdom
     name: Dr Valentina Vecchio
     email: valentina.vecchio@cern.ch
