@@ -90,8 +90,9 @@ page_title: News | MLQC4FC
                 var $news = jQuery('.news-carousel');
                 if ($news.length && !$news.hasClass('owl-loaded')) {
                     $news.owlCarousel({
-                        autoplay: true,
-                        smartSpeed: 1000,
+                        autoplay: false,
+                        autoplayTimeout: 7000,
+                        smartSpeed: 1500,
                         center: false,
                         dots: false,
                         loop: true,

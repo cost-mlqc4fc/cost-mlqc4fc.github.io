@@ -61,8 +61,9 @@
 
     // News carousel
     $(".news-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
+        autoplay: false,
+        autoplayTimeout: 7000,
+        smartSpeed: 1500,
         center: false,
         dots: false,
         loop: true,

@@ -1,6 +1,31 @@
 section_title: Latest News
 heading: Find out what is happening in MLQC4FC
 items:
+  - image: img/events/event-school-belgrade-2026.jpg
+    alt: 1st MLQC4FC Training School in Belgrade
+    date: 21 Sep - 01 Oct, 2026
+    title: 1st MLQC4FC Training School in Belgrade
+    description: >
+      The first MLQC4FC Training School will be held in Belgrade, Serbia, from 21 September to 1 October 2026. The school will cover collider physics, future colliders, computing for HEP, ML4HEP, and QC4HEP. It will include lectures, hands-on sessions, and networking opportunities for early-career researchers.
+    href: https://indico.cern.ch/event/1696287/
+    cta: Indico page (available soon)
+  - image: img/events/event-ml4jets-2026-news.jpeg
+    alt: Image
+    date: 14–18 Sep 2026
+    title: Action grants available for ML4Jets 2026
+    description: >
+      Several Action grants (YRI, ITC, and dissemination grants) are available for accepted speakers at the ML4Jets 2026 workshop. You can apply for these grants following the standard procedure detailed in the grant section of the website.
+    href: "https://indico.global/event/15240/"
+    cta: Indico page
+  - image: img/events/event-corfu-fa-2026.jpg
+    alt: Corfu Workshop on Future Accelerators
+    date: 16 Apr - 26 Apr, 2026
+    title: CORFU Workshop on Future Accelerators
+    description: >
+      The first event co-organized by MLQC4FC, focusing on future collider studies and associated
+      computing challenges.
+    href: https://physics.ntua.gr/corfu2026/fa.html
+    cta: Learn more
   - image: img/resources/grants.jpg
     alt: Grant Evaluation Committee guidelines GP1
     date: Feb 2026
@@ -12,17 +37,6 @@ items:
       Second travel period: 15/06/2026 - 15/10/2026 with deadline for submission on 31/05/2026.
     href: docs/Grant%20Evaluation%20Committee%20guidelines%20GP1.pdf
     cta: Download Guidelines
-  - image: img/events/event-school-call-2026.jpg
-    alt: MLQC4FC training school call
-    date: Dec 2025
-    title: "Call for proposals: first MLQC4FC Training School (Sept 2026) - Deadline: 01 March 2026"
-    description: >
-      We invite proposals to host the first MLQC4FC Training School. The school will be aligned
-      with the Action’s objectives and cover particle physics, collider physics, future colliders,
-      ML4HEP, and QC4HEP. Proposals should outline the venue, dates, organizing team, and a draft
-      programme.
-    href: events-training.html
-    cta: Learn more
   - image: img/events/event-epigraphy-2026-2.jpg
     alt: MLQC4FC at the EPIGRAPHY kick-off meeting
     date: 12-15 Jan, 2026
@@ -33,12 +47,15 @@ items:
       collaborations.
     href: https://twitter.com/MLQC4FC/status/2013615769624494282
     cta: See post on X
-  - image: img/events/event-corfu-fa-2026.jpg
-    alt: Corfu Workshop on Future Accelerators
-    date: 16 Apr - 26 Apr, 2026
-    title: CORFU Workshop on Future Accelerators
-    description: >
-      The first event co-organized by MLQC4FC, focusing on future collider studies and associated
-      computing challenges.
-    href: https://physics.ntua.gr/corfu2026/fa.html
-    cta: Learn more
+#  - image: img/events/event-school-call-2026.jpg
+#    alt: MLQC4FC training school call
+#    date: Dec 2025
+#    title: "Call for proposals: first MLQC4FC Training School (Sept 2026) - Deadline: 01 March 2026"
+#    description: >
+#      We invite proposals to host the first MLQC4FC Training School. The school will be aligned
+#      with the Action’s objectives and cover particle physics, collider physics, future colliders,
+#      ML4HEP, and QC4HEP. Proposals should outline the venue, dates, organizing team, and a draft
+#      programme.
+#    href: events-training.html
+#    cta: Learn more
+  
