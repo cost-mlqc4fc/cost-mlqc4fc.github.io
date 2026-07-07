@@ -8,7 +8,7 @@ items:
     description: >
       The first MLQC4FC Training School will be held in Belgrade, Serbia, from 21 September to 1 October 2026. The school will cover collider physics, future colliders, computing for HEP, ML4HEP, and QC4HEP. It will include lectures, hands-on sessions, and networking opportunities for early-career researchers.
     href: https://indico.cern.ch/event/1696287/
-    cta: Indico page (available soon)
+    cta: Indico page
   - image: img/events/event-ml4jets-2026-news.jpeg
     alt: Image
     date: 14–18 Sep 2026
