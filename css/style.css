@@ -670,6 +670,11 @@ body:not(.dark-mode) .structure-card {
     min-height: 120px;
 }
 
+.structure-card__body--with-country {
+    min-height: 152px;
+    padding-bottom: 29px;
+}
+
 body:not(.dark-mode) .structure-card__body {
     background: transparent;
     color: #0f1c2e;

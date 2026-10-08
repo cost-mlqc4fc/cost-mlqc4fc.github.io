@@ -2,7 +2,7 @@ tabs:
   - id: wg1
     label: WG1
     title: WG1 · Machine Learning Applications for Collider Physics
-    coleaders: Dr Valentina Vecchio, Prof Pietro Vischia
+    coleaders: Dr Jackson Barr, Prof Pietro Vischia
     body: >
       Develops advanced ML techniques for reconstruction, triggering, anomaly detection,
       and analysis workflows tailored to collider datasets, emphasising robustness and
@@ -23,12 +23,12 @@ tabs:
   - id: wg4
     label: WG4
     title: WG4 · Computational Infrastructure and Resource Optimization
-    coleaders: Dr Olivier Mattelaer, Dr Juan Manuel Cruz-Martinez
+    coleaders: Dr Juan Manuel Cruz-Martinez, Dr Olivier Mattelaer
     body: >
       Coordinates software engineering, data management, and computing resource strategies, ensuring Action outputs can scale on heterogeneous infrastructures.
   - id: wg5
     label: WG5
     title: WG5 · Training, Outreach, and Public Engagement
-    coleaders: Dr Jelena Jovicevic, Dr German Sborlini
+    coleaders: Dr Jelena Jovicevic, Dr Gabriella Pásztor
     body: >
       Develops training programs, communication campaigns, and inclusive outreach initiatives to expand the community and amplify the Action’s impact.

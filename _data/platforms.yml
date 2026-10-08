@@ -13,6 +13,7 @@ sections:
     members:
       - role: Grant Awarding Coordinator
         name: Prof Juergen Reuter
+        country: Germany
         email: juergen.reuter@desy.de
         address:
           - DESY
@@ -23,6 +24,7 @@ sections:
         inspire: 1021811
       - role: Grant Awarding Committee Member
         name: Prof Zoltán Trócsányi
+        country: Hungary
         email: zoltan.trocsanyi@cern.ch
         address:
           - Eötvös Loránd University
@@ -33,6 +35,7 @@ sections:
         inspire: 985628
       - role: Grant Awarding Committee Member
         name: Prof Gianluca Valentino
+        country: Malta
         email: gianluca.valentino@um.edu.mt
         address:
           - University of Malta
@@ -43,6 +46,7 @@ sections:
         inspire: 1228129
       - role: Grant Awarding Committee Member
         name: Dr Theodota Lagouri
+        country: Switzerland
         email: theodota.lagouri@cern.ch
         address:
           - CERN
@@ -53,6 +57,7 @@ sections:
         inspire: 1001277
       - role: Grant Awarding Committee Member
         name: Prof Paul Nicolae Borza
+        country: Romania
         email: borzapn@unitbv.ro
         address:
           - Universitatea Transilvania din Brasov
@@ -66,27 +71,8 @@ sections:
     description: Storytelling, outreach, and Action-wide engagement are led by this multidisciplinary committee.
     members:
       - role: Science Communication Coordinator
-        name: Dr German Sborlini
-        email: german.sborlini@usal.es
-        address:
-          - Universidad de Salamanca
-          - Plaza de los Caídos s/n
-          - 37008 Salamanca, Spain
-        phone: "+34 639 539 690"
-        orcid: 0000-0003-4765-7440
-        inspire: 1074173
-      - role: Science Communication Committee Member
-        name: Dr Jelena Jovicevic
-        email: jelena@cern.ch
-        address:
-          - Institute of Physics Belgrade
-          - Pregrevica 118
-          - 11080 Belgrade, Serbia
-        phone: "+41 79 199 1914"
-        orcid: 0000-0001-5650-4556
-        inspire: 1074049
-      - role: Science Communication Committee Member
         name: Dr Gabriella Pásztor
+        country: Hungary
         email: Gabriella.Pasztor@cern.ch
         address:
           - Eötvös Loránd University
@@ -96,7 +82,19 @@ sections:
         orcid: 0000-0003-0707-9762
         inspire: 994092
       - role: Science Communication Committee Member
+        name: Dr Jelena Jovicevic
+        country: Serbia
+        email: jelena@cern.ch
+        address:
+          - Institute of Physics Belgrade
+          - Pregrevica 118
+          - 11080 Belgrade, Serbia
+        phone: "+41 79 199 1914"
+        orcid: 0000-0001-5650-4556
+        inspire: 1074049
+      - role: Science Communication Committee Member
         name: Prof Gabriele Ferretti
+        country: Sweden
         email: ferretti@chalmers.se
         address:
           - Chalmers University of Technology
@@ -107,6 +105,7 @@ sections:
         inspire: 1010065
       - role: Science Communication Committee Member
         name: Dr Rakhi Mahbubani
+        country: Croatia
         email: rakhi@cern.ch
         address:
           - Rudjer Boskovic Institute
@@ -121,6 +120,7 @@ sections:
     members:
       - role: Training Coordinator
         name: Dr Rakhi Mahbubani
+        country: Croatia
         email: rakhi@cern.ch
         address:
           - Rudjer Boskovic Institute
@@ -131,6 +131,7 @@ sections:
         inspire: 1041997
       - role: Training Committee Member
         name: Dr Jelena Jovicevic
+        country: Serbia
         email: jelena@cern.ch
         address:
           - Institute of Physics Belgrade

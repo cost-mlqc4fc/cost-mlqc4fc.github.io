@@ -5,11 +5,15 @@
         <img src="{{ image }}" alt="{{ person.alt | default: person.name | default: 'Structure visual' }}">
         <div class="structure-card-visual__tint"></div>
     </div>
-    <div class="structure-card__body">
+    <div class="structure-card__body{% if include.show_country and person.country %} structure-card__body--with-country{% endif %}">
         {% if person.role %}
-        <p class="text-uppercase text-primary fw-semibold mb-1 small">{{ person.role }}</p>
+        <p class="text-uppercase text-primary fw-semibold mb-1 small">{% if include.show_country_flag %}{% assign country_flag = site.data.country_flags[person.role] %}{% if country_flag %}<span class="me-2" aria-hidden="true">{{ country_flag }}</span>{% endif %}{% endif %}{{ person.role }}</p>
         {% endif %}
         <h5 class="mb-1">{{ person.name }}</h5>
+        {% if include.show_country and person.country %}
+        {% assign country_flag = site.data.country_flags[person.country] %}
+        <p class="structure-card__country mb-2 small text-body">{% if country_flag %}<span class="me-2" aria-hidden="true">{{ country_flag }}</span>{% endif %}{{ person.country }}</p>
+        {% endif %}
         {% if person.email %}
         <p class="mb-1"><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
         {% endif %}

@@ -6,6 +6,7 @@ intro:
 members:
   - role: Action Chair
     name: Dr Riccardo Torre
+    country: Italy
     email: riccardo.torre@ge.infn.it
     address:
       - Istituto Nazionale Di Fisica Nucleare
@@ -16,6 +17,7 @@ members:
     inspire: 1064514
   - role: Action Vice-Chair
     name: Dr Venus Keus
+    country: Ireland
     email: venus@stp.dias.ie
     address:
       - Dublin Institute For Advanced Studies
@@ -24,28 +26,20 @@ members:
     phone: "+353 1 614 0135"
     orcid: 0000-0002-0345-3414
     inspire: 1205951
-#  - role: Grant Holder Scientific Representative
-#    name: Dr Federica Fabbri
-#    email: federica.fabbri26@unibo.it
-#    address:
-#      - Fondazione Alma Mater
-#      - Via Quirico Filopanti 7
-#      - 40126 Bologna, Italy
-#    phone: "+39 340 826 2066"
-#    orcid: 0000-0001-8474-0978
-#    inspire: 1334857
   - role: Grant Holder Scientific Representative
-    name: Prof Matteo Franchini
-    email: matteo.franchini5@unibo.it
+    name: Dr Federica Fabbri
+    country: Italy
+    email: federica.fabbri26@unibo.it
     address:
       - Fondazione Alma Mater
       - Via Quirico Filopanti 7
       - 40126 Bologna, Italy
-    phone: null
-    orcid: 0000-0002-4554-252X
-    inspire: 1074471
+    phone: "+39 340 826 2066"
+    orcid: 0000-0001-8474-0978
+    inspire: 1334857
   - role: Grant Awarding Coordinator
     name: Prof Juergen Reuter
+    country: Germany
     email: juergen.reuter@desy.de
     address:
       - DESY
@@ -56,6 +50,7 @@ members:
     inspire: 1021811
   - role: Training Coordinator
     name: Dr Rakhi Mahbubani
+    country: Croatia
     email: rakhi@cern.ch
     address:
       - Rudjer Boskovic Institute
@@ -65,17 +60,19 @@ members:
     orcid: 0000-0001-6311-4310
     inspire: 1041997
   - role: WG1 Co-Leader
-    name: Dr Valentina Vecchio
-    email: valentina.vecchio@cern.ch
+    name: Dr Jackson Barr
+    country: United Kingdom
+    email: jackson.barr.17@ucl.ac.uk
     address:
-      - University of Manchester
-      - Oxford Road
-      - Manchester M13 9PL, UK
-    phone: "+44 7546 602 513"
-    orcid: 0000-0002-1351-6757
-    inspire: 1505521
+      - Department of Physics and Astronomy, University College London
+      - Gower Street
+      - London WC1E 6BT, UK
+    phone: null
+    orcid: 0000-0002-9752-9204
+    inspire: 2649817
   - role: WG1 Co-Leader
     name: Prof Pietro Vischia
+    country: Spain
     email: pietro.vischia@gmail.com
     address:
       - Universidad de Oviedo
@@ -86,6 +83,7 @@ members:
     inspire: 1054943
   - role: WG2 Co-Leader
     name: Dr Simon Williams
+    country: United Kingdom
     email: simon.j.williams@durham.ac.uk
     address:
       - IPPP, Durham University
@@ -96,6 +94,7 @@ members:
     inspire: 1821879
   - role: WG2 Co-Leader
     name: Dr Theodota Lagouri
+    country: Switzerland
     email: theodota.lagouri@cern.ch
     address:
       - CERN
@@ -106,6 +105,7 @@ members:
     inspire: 1001277
   - role: WG3 Co-Leader
     name: Dr Humberto Reyes-Gonzalez
+    country: Germany
     email: humberto.reyes@rwth-aachen.de
     address:
       - RWTH Aachen University
@@ -116,6 +116,7 @@ members:
     inspire: 1635396
   - role: WG3 Co-Leader
     name: Dr Andrea Coccaro
+    country: Italy
     email: andrea.coccaro@ge.infn.it
     address:
       - INFN Genova
@@ -126,6 +127,7 @@ members:
     inspire: 1067185
   - role: WG4 Co-Leader
     name: Dr Olivier Mattelaer
+    country: Belgium
     email: olivier.mattelaer@uclouvain.be
     address:
       - UCLouvain
@@ -136,6 +138,7 @@ members:
     inspire: 1065036
   - role: WG4 Co-Leader
     name: Dr Juan Manuel Cruz-Martinez
+    country: Spain
     email: jcruz@us.es
     address:
       - Department of Atomic, Molecular and Nuclear Physics
@@ -146,6 +149,7 @@ members:
     inspire: 1519335
   - role: WG5 Co-Leader
     name: Dr Jelena Jovicevic
+    country: Serbia
     email: jelena@cern.ch
     address:
       - Institute of Physics Belgrade
@@ -155,12 +159,13 @@ members:
     orcid: 0000-0001-5650-4556
     inspire: 1074049
   - role: WG5 Co-Leader / Science Communication Coordinator
-    name: Dr German Sborlini
-    email: german.sborlini@usal.es
+    name: Dr Gabriella Pásztor
+    country: Hungary
+    email: Gabriella.Pasztor@cern.ch
     address:
-      - Universidad de Salamanca
-      - Plaza de los Caídos s/n
-      - 37008 Salamanca, Spain
-    phone: "+34 639 539 690"
-    orcid: 0000-0003-4765-7440
-    inspire: 1074173
+      - Eötvös Loránd University
+      - Egyetem tér 1-3
+      - 1053 Budapest, Hungary
+    phone: "+36 1 372 2760"
+    orcid: 0000-0003-0707-9762
+    inspire: 994092
