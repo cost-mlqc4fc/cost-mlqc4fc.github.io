@@ -46,7 +46,10 @@ page_title: News | MLQC4FC
                 {% for item in news_data.items %}
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="{{ item.image }}" class="img-fluid w-100" alt="{{ item.alt }}">
+                        <img src="{{ item.image }}"
+                             class="img-fluid w-100"
+                             alt="{{ item.alt }}"
+                             style="height: 220px; object-fit: cover;">
                         <div class="blog-info">
                             <span><i class="fa fa-clock"></i> {{ item.date }}</span>
                         </div>
